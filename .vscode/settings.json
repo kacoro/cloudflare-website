@@ -1,5 +1,10 @@
 {
 	"files.associations": {
 		"wrangler.json": "jsonc"
-	}
+	},
+	"i18n-ally.localesPaths": [
+		"messages",
+		"src/i18n"
+	],
+	"i18n-ally.keystyle": "nested"
 }

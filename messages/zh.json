@@ -1,0 +1,31 @@
+{
+  "HomePage": {
+    "title": "你好世界!",
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
+  },
+  "LocaleLayout": {
+    "title": "next-intl example zh"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl.dev",
+        "title": "Docs zh"
+      },
+      "source": {
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "zh Source code "
+      }
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+  },
+  "IndexPage": {
+    "description": "这是一个案例使用next-intl next.js。试着改变右上角看看内容是否有变化",
+    "title": "next-intl 案例"
+  }
+}
