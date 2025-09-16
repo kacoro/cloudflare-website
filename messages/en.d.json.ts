@@ -2,34 +2,42 @@
 // See: https://next-intl.dev/docs/workflows/typescript#messages-arguments
 
 declare const messages: {
-    "HomePage": {
-      "title": "Hello world!",
-      "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
-    },
-    "LocaleLayout": {
-      "title": "next-intl example"
-    },
-    "PageLayout": {
-      "links": {
-        "docs": {
-          "description": "Learn more about next-intl in the official docs.",
-          "href": "https://next-intl.dev",
-          "title": "Docs"
-        },
-        "source": {
-          "description": "Browse the source code of this example on GitHub.",
-          "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
-          "title": "Source code"
-        }
+  "HomePage": {
+    "title": "Hello world!",
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl.dev",
+        "title": "Docs"
+      },
+      "source": {
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Source code"
       }
-    },
-    "LocaleSwitcher": {
-      "label": "Change language",
-      "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
-    },
-    "IndexPage": {
+    }
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, fr {franch} en {English} zh{中文} other {Unknown}}"
+  },
+  "IndexPage": {
     "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
     "title": "next-intl example"
-    }
-  };
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About"
+  },
+  "AboutPage":{
+    "title": "About",
+    "description":"<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>"
+  }
+};
 export default messages;

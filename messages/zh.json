@@ -22,10 +22,19 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+    "locale": "{locale, select, zh{中文} en {English} fr{franch} other {Unknown}}"
   },
   "IndexPage": {
     "description": "这是一个案例使用next-intl next.js。试着改变右上角看看内容是否有变化",
     "title": "next-intl 案例"
+  },
+  "Navigation": {
+    "home": "首页",
+    "pathnames": "路径名",
+    "about": "关于"
+  },
+  "AboutPage": {
+    "title": "关于",
+    "description": "<p>路径名也被国际化。</p> <p>如果您使用默认语言英语，则在此页面上的浏览器地址栏中看到<code>/en en/pathNames </code>。</p> <p>如果您将语言环境更改为德语，则URL将局部定位（<code>/de/de/de/pfadnamen </code> </p>"
   }
 }
