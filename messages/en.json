@@ -1,7 +1,8 @@
 {
   "HomePage": {
     "title": "Hello world!",
-    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
+    "section1": "<p>Trustworhy green energy products</p><p>and solutions provider</p>"
   },
   "LocaleLayout": {
     "title": "next-intl example"
@@ -30,10 +31,48 @@
   },
   "Navigation": {
     "home": "Home",
-    "about": "About"
+    "projects": {
+      "title": "Projects",
+      "subNavigation": {
+        "solarInverter": "Solar Inverter",
+        "solarBattery": "Solar Battery",
+        "solarPanelArray": "Solar Panel Array",
+        "solarMount": "Solar Mount",
+        "solarMeter": "Solar Meter",
+        "solarSystem": "Solar System",
+        "solarPanel": "Solar Panel"
+      }
+    },
+    "about": "About",
+    "contact": "Contact"
   },
-  "AboutPage":{
+  "AboutPage": {
     "title": "About",
-    "description":"<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>"
+    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>"
+  },
+  "Video": {
+    "content": "<h1>Solar energy application products  and solution provider</h1><p>Guangzhou Areafly Solar Technology Co., Ltd. has been engaged in research, continuous development, and efficient production of high-quality solar inverters, batteries, solar lightings, solar water pumps and solar energy systems for over 12 years.  </p><p>Areafly Solar operates a factory covering nearly 5,000 square meters, with more than 100 skilled employees, 8 R&D engineers, and 8 production lines capable of producing up to 100,000 units per month. Every product undergoes strict testing to ensure our customers receive reliable, high-quality solutions.  </p><p>Areafly Solar's products have been sold in more than 200 countries worldwide.  Our mission is to help solve global electricity shortages and contribute to achieving the goal of carbon neutrality.</p>"
+  },
+  "News":{
+    "5":{
+      "title":"News Center 5",
+      "content":"<p>Guangzhou Areafly Solar Technology Co., Ltd.</p><p>has been engaged in</p>"
+    },
+    "4":{
+      "title":"News Center 4",
+      "content":"<p>Guangzhou Areafly Solar Technology Co., Ltd.</p><p>has been engaged in</p>"
+    },
+    "3":{
+      "title":"News Center 3",
+      "content":" <p>Guangzhou Areafly Solar Technology Co., Ltd.</p><p>has been engaged in</p>"
+    }, 
+    "2":{
+      "title":"News Center 2",
+      "content":"<p>Guangzhou Areafly Solar Technology Co., Ltd.</p><p>has been engaged in</p>"
+    },
+    "1":{
+      "title":"News Center 1",
+      "content":" <p>Guangzhou Areafly Solar Technology Co., Ltd.</p><p >has been engaged in</p>"
+    }
   }
 }

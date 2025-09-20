@@ -1,9 +1,8 @@
 'use client';
-import {useLocale, useTranslations} from 'next-intl';
+import {Locale, useLocale, useTranslations} from 'next-intl';
 import {routing} from '@/i18n/routing';
 import LocaleSwitcherSelect from './Select';
-import {Locale} from 'next-intl';
-import {ChangeEvent, ReactNode, startTransition, useTransition} from 'react';
+import { useTransition} from 'react';
 import Image from "next/image";
 import {usePathname, useRouter} from '@/i18n/navigation';
 import { useParams } from 'next/navigation';
@@ -32,7 +31,7 @@ const LocalFlagIcon = ({ countryCode }: { countryCode: string }) => {
       <Image 
         src={flagPath} 
         alt={`${countryCode} flag`}
-        className="w-6 h-4 object-contain border border-gray-300 rounded-sm"
+        className="w-6 h-4 object-contain border border-gray-300 rounded-sm mr-1"
         width={24}
         height={16}
       />
@@ -41,16 +40,22 @@ const LocalFlagIcon = ({ countryCode }: { countryCode: string }) => {
 
   // 否则显示默认的文本占位符
   return (
-    <div className="w-6 h-4 flex items-center justify-center border border-gray-300 rounded-sm bg-gray-100 text-[8px] font-medium">
+    <div className="w-6 h-4 flex items-center justify-center border border-gray-300 rounded-sm bg-gray-100 text-[8px] font-medium mr-1">
       {countryCode.toUpperCase()}
     </div>
   );
 };
+
+ // 定义语言代码到语言名称的映射
+ const languageNames: Record<Locale, string> = {
+  en: "English",
+  fr: "French",
+  zh: "Chinese"
+};
 export default function Index() {
   const t = useTranslations('LocaleSwitcher');
-  const locale = useLocale();
   const router = useRouter();
-  const [isPending, startTransition] = useTransition();
+  const [, startTransition] = useTransition();
   const pathname = usePathname();
   const params = useParams();
   function onSelectChange(nextLocale: string) {
@@ -66,11 +71,10 @@ export default function Index() {
   }
   return (
 
-    <LocaleSwitcherSelect defaultValue={locale} label={t('label')}>
-   
+    <LocaleSwitcherSelect  label={t('label')}>
       {routing.locales.map((cur) => (
-        <li key={cur} value={cur}  onClick={() => onSelectChange(cur)}>
-        <LocalFlagIcon countryCode={cur} />  {t('locale', {locale: cur})}
+        <li className="flex items-center space-x-1" key={cur} value={cur}  onClick={() => onSelectChange(cur)}>
+        <LocalFlagIcon countryCode={cur} />  <span>{languageNames[cur] || cur}</span>
         </li>
       ))}
     </LocaleSwitcherSelect>

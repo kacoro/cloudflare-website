@@ -5,8 +5,12 @@ import {NextIntlClientProvider,hasLocale} from 'next-intl';
 import {routing} from '@/i18n/routing';
 import {getMessages} from 'next-intl/server';
 import "@/globals.css";
-import Navigation from "@/components/Navigation/Navigation";
-
+import Header from "@/components/Header";
+import { SidebarProvider } from "@/components/ui/sidebar"
+import { AppSidebar } from "@/components/AppSidebar"
+import { cookies } from "next/headers"
+import Topbar from "@/components/TopBar";
+import Footer from "@/components/Footer";
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
 //   subsets: ["latin"],
@@ -28,6 +32,8 @@ export const metadata: Metadata = {
 };
 
 export default async function LocaleLayout({children, params}: Props) {
+  const cookieStore = await cookies()
+  const defaultOpen = cookieStore.get("sidebar_state")?.value === "true"
   const {locale} = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
@@ -43,7 +49,16 @@ export default async function LocaleLayout({children, params}: Props) {
       > */}
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-        <Navigation />{children}
+        <SidebarProvider defaultOpen={defaultOpen}>
+        <AppSidebar />
+        
+        <main className="flex flex-col min-h-screen w-full">
+          <Topbar/>
+        <Header />
+        {children}
+        <Footer />
+        </main>
+        </SidebarProvider>
         </NextIntlClientProvider>
       </body>
     </html>
