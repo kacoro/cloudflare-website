@@ -1,3 +1,4 @@
+
 import {Locale} from 'next-intl';
 import {setRequestLocale} from 'next-intl/server';
 import {use} from 'react';
@@ -7,7 +8,7 @@ import { Products } from '@/components/Home/Products';
 import { HomeNews } from '@/components/Home/HomeNews';
 
 type PageProps = {
-  params: Promise<{locale: string}>;
+  params: Promise<{locale: Locale}>;
 };
 export default function IndexPage({params}:PageProps) {
   const {locale} = use(params);
@@ -17,7 +18,7 @@ export default function IndexPage({params}:PageProps) {
     <div>
       <CarouselDemo />
       <VideoDemo  />
-      <Products />
+      <Products locale={locale}/>
       <HomeNews />
     </div>
   );
