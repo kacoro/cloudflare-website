@@ -1,13 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## 多语言企业网站概述
+
+这个项目基于[Next.js](https://nextjs.org)，采用[`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).使用`shadcn ui`库，并使用`wrangler`进行部署于`cloudflare workers`。
+
+> 主要项目依赖`node@v22.19.0`,`tailwindcss@4`,`wrangler@4.35.0`,`next@15.4.6`,`next-intl@4.3.7`
+
+## 项目进度
+- [x] 公共模块
+  - [x] 顶部
+  - [x] 底部
+  - [x] 侧边栏
+  - [x] 多语言
+- [x] 首页
+- [ ] 产品
+  - [x] 顶部
+- [ ] 项目
+- [ ] 新闻
+- [ ] 关于
+- [ ] 联系
+
+
+## 开始
+
+```bash
+npm install 
+npm install -g wrangler
+```
+
+## 开发
 
 ```bash
 npm run dev
-
 ```
 
-由于默认预览会失败，所以改成下面的命令来看在cloudflare上的效果
+## 构建、预览、发布
+
+> 由于在windows平台默认预览会失败，所以改成下面的命令来看在cloudflare上的效果
 
 构建
 ```bash
@@ -24,11 +52,14 @@ npm run wrangler
 npm run wdeploy
 ```
 
-# shadcn
+## shadcn 插件安装
 ```bash
 npx shadcn@latest add button
 ```
 
+## 注意
+
+> 后期在调整以避免国内无法访问的情况
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
