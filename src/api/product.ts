@@ -7,7 +7,25 @@ export interface ProductsData {
 }
 
 // 从public目录获取产品数据
+
+
+
 export const fetchProductsData = async (): Promise<ProductsData> => {
+  try {
+    // 使用fetch API替代文件系统读取，确保在所有环境中都能工作
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/locale/product/list.json`);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch products data: ${response.status} ${response.statusText}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('Error fetching products data:', error);
+    return { products: [] };
+  }
+};
+
+// 从public目录获取产品数据
+export const fetchProductsDataByfs = async (): Promise<ProductsData> => {
   try {
     // 使用文件系统直接读取，避免fetch在某些环境下的问题
     
@@ -19,6 +37,8 @@ export const fetchProductsData = async (): Promise<ProductsData> => {
     return { products: [] };
   }
 };
+
+
 
 // 根据slug获取产品信息
 export const getProductBySlug = async (slug: string, locale: string): Promise<(Product & ProductTranslation) | null> => {

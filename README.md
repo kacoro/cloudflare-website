@@ -4,6 +4,7 @@
 这个项目基于[Next.js](https://nextjs.org)，采用[`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).使用`shadcn ui`库，并使用`wrangler`进行部署于`cloudflare workers`。
 
 > 主要项目依赖`node@v22.19.0`,`tailwindcss@4`,`wrangler@4.35.0`,`next@15.4.6`,`next-intl@4.3.7`
+> 本地需要安装全局opennextjs-cloudflare
 
 ## 项目进度
 - [x] 公共模块

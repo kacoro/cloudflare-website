@@ -1,5 +1,5 @@
 'use client';
-import {Locale, useLocale, useTranslations} from 'next-intl';
+import {Locale,  useTranslations} from 'next-intl';
 import {routing} from '@/i18n/routing';
 import LocaleSwitcherSelect from './Select';
 import { useTransition} from 'react';

@@ -26,7 +26,7 @@ export async function Products({ locale }: { locale: Locale }) {
 
       <div className="grid grid-cols-3 gap-5 pb-10">
         {products.map((item) => (
-          <div className="group aspect-square bg-gradient-to-br from-white bg-white to-primary p-[2px] rounded-xl 
+          <div key={item.id} className="group aspect-square bg-gradient-to-br from-white bg-white to-primary p-[2px] rounded-xl 
            transition-all duration-500   hover:shadow-primary  
            overflow-hidden">
             <div className="w-full h-full  text-blue-600 font-medium  overflow-hidden bg-white rounded-xl flex items-center justify-center relative">
