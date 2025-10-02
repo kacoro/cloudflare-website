@@ -24,8 +24,8 @@ export function NavigationMenuDemo() {
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger data-state="open" >
-          Products
+          <NavigationMenuTrigger  className="hover:bg-primary">
+          <NavigationLink href="/products" >Products</NavigationLink>
             {/* data-active="true" */}
             {/* <Link href="/products"  >Products</Link> */}
           </NavigationMenuTrigger>

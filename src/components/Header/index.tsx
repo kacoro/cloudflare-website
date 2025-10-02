@@ -20,7 +20,7 @@ export default async function Header() {
                 width={229}
                 height={43}
                 priority
-              />{" "}
+              />
             </NavigationLink>
           <NavigationMenuDemo />
           </div>
