@@ -20,12 +20,7 @@ export default function AboutPage({
   return (
     <PageLayout title={t('title')}>
       <div className="max-w-[490px]">
-        {t.rich('description', {
-          p: (chunks) => <p className="mt-4">{chunks}</p>,
-          code: (chunks) => (
-            <code className="font-mono text-white">{chunks}</code>
-          )
-        })}
+     
       </div>
     </PageLayout>
   );

@@ -1,11 +1,9 @@
 "use client";
 import BottomBar from "./BottomBar";
 import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
 import NavigationLink from "../Navigation/NavigationLink";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Youtube, Facebook, Camera } from "lucide-react";
 import Link from "next/link";
 export default function Footer() {
   const t = useTranslations("Contact");
@@ -126,7 +124,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="max-w-5xl mx-auto text-center">{}</div>
+        <div className="max-w-5xl mx-auto text-center">{t("Email.label")}</div>
       </div>
       <BottomBar />
     </>
