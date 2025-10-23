@@ -5,6 +5,7 @@ import NavigationLink from "../Navigation/NavigationLink";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import { FaEnvelope, FaMapMarker, FaPhone } from "react-icons/fa";
 export default function Footer() {
   const t = useTranslations("Contact");
   return (
@@ -124,7 +125,45 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="max-w-5xl mx-auto text-center">{t("Email.label")}</div>
+        <div className="max-w-5xl mx-auto ">
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-5">
+             <li className="flex items-start">
+              <FaEnvelope className="text-primary text-lg mt-1 mr-4" />
+                <h3 >Email: <a
+                  href="mailto:areaflysolar@163.com"
+                  className="text-white hover:text-primary  mt-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  areaflysolar@163.com
+                </a></h3>
+            </li>
+           
+            <li className="flex items-start">
+              <FaPhone className="text-primary text-lg  mt-1 mr-4" />
+                <h3 >Tele: <a
+                  href="tel:+8615017203259"
+                  className=" mt-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  +86 15017203259
+                </a></h3>
+            </li>
+            <li className="flex items-start col-span-1 md:col-span-2">
+              <FaMapMarker className="text-primary text-lg mt-0.5 mr-4" />
+                <h3 >Address: <a
+                  href="#"
+                  className="hover:text-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  A003、005, first floor,Zone B, Yueyang Trade Mall, Yuexiu District, Guangzhou, Guangdong
+                </a></h3>
+                
+            </li>
+          </ul>
+        </div>
       </div>
       <BottomBar />
     </>
