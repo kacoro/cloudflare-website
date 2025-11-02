@@ -2,7 +2,23 @@ import type { NextConfig } from "next";
 import createNextIntlPlugin from 'next-intl/plugin';
 const nextConfig: NextConfig = {
   output: 'standalone', // 启用 Cloudflare 兼容性
-  allowedDevOrigins: ['local-origin.dev', '*.local-origin.dev']
+  allowedDevOrigins: ['local-origin.dev', '*.local-origin.dev'],
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+  protocol: 'https',
+  hostname: 'placehold.co',
+  port: '',
+  pathname: '/**',
+},
+    ],
+  },
   /* config options here */
 };
 const withNextIntl = createNextIntlPlugin({

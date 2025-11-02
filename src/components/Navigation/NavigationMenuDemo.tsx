@@ -22,12 +22,11 @@ export function NavigationMenuDemo() {
             {/* data-active="true" */}
             <NavigationLink href="/"  >Home</NavigationLink>
           </NavigationMenuLink>
-        </NavigationMenuItem>
+      </NavigationMenuItem>
+         {/*
         <NavigationMenuItem>
           <NavigationMenuTrigger  className="hover:bg-primary">
           <NavigationLink href="/products" >Products</NavigationLink>
-            {/* data-active="true" */}
-            {/* <Link href="/products"  >Products</Link> */}
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[200px]  ">
@@ -53,10 +52,20 @@ export function NavigationMenuDemo() {
               </li>
             </ul>
           </NavigationMenuContent>
+        </NavigationMenuItem> */}
+         <NavigationMenuItem>
+          <NavigationMenuLink asChild >
+            <NavigationLink href="/products">Products</NavigationLink>
+          </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild >
             <NavigationLink href="/project">Project</NavigationLink>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild >
+            <NavigationLink href="/news">News</NavigationLink>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>

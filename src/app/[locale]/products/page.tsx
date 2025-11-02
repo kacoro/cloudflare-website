@@ -1,8 +1,58 @@
 
+import { ProductCategoryTabs } from "@/components/ProductCategoryTabs";
 
 export default async function ProductsPage() {
  
+  // 示例数据
+const sampleCategories = [
+  {
+    id: "all",
+    name: "Solar Inverter",
+    products: [
+      // 商品数据...
+      {
+          id: "1",
+          name: "1.2 KW 2.4KW",
+          subname: "Single Phase Hybrid Solar Inverter",
+          description: "Areafly Solar Inverter series is designed to provide efficient and reliable power conversion solutions for various solar energy applications.Our team of experts is dedicated to providing ongoing assistance throughout the installation, operation, and maintenance phases, ensuring optimal performance and longevity of our inverters.",
+          price: 1239.99,
+          image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?w=400&auto=format&fit=crop",
+        },
+        {
+          id: "2",
+          name: "3.6KW 6.2KW",
+          subname: "Single Phase Hybrid Solar Inverter",
+          description: "Areafly Solar Inverter series is designed to provide efficient and reliable power conversion solutions for various solar energy applications.Our team of experts is dedicated to providing ongoing assistance throughout the installation, operation, and maintenance phases, ensuring optimal performance and longevity of our inverters.",
+          price: 1299.99,
+          image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?w=400&auto=format&fit=crop",
+        },
+        {
+          id: "3",
+          name: "4.8KW 9.6KW",
+          subname: "Single Phase Hybrid Solar Inverter",
+          description: "Areafly Solar Inverter series is designed to provide efficient and reliable power conversion solutions for various solar energy applications.Our team of experts is dedicated to providing ongoing assistance throughout the installation, operation, and maintenance phases, ensuring optimal performance and longevity of our inverters.",
+          price: 1299.99,
+          image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?w=400&auto=format&fit=crop",
 
+        }
+    ],
+  },
+  {
+    id: "electronics",
+    name: "电子产品",
+    products: [
+      // 商品数据...
+       {
+          id: "7",
+          name: "Solar Worker Cap",
+          description: "Protective cap with solar panel for charging devices.",
+          price: 29.99,
+          image: "https://placehold.co/600x400/64748b/ffffff?text=Worker+Cap",
+          rating: 4.3,
+        },
+    ],
+  },
+];
   // 产品列表数据
   const products = [
     {
@@ -53,6 +103,14 @@ export default async function ProductsPage() {
             </div>
           ))}
         </div>
+        {sampleCategories.map((category)=>(
+          <>
+          <h2 className="text-xl font-bold my-4 text-center">{category.name}</h2>
+
+            <ProductCategoryTabs categories={category.products} key={category.id} />
+          </>
+          
+        ))}
       </div>
     </div>
   );
