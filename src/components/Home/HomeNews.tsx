@@ -37,9 +37,8 @@ export function HomeNews() {
       </div>
 
       <div className="flex not-md:flex-col ">
-        <div className="w-full min-h-40 sm:min-h-80  md:w-2/5  bg-cover " style={{ backgroundImage: `url(/images/news.jpg)`,backgroundPosition:'center' }}>
+        <div className="w-full min-h-40 sm:min-h-80 md:w-2/5 bg-cover" style={{ backgroundImage: `url(/images/news.jpg)`,backgroundPosition:'center' }}>
         </div>
-
         <ul className="group/ul w-full md:w-3/5 flex flex-col">
           {latestNews.map(({id,title,content}, index) => (
           <ListItem href={`/news/${id}`} key={index} title={title} >

@@ -21,32 +21,31 @@ interface ProductCardProps {
 }
 export function ProductCard({ product }: ProductCardProps) {
   return (
-    <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      <div className="relative">
-        <Image
-          src={product.image}
-          alt={product.name}
-          className="w-full h-48 object-cover"
-          width={400}
-          height={192}
-        />
-      </div>
-      
-      <CardHeader className="p-4">
-        <h3 className="font-semibold text-lg line-clamp-1">{product.name}</h3>
-        <p className="font-semibold text-lg line-clamp-1">{product.subname}</p>
-
-       
-      </CardHeader>
-      
-      <CardContent className="px-4 pb-2">
-        <div className="flex items-center gap-2">
-           <p className="text-sm text-muted-foreground line-clamp-2">
-          {product.description}
-        </p>
+     <div className="overflow-hidden hover:shadow-lg transition-shadow duration-300 rounded-none border-0">
+      <div className="flex flex-row">
+        {/* 左侧图片 */}
+        <div className="w-2/5 relative flex items-center justify-center">
+          <Image
+            src={product.image}
+            alt={product.name}
+            className="object-contain"
+            width={200}
+            height={200}
+            unoptimized
+          />
         </div>
         
-      </CardContent>
-    </Card>
+        {/* 右侧文字内容 */}
+        <div className="w-3/5 flex flex-col justify-center p-4 bg-[#f4f6f9]">
+          <CardContent className="p-0">
+            <h3 className="font-semibold text-lg line-clamp-1">{product.name}</h3>
+            <p className="font-semibold text-lg line-clamp-1">{product.subname}</p>
+            <p className="text-sm text-muted-foreground line-clamp-2 mt-2">
+              {product.description}
+            </p>
+          </CardContent>
+        </div>
+      </div>
+    </div>
   );
 }

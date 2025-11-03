@@ -103,12 +103,15 @@ const sampleCategories = [
             </div>
           ))}
         </div>
-        {sampleCategories.map((category)=>(
-          <>
-          <h2 className="text-xl font-bold my-4 text-center">{category.name}</h2>
+        {sampleCategories.map((category,index)=>(
+          <div key={category.id} 
+              style={{ backgroundColor: index % 2 === 0 ? '#ececec' : '#2c2c2c' }}
 
-            <ProductCategoryTabs categories={category.products} key={category.id} />
-          </>
+          className={index % 2 === 0 ? "bg-[#ececec] text-primary" : "bg-[#2c2c2c] text-primary-foreground"}>
+          <h2 className="text-xl font-bold my-4 text-center">{category.name}{index % 2}</h2>
+
+            <ProductCategoryTabs categories={category.products}  />
+          </div>
           
         ))}
       </div>
