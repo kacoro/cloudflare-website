@@ -1,82 +1,124 @@
 "use client";
-import * as React from "react";
-import { ScrollableTabs } from "@/components/ScrollableTabs";
-import { ProductCard } from "./ProductCard";
+import { ProductCategoryTabs } from "./ProductCategoryTabs";
+import { cn } from "@/lib/utils";
+import { useEffect,useState } from "react";
+import { ProductDialog } from "./ProductDialog";
 
-interface Product {
-  id: string;
-  name: string;
-  price: number;
-  image: string;
-  description: string;
-}
+// 定义产品类型
+import {Product} from "./ProductCard";
+export  function ProductsServer() {
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  // 这里放置实际的数据获取逻辑
+  // const sampleCategories = await fetchProductData(); // 假设这是您的异步数据获取函数
+    // 示例数据
+const sampleCategories = [
+  {
+    id: "SolarInverter",
+    name: "Solar Inverter",
+    products: [
+      // 商品数据...
+      {
+          id: "1",
+          name: "EA Series 1.6-11KW",
+          subname: "Single Phase Hybrid Solar Inverter",
+          description: "Areafly Solar Inverter series is designed to provide efficient and reliable power conversion solutions for various solar energy applications.Our team of experts is dedicated to providing ongoing assistance throughout the installation, operation, and maintenance phases, ensuring optimal performance and longevity of our inverters.",
+          
+          image: "/images/products/inverter/1 EA Series 1.6-11KW/2 产品图/微信截图_20251003215655.png",
+          images: ["/images/products/inverter/top.png","/images/products/inverter/1 EA Series 1.6-11KW/1.webp"]
+        },
+        {
+          id: "2",
+          name: "AS Series 3.6KW 5.5KW 6.2KW",
+          subname: "Single Phase Hybrid Solar Inverter",
+          description: "Areafly Solar Inverter series is designed to provide efficient and reliable power conversion solutions for various solar energy applications.Our team of experts is dedicated to providing ongoing assistance throughout the installation, operation, and maintenance phases, ensuring optimal performance and longevity of our inverters.",
+         
+          image: "/images/products/inverter/2 AS Series 3.6KW 5.5KW 6.2KW/2 产品图/070A3289.jpg",
+        },
+        {
+          id: "3",
+          name: "AS Series 8.2KW 11KW",
+          subname: "Single Phase Hybrid Solar Inverter",
+          description: "Areafly Solar Inverter series is designed to provide efficient and reliable power conversion solutions for various solar energy applications.Our team of experts is dedicated to providing ongoing assistance throughout the installation, operation, and maintenance phases, ensuring optimal performance and longevity of our inverters.",
+          image: "/images/products/inverter/3 AS Series 8.2KW 11KW/产品图/070A3397.jpg",
 
-interface Category {
-  id: string;
-  name: string;
-  count?: number;
-  products: Product[];
-}
+        }
+    ],
+  },
+  {
+    id: "electronics",
+    name: "电子产品",
+    products: [
+      // 商品数据...
+       {
+          id: "7",
+          name: "Solar Worker Cap",
+          description: "Protective cap with solar panel for charging devices.",
+          image: "https://placehold.co/600x400/64748b/ffffff?text=Worker+Cap",
+        },
+        {
+          id: "3",
+          name: "4.8KW 9.6KW",
+          subname: "Single Phase Hybrid Solar Inverter",
+          description: "Areafly Solar Inverter series is designed to provide efficient and reliable power conversion solutions for various solar energy applications.Our team of experts is dedicated to providing ongoing assistance throughout the installation, operation, and maintenance phases, ensuring optimal performance and longevity of our inverters.",
+          image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?w=400&auto=format&fit=crop",
+        }
+    ],
+  },
+];
+  // 页面加载后执行滚动逻辑
+  useEffect(() => {
+    // 解析当前路径，提取产品分类标识
+    const category = window.location.pathname.split('/').pop();
 
-interface ProductCategoryTabsProps {
-  categories: Product[];
-}
+    // 根据分类标识滚动到对应区域
+    if (category) {
+      const targetElement = document.getElementById(category);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
 
-export function ProductCategoryTabs({ categories }: ProductCategoryTabsProps) {
-  const [activeTab, setActiveTab] = React.useState(categories[0]?.id || "");
-  const [animationKey, setAnimationKey] = React.useState(0);
-  const [direction, setDirection] = React.useState<"left" | "right">("right");
+ // 打开产品详情弹窗
+  const openProductModal = (product: Product) => {
+    setSelectedProduct(product);
+    setIsModalOpen(true);
+  };
 
-  const activeCategory = categories.find(
-    (category) => category.id === activeTab
-  );
-
-  const handleTabChange = (newTabId: string) => {
-    // 判断切换方向
-    const currentIndex = categories.findIndex(cat => cat.id === activeTab);
-    const newIndex = categories.findIndex(cat => cat.id === newTabId);
-    
-    setDirection(newIndex > currentIndex ? "right" : "left");
-    
-    // 更新key以强制重新渲染动画
-    setAnimationKey(prev => prev + 1);
-    setActiveTab(newTabId);
+  // 关闭弹窗
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedProduct(null);
   };
 
   return (
-    <div className="w-full">
-      <ScrollableTabs
-        categories={categories.map(({ id, name }) => ({
-          id,
-          name
-        }))}
-        activeTab={activeTab}
-        onTabChange={handleTabChange}
-      />
-
-      <div className="mt-6 overflow-hidden">
-        {activeCategory ? (
-          <div 
-            key={animationKey}
-            className={`
-              duration-500 ease-in-out
-              ${direction === "right" 
-                ? "animate-in slide-in-from-right-20 fade-in" 
-                : "animate-in slide-in-from-left-20 fade-in"}
-            `}
-          >
-            <div className="grid  ">
-             
-                <ProductCard key={activeCategory.id} product={activeCategory} />
-              
-            </div>
-          </div>
-        ) : (
-          <div className="text-center py-10">
-            <p className="text-muted-foreground">No products in this category</p>
-          </div>
+    <>
+      {sampleCategories.map((category,index)=>(
+        <div 
+          key={category.id} 
+          id={category.id}
+          className={cn(
+            index % 2 === 0 
+              ? "bg-[#ececec] text-black" 
+              : "bg-[#2c2c2c] text-white ",
+            "py-16"
+          )}
+        >
+          <h2 className="text-xl font-bold text-center pb-5">{category.name}</h2>
+          <ProductCategoryTabs categories={category.products} openProductModal={openProductModal}  />
+        </div>
+      ))}
+      {isModalOpen && selectedProduct && (
+        <ProductDialog open={isModalOpen} onOpenChange={setIsModalOpen} product={selectedProduct}></ProductDialog>
         )}
-      </div>
-    </div>
+    </>
   );
+}
+
+async function fetchProductData() {
+  // 模拟异步数据获取
+  return [
+    // ...您的分类数据
+  ];
 }

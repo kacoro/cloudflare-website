@@ -9,7 +9,7 @@ import { FaEnvelope, FaMapMarker, FaPhone } from "react-icons/fa";
 export default function Footer() {
   const t = useTranslations("Contact");
   return (
-    <>
+    <footer className=" w-full ">
       <div className="w-full bg-black text-white text-xs md:text-base p-2 md:p-12">
         <div className="max-w-5xl grid grid-cols-2  mx-auto  p-2">
           <div className=" flex flex-col items-center py-1 space-x-3 ">
@@ -166,6 +166,6 @@ export default function Footer() {
         </div>
       </div>
       <BottomBar />
-    </>
+    </footer>
   );
 }

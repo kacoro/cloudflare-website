@@ -12,7 +12,6 @@ export default function NavigationLink({
   const selectedLayoutSegment = useSelectedLayoutSegment();
   const pathname = selectedLayoutSegment ? `/${selectedLayoutSegment}` : '/';
   const isActive = pathname === href;
-
   return (
     <Link
       aria-current={isActive ? 'page' : undefined}

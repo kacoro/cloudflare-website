@@ -73,3 +73,34 @@ export const getAllProducts = async (locale: string = 'en'): Promise<(Product & 
     return [];
   }
 };
+
+// 获取单个产品信息（指定语言）
+
+export const fetchProductsDataById = async (id:number,slug:string): Promise<Product&ProductTranslation|null> => {
+  try {
+    // 使用fetch API替代文件系统读取，确保在所有环境中都能工作
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/locale/${slug}/${id}.json`);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch products data: ${response.status} ${response.statusText}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('Error fetching products data:', error);
+    return null;
+  }
+};
+export const getProductById = async (locale: string = 'en',id:number): Promise<(Product&ProductTranslation|null )> => {
+  try {
+    const data = await fetchProductsDataById(id,"product");
+    if (!data) throw new Error('Product not found');
+    return {
+      ...data,
+      name: data.translations[locale]?.name || data.translations['en']?.name || '',
+      description: data.translations[locale]?.description || data.translations['en']?.description || '',
+      features: data.translations[locale]?.features || data.translations['en']?.features || []
+    };
+  } catch (error) {
+    console.error('Error fetching products:', error);
+    return null;
+  }
+};

@@ -31,7 +31,7 @@ export async function Products({ locale }: { locale: Locale }) {
            overflow-hidden">
             <div className="w-full h-full  text-blue-600 font-medium  overflow-hidden bg-white rounded-xl flex items-center justify-center relative">
               <NavigationLink
-                href={`/products/${item.slug}`}
+                href={`/products#${item.slug}`}
                 className="text-center"
               >
                 <Image

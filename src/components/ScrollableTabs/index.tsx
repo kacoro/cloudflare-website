@@ -50,15 +50,15 @@ export function ScrollableTabs({
         ref={scrollContainerRef}
         className="flex overflow-x-auto scrollbar-hide py-2 px-4 md:px-0 md:justify-center"
       >
-        <div className="flex space-x-2 md:space-x-4">
+        <div className="flex space-x-4 md:space-x-16">
           {categories.map((category) => (
             <button
               key={category.id}
               className={cn(
-                "whitespace-nowrap rounded-full px-4 py-2 text-sm font-medium transition-colors",
+                "whitespace-nowrap border-b-2 py-2 font-medium transition-colors cursor-pointer",
                 activeTab === category.id
-                  ? "bg-primary text-primary-foreground"
-                  : "bg-muted text-muted-foreground hover:bg-muted/80"
+                  ? " border-primary text-primary"
+                  : " border-transparent "
               )}
               onClick={() => onTabChange(category.id)}
             >

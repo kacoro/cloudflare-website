@@ -120,3 +120,65 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* 针对产品参数表格的固定表头样式 */
+.custom-table {
+  @apply overflow-x-auto max-w-full border border-black bg-black;
+}
+.custom-table table {
+  @apply border-collapse max-w-full; 
+}
+
+
+.custom-table thead,.custom-table tbody tr:first-child  {
+  @apply sticky top-0 z-10  shadow-sm;
+}
+
+.custom-table thead th,.custom-table tbody tr:first-child td {
+  @apply bg-[#008822] px-4 py-3 text-left text-sm font-semibold text-white border-b border-r border-black;
+}
+
+.custom-table tbody td {
+  @apply px-4 py-3 text-sm text-gray-600 border-b border-black;
+}
+
+.custom-table tbody tr:hover {
+  @apply bg-gray-50;
+}
+
+/* 强制所有表格单元格不换行 */
+.custom-table td,
+.custom-table th {
+  @apply whitespace-nowrap;
+}
+
+/* 添加纵向边框 */
+.custom-table th,
+.custom-table td {
+  @apply border-x border-black;
+}
+
+/* 移除第一列的左边框和最后一列的右边框 */
+.custom-table th:first-child,
+.custom-table td:first-child {
+  @apply border-l-0;
+}
+
+.custom-table th:last-child,
+.custom-table td:last-child {
+  @apply border-r-0;
+}
+
+/* 交替行背景色 */
+.custom-table tbody tr:nth-child(even) {
+  @apply bg-white;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+  @apply bg-[#f2f2f2];
+}
+
+/* 第一列特殊样式 */
+.custom-table td:first-child p{
+  @apply text-left ;
+}

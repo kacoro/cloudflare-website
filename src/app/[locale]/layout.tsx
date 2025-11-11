@@ -53,10 +53,12 @@ export default async function LocaleLayout({children, params}: Props) {
         <AppSidebar />
         
         <main className="flex flex-col min-h-screen w-full">
-          <Topbar/>
-        <Header />
-        {children}
-        <Footer />
+          <div className="w-full flex-grow">
+             <Topbar/>
+            <Header />
+            {children}
+          </div>
+          <Footer />
         </main>
         </SidebarProvider>
         </NextIntlClientProvider>

@@ -1,0 +1,95 @@
+{
+    "id": 0,
+    "slug": "test",
+    "image": "/images/products/",
+    "translations": {
+        "en": {
+            "name": "",
+            "description": "",
+            "features": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
+        "zh": {
+            "name": "",
+            "description": "",
+            "features": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
+        "fr": {
+            "name": "",
+            "description": "",
+            "features": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ]
+        }
+    },
+    "thumbs": [
+        {
+            "url": "/images/products/inverter/",
+            "alt": "inverter"
+        },
+        {
+            "url": "/images/products/inverter/",
+            "alt": "inverter"
+        },
+        {
+            "url": "/images/products/inverter/",
+            "alt": "inverter"
+        },
+        {
+            "url": "/images/products/inverter/",
+            "alt": "inverter"
+        }
+    ],
+    "infos": [
+        {
+            "url": "/images/products/inverter/",
+            "alt": "inverter"
+        },
+        {
+            "url": "/images/products/inverter/",
+            "alt": "inverter"
+        },
+        {
+            "url": "/images/products/inverter/",
+            "alt": "inverter"
+        },
+        {
+            "url": "/images/products/inverter/",
+            "alt": "inverter"
+        },
+        {
+            "url": "/images/products/inverter/",
+            "alt": "inverter"
+        },
+        {
+            "url": "/images/products/inverter/",
+            "alt": "inverter"
+        }
+    ],
+    "download": "/images/products/inverter/",
+    "parameters": ""
+}
