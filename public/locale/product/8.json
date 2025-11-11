@@ -1,0 +1,58 @@
+{
+    "id": 8,
+    "slug": "Battery",
+    "image": "/images/products/battery/5/thumbs/1.png",
+    "translations": {
+        "en": {
+            "name": "Solar Gel Battery",
+            "description": "Areafly lead-acid batteries feature stable voltage output and cost-effectiveness, with enhanced durability through advanced alloy technology. Designed for solar energy storage, they offer reliable performance in off-grid systems, combining affordability with proven reliability.",
+            "features": [
+                "Valve Regulated Lead Acid (VRLA) Battery, maintenance free and long circle-Life.",
+                "Advanced lead tin calcium alloy, reduces grid corrosion & promotes long battery life.",
+                "High thermal capacity, reduce the risk of thermal out of control and drying hard, can be used in bad environment.",
+                "Design according with lEc60896-21/22:2004, JISC8704-2, GB/T 19638.2,etc. strictly."
+            ]
+        },
+        "zh": {
+  "name": "太阳能胶体电池",
+  "description": "Areafly铅酸电池具有稳定的电压输出和成本效益，通过先进的合金技术增强了耐用性。专为太阳能储能设计，在离网系统中提供可靠的性能，将经济性与经过验证的可靠性相结合。",
+  "features": [
+    "阀控式铅酸(VRLA)电池，免维护，循环寿命长。",
+    "先进的铅锡钙合金，减少极板腐蚀，延长电池寿命。",
+    "高热容量，降低热失控和干涸硬化的风险，可在恶劣环境中使用。",
+    "严格按照IEC60896-21/22:2004、JISC8704-2、GB/T 19638.2等标准设计。"
+  ]
+},
+        "fr": {
+  "name": "Batterie solaire au gel",
+  "description": "Les batteries au plomb Areafly offrent une sortie de tension stable et un rapport qualité-prix attractif, avec une durabilité améliorée grâce à une technologie d'alliage avancée. Conçues pour le stockage d'énergie solaire, elles fournissent des performances fiables dans les systèmes hors réseau, combinant abordabilité et fiabilité éprouvée.",
+  "features": [
+    "Batterie au plomb régulée par valve (VRLA), sans entretien et avec une longue durée de cycle.",
+    "Alliage avancé de plomb-étain-calcium, réduit la corrosion de la grille et favorise une longue durée de vie de la batterie.",
+    "Haute capacité thermique, réduit le risque de dérèglement thermique et de dessèchement, peut être utilisée dans un environnement difficile.",
+    "Conception conforme strictement aux normes IEC60896-21/22:2004, JISC8704-2, GB/T 19638.2, etc."
+  ]
+}
+    },
+    "thumbs": [
+        {
+            "url": "/images/products/battery/5/thumbs/1.png",
+            "alt": "alt1"
+        }
+    ],
+    "infos": [
+        {
+            "url": "/images/products/battery/5/infos/1.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/battery/5/infos/2.jpg",
+            "alt": "alt1"
+        },{
+            "url": "/images/products/battery/5/infos/3.jpg",
+            "alt": "alt1"
+        }
+    ],
+    "download": "/images/products/battery/5/download.jpg",
+    "parameters": "&lt;table style=&quot;width: 99%;&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;MODEL&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-HVC384-107F&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-HVC512-143F&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-HVC640-179F&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-HVC704-197F&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-HVC768-215F&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Nominal voltage&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;384&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;512&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;640&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;704&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;768&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Cell model/ Configuration&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3.2V280Ah(EVE)&lt;/p&gt; &lt;p align=&quot;center&quot;&gt;/120S1P&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3.2V280Ah(EVE)&lt;/p&gt; &lt;p align=&quot;center&quot;&gt;/160S1P&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3.2V280Ah(EVE)&lt;/p&gt; &lt;p align=&quot;center&quot;&gt;/200S1P&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3.2V280Ah(EVE)&lt;/p&gt; &lt;p align=&quot;center&quot;&gt;/220S1P&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3.2V280Ah(EVE)&lt;/p&gt; &lt;p align=&quot;center&quot;&gt;/240S1P&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Capacity(Ah)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; valign=&quot;top&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;280&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Rated energy(kwh)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;107.52&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;143.36&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;179.2&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;197.12&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;215.04&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Weight(Approx)(kg)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;820&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1080&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1350&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1500&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1650&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Dimension W*D*H(mm)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1992*950*550&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1475*950*1100&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1732*950*1100&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1732*950*1100&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1992*950*1100&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Voltage range(Vdc)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;348~426&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;464~568&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;580~710&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;638~781&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;696~852&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Max.charge/discharge current(A)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;140&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Scalability&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;up to 10 paralle&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Communieation&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;RS485(B)-BAT/RS485(A)-PC/Canbus-Inverter&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Cycle life&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;25&amp;plusmn;2℃,0.5C/0.5C,EOL70%&amp;ge;6000&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Design life&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&amp;ge;15年(25℃)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Protection&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;BMS,Breaker&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Operation temperature(℃)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Charge:-10℃~50℃;Discharge:-20℃~50℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Altitude(m)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&amp;le;2000&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Humidity&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&amp;lt;95%(Non-condensing)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Certificates&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;UN38.3,MSDS,CE-EMC&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
+}

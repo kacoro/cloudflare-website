@@ -43,7 +43,7 @@ export  function  ProductDetail({ data }: Props) {
         { url: "/images/productionLine/10.jpg", alt: "alt3" },
         { url: "/images/productionLine/11.jpg", alt: "alt3" },
         { url: "/images/productionLine/12.jpg", alt: "alt3" },
-         { url: "/images/productionLine/1.jpg", alt: "alt1" },
+        { url: "/images/productionLine/1.jpg", alt: "alt1" },
     ];
     const OPTIONS: EmblaOptionsType = {loop: true}
     if (!product) {
@@ -54,7 +54,7 @@ export  function  ProductDetail({ data }: Props) {
             <BreadcrumbDemo title={product.name} />
             <div className='text-4xl pt-16 pb-5 text-center'>{product.name}</div>
             <div>
-                <div className='text-2xl text-center'>{product.description}</div>
+                <div className='text-2xl text-center' dangerouslySetInnerHTML={{ __html: product.description||"" }}></div>
             </div>
             <div className='flex flex-col  not-lg:items-center lg:flex-row pt-16'>
                 {product.thumbs&&<EmblaCarousel slides={product.thumbs} options={OPTIONS} />}

@@ -7,6 +7,7 @@ import Image from "next/image";
 export interface Product {
   id: string;
   name: string;
+  tabName?: string;
   subname?: string;
   price?: number | string; // 修改为支持数字或字符串类型
   originalPrice?: number | string; // 修改为支持数字或字符串类型
@@ -39,8 +40,11 @@ export function Main({ product }: ProductCardProps) {
         {/* 右侧文字内容 */}
         <div className="w-3/5 flex flex-col justify-center p-4">
           <CardContent className="p-0">
-            <h3 className="font-semibold text-lg line-clamp-1 text-primary md:text-4xl cursor-pointer">{product.name}</h3>
-            <p className=" text-lg line-clamp-1 text-primary my-4 cursor-pointer">{product.subname}</p>
+            <NavigationLink
+                            href={`/products/${product.id}`}
+                            className="text-center p-0 m-0"
+                          ><h3 className="font-semibold text-lg line-clamp-1 text-primary md:text-4xl cursor-pointer">{product.name}</h3></NavigationLink>
+            <p className=" text-lg line-clamp-1 text-primary my-4 ">{product.subname}</p>
             <Image src="/images/line.png" width={468} height={2} alt="line" />
             <p className="text-sm  line-clamp-6 my-5">
               {product.description}
@@ -49,7 +53,7 @@ export function Main({ product }: ProductCardProps) {
                             href={`/products/${product.id}`}
                             className="text-center"
                           >
-            <Image className="cursor-pointer" src="/images/right-button.png" width={35} height={7} alt="line" /></NavigationLink>
+            <Image src="/images/right-button.png" width={35} height={7} alt="line" /></NavigationLink>
           </CardContent>
         </div>
       </div>

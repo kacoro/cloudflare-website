@@ -8,6 +8,7 @@ interface ScrollableTabsProps {
   categories: {
     id: string;
     name: string;
+    tabName?: string;
     count?: number;
   }[];
   activeTab: string;
@@ -62,7 +63,7 @@ export function ScrollableTabs({
               )}
               onClick={() => onTabChange(category.id)}
             >
-              {category.name}
+              <span dangerouslySetInnerHTML={{ __html: category.tabName ||""}} />
               {category.count !== undefined && (
                 <span className="ml-2 rounded-full bg-background/20 px-2 py-0.5 text-xs">
                   {category.count}

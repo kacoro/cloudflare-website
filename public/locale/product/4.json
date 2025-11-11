@@ -1,0 +1,80 @@
+{
+    "id": 4,
+    "slug": "battery",
+    "image": "/images/products/battery/1/thumbs/1.png",
+    "translations": {
+        "en": {
+            "name": "5KWH 10KWH Wall-mounted  Lithium Battery",
+            "description": "Areafly wall-mounted solar batteries are lightweight and easy to install, with a typical efficiency range of 15%-20% under standard test conditions. </br>Areafly Wall-mounted solar batteries provide stable power output and more than 15-year lifespan. ",
+            "features": [
+                "Flexible expansion coverage: 5kwh/10kwh modular design, can be expanded from 5 degrees to 150 degrees;",
+                "TUV certified: meets battery IEC/UL standards;",
+                "Quick installation: plug and play battery interface;",
+                "High compatibility: compatible with most inverter brands on the market;",
+                "Safe and reliable: BMS and circuit breaker secondary overcurrent protection;",
+                "High Precision Of Output Voltage±5%",
+                "Fast charging: high charging/discharging rate to support safe 1C fast charging/discharging"
+            ]
+        },
+        "zh": {
+            "name": "5KWH 10KWH 壁挂式锂电池",
+            "description": "Areafly壁挂式太阳能电池重量轻，易于安装，在标准测试条件下典型效率范围为15%-20%。</br>Areafly壁挂式太阳能电池提供稳定的电力输出和超过15年的使用寿命。",
+            "features": [
+                "灵活扩展覆盖：5kwh/10kwh模块化设计，可从5度扩展到150度；",
+                "TUV认证：符合电池IEC/UL标准；",
+                "快速安装：即插即用电池接口；",
+                "高兼容性：与市场上大多数逆变器品牌兼容；",
+                "安全可靠：BMS和断路器二级过流保护；",
+                "输出电压高精度±5%",
+                "快速充电：高充电/放电速率，支持安全1C快速充电/放电"
+            ]
+        },
+        "fr": {
+            "name": "Batterie lithium murale 5KWH 10KWH",
+            "description": "Les batteries solaires murales Areafly sont légères et faciles à installer, avec une plage d'efficacité typique de 15%-20% dans les conditions de test standard. </br>Les batteries solaires murales Areafly fournissent une sortie de puissance stable et une durée de vie de plus de 15 ans.",
+            "features": [
+                "Couverture d'expansion flexible : conception modulaire 5kwh/10kwh, peut être étendue de 5 degrés à 150 degrés ;",
+                "Certifié TUV : répond aux normes IEC/UL des batteries ;",
+                "Installation rapide : interface de batterie plug and play ;",
+                "Haute compatibilité : compatible avec la plupart des marques d'onduleurs du marché ;",
+                "Sûr et fiable : protection contre les surintensités secondaires par BMS et disjoncteur ;",
+                "Précision élevée de la tension de sortie ±5%",
+                "Charge rapide : taux de charge/décharge élevé pour prendre en charge la charge/décharge rapide sécurisée 1C"
+            ]
+        }
+    },
+    "thumbs": [
+        {
+            "url": "/images/products/battery/1/thumbs/1.png",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/battery/1/thumbs/2.png",
+            "alt": "alt2"
+        },
+        {
+            "url": "/images/products/battery/1/thumbs/3.png",
+            "alt": "alt3"
+        },
+        {
+            "url": "/images/products/battery/1/thumbs/4.png",
+            "alt": "alt3"
+        },
+        {
+            "url": "/images/products/battery/1/thumbs/5.png",
+            "alt": "alt3"
+        },
+        {
+            "url": "/images/products/battery/1/thumbs/6.png",
+            "alt": "alt3"
+        }
+    ],
+    "infos": [
+        {
+            "url": "/images/products/battery/1/infos/1.jpg",
+            "alt": "alt1"
+        }
+    ],
+    "download": "/images/products/battery/1/download.jpg",
+    "parameters": "&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;MODEL&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-H51100&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-H51200&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Rate voltage(Vdc)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;51.2&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Cell combination&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;16S1P&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;16S2P&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Rate capacity(AH)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;100&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;200&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Energy storage(KWH)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;5.12&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;10.24&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Cycle life&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;25&amp;plusmn;2℃,0.5C/0.5C,EOL70%&amp;ge;6000&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Charge voltage(V)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;56&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Max.charge current(A)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;100(Optional 150/200A for 200AH pack)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Max.discharge current(A)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;100(Optional 150/200A for 200AH pack)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Discharge cut-off voltage(VDC)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;43.2&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Charge cut-off voltage(VDC)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;58.4&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Charge temperature&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;0℃~50℃@60&amp;plusmn;25%Relative Humidity&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Discharge temperature&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;-20℃~50℃@60&amp;plusmn;25%Relative Humidity&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Storage temperature&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;-20℃~50℃@60&amp;plusmn;25%Relative Humidity&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;IP class&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;1p20&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Material system&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;LiFePO4&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Case material&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;Metal&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Case type&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;Wall Mount&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Product dimension L*W*H(mm)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;580*390*185&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;690*485*226&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Package dimension L*W*H(mm)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;660*450*240&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;850*570*285&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Net weight(kg)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;44&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;88&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Gross weight(kg)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;49&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;98&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Protocol(Optional)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;CAN/RS485/RS232&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Monitoring&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;Bluetooth/WLAN Optional&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Certificates&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;UN38.3,MSDS,CE-EMC&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
+}

@@ -6,6 +6,7 @@ import { ProductCard,Product } from "./ProductCard";
 interface Category {
   id: string;
   name: string;
+  tabName: string;
   count?: number;
   products: Product[];
 }
@@ -40,9 +41,10 @@ export function ProductCategoryTabs({ categories, openProductModal }: ProductCat
   return (
     <div className="max-w-5xl mx-auto">
       <ScrollableTabs
-        categories={categories.map(({ id, name }) => ({
+        categories={categories.map(({ id, name,tabName }) => ({
           id,
-          name
+          name,
+          tabName
         }))}
         activeTab={activeTab}
         onTabChange={handleTabChange}

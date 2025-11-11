@@ -1,4 +1,4 @@
-import {Locale, useTranslations} from 'next-intl';
+import {Locale} from 'next-intl';
 import {setRequestLocale} from 'next-intl/server';
 import {ProductDetail} from '@/components/ProductDetail'
 import { getProductById } from '@/api/product';
@@ -26,6 +26,5 @@ export default async function ProductPage({
         <div>ProductPage</div>
       </ProductDetail>
     </div>
-    
   );
 }

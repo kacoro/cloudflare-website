@@ -1,0 +1,69 @@
+{
+    "id": 7,
+    "slug": "Battery",
+    "image": "/images/products/battery/4/thumbs/1.png",
+    "translations": {
+        "en": {
+            "name": "High Voltage Rack Lithium Battery",
+            "description": "Areafly rack-mounted high-voltage lithium batteries, designed for commercial and industrial use, offer scalable energy storage solutions with 51.2V-800V voltage platforms, supporting 5G base stations, microgrids, and peak shaving applications. Integrated with solar systems, they enable 24/7 renewable energy utilization through smart BMS and modular expansion, achieving 90%+ efficiency and 10,000+ cycle life.",
+            "features": [
+                "Safe and Reliable",
+                "Cathode material is made from LiFeP04 with safetyperformance and long cycle life, The module has less self-discharge,up to 6 months without charging it on shelf, no memory effect, excellent performance of shallow charge and discharge.",
+                "Intelligent BMS",
+                "It has protection functions including over-discharae, over-charge, over-current and over-high or low temperature.The system can automaticaly manage charge and discharge state and balance current and voltage of each cell.",
+                "Eco-Friendly",
+                "The whole module is non-toxic, non-polluting and environmentally friendly.",
+                "Flexible Conf guration",
+                "Multiple battery modules can be in parallel for expanding capacity and power.Support USB upgrade,wif upgradeloptional)remote upgrade(Compatible with Deye inverter).",
+                "Wide Temperature",
+                "Working temperature range is from -20°C to 55°C, with excellent discharge performance and cycle life."
+            ]
+        },
+        "zh": {
+            "name": "高压机架式锂电池",
+            "description": "Areafly机架式高压锂电池专为商业和工业用途设计，提供可扩展的能源存储解决方案，电压平台为51.2V-800V，支持5G基站、微电网和削峰应用。与太阳能系统集成，通过智能BMS和模块化扩展实现24/7可再生能源利用，效率达90%以上，循环寿命超过10,000次。",
+            "features": [
+                "安全可靠",
+                "正极材料采用LiFePO4，具有安全性能和长循环寿命，模块自放电小，在货架上可存放长达6个月无需充电，无记忆效应，浅充浅放性能优异。",
+                "智能BMS",
+                "具有过放电、过充电、过电流和过高或过低温度保护功能。系统可以自动管理充放电状态，平衡每个电池单元的电流和电压。",
+                "环保",
+                "整个模块无毒、无污染、环保。",
+                "灵活配置",
+                "多个电池模块可以并联扩展容量和功率。支持USB升级，WiFi升级(可选)，远程升级(兼容Deye逆变器)。",
+                "宽温度范围",
+                "工作温度范围为-20°C至55°C，具有优异的放电性能和循环寿命。"
+            ]
+        },
+        "fr": {
+            "name": "Batterie lithium haute tension en rack",
+            "description": "Les batteries lithium haute tension en rack Areafly, conçues pour un usage commercial et industriel, offrent des solutions de stockage d'énergie évolutives avec des plateformes de tension de 51,2V-800V, prenant en charge les stations de base 5G, les micro-réseaux et les applications de limitation de pointe. Intégrées aux systèmes solaires, elles permettent une utilisation d'énergie renouvelable 24h/24 grâce au BMS intelligent et à l'expansion modulaire, atteignant une efficacité de 90%+ et une durée de vie de plus de 10 000 cycles.",
+            "features": [
+                "Sûr et fiable",
+                "Le matériau de la cathode est fabriqué en LiFePO4 avec des performances de sécurité et une longue durée de vie en cycles. Le module a une faible auto-décharge, jusqu'à 6 mois sans le charger sur étagère, pas d'effet mémoire, excellentes performances de charge et décharge peu profondes.",
+                "BMS intelligent",
+                "Il dispose de fonctions de protection incluant la sur-décharge, la surcharge, le surcourant et les températures trop élevées ou trop basses. Le système peut automatiquement gérer l'état de charge et de décharge et équilibrer le courant et la tension de chaque cellule.",
+                "Écologique",
+                "L'ensemble du module est non toxique, non polluant et respectueux de l'environnement.",
+                "Configuration flexible",
+                "Plusieurs modules de batterie peuvent être en parallèle pour étendre la capacité et la puissance. Supporte la mise à jour USB, la mise à jour WiFi (optionnelle), la mise à jour à distance (compatible avec l'onduleur Deye).",
+                "Large plage de température",
+                "La plage de température de fonctionnement est de -20°C à 55°C, avec d'excellentes performances de décharge et une durée de vie en cycles."
+            ]
+        }
+    },
+    "thumbs": [
+        {
+            "url": "/images/products/battery/4/thumbs/1.png",
+            "alt": "alt1"
+        }
+    ],
+    "infos": [
+        {
+            "url": "/images/products/battery/4/infos/1.jpg",
+            "alt": "alt1"
+        }
+    ],
+    "download": "/images/products/battery/4/download.jpg",
+    "parameters": "&lt;table style=&quot;width: 99%;&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;MODEL&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-HVC384-107F&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-HVC512-143F&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-HVC640-179F&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-HVC704-197F&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-HVC768-215F&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Nominal voltage&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;384&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;512&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;640&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;704&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;768&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Cell model/ Configuration&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3.2V280Ah(EVE)&lt;/p&gt; &lt;p align=&quot;center&quot;&gt;/120S1P&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3.2V280Ah(EVE)&lt;/p&gt; &lt;p align=&quot;center&quot;&gt;/160S1P&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3.2V280Ah(EVE)&lt;/p&gt; &lt;p align=&quot;center&quot;&gt;/200S1P&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3.2V280Ah(EVE)&lt;/p&gt; &lt;p align=&quot;center&quot;&gt;/220S1P&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3.2V280Ah(EVE)&lt;/p&gt; &lt;p align=&quot;center&quot;&gt;/240S1P&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Capacity(Ah)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; valign=&quot;top&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;280&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Rated energy(kwh)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;107.52&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;143.36&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;179.2&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;197.12&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;215.04&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Weight(Approx)(kg)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;820&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1080&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1350&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1500&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1650&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Dimension W*D*H(mm)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1992*950*550&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1475*950*1100&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1732*950*1100&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1732*950*1100&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;1992*950*1100&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Voltage range(Vdc)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;348~426&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;464~568&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;580~710&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;638~781&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;16%&quot;&gt; &lt;p align=&quot;center&quot;&gt;696~852&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Max.charge/discharge current(A)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;140&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Scalability&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;up to 10 paralle&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Communieation&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;RS485(B)-BAT/RS485(A)-PC/Canbus-Inverter&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Cycle life&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;25&amp;plusmn;2℃,0.5C/0.5C,EOL70%&amp;ge;6000&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Design life&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&amp;ge;15年(25℃)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Protection&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;BMS,Breaker&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Operation temperature(℃)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Charge:-10℃~50℃;Discharge:-20℃~50℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Altitude(m)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&amp;le;2000&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Humidity&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&amp;lt;95%(Non-condensing)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;18%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Certificates&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;5&quot; width=&quot;81%&quot;&gt; &lt;p align=&quot;center&quot;&gt;UN38.3,MSDS,CE-EMC&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
+}

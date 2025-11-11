@@ -14,54 +14,82 @@ export  function ProductsServer() {
     // 示例数据
 const sampleCategories = [
   {
-    id: "SolarInverter",
+    id: "1",
     name: "Solar Inverter",
     products: [
       // 商品数据...
       {
-          id: "1",
-          name: "EA Series 1.6-11KW",
-          subname: "Single Phase Hybrid Solar Inverter",
-          description: "Areafly Solar Inverter series is designed to provide efficient and reliable power conversion solutions for various solar energy applications.Our team of experts is dedicated to providing ongoing assistance throughout the installation, operation, and maintenance phases, ensuring optimal performance and longevity of our inverters.",
-          
-          image: "/images/products/inverter/1 EA Series 1.6-11KW/2 产品图/微信截图_20251003215655.png",
-          images: ["/images/products/inverter/top.png","/images/products/inverter/1 EA Series 1.6-11KW/1.webp"]
+          "id": "1",
+          "tabName": "1.6-11KW",
+          "name": "1.6-11KW",
+          "subname": "Hybrid Inverters For Solar Cost Effective",
+           "description": "As a 13-year veteran in solar product manufacturing, our solar lighting series embodies cutting-edge innovation and unwavering reliability.",
+          "image": "/images/products/category/1-1.png",
         },
         {
-          id: "2",
-          name: "AS Series 3.6KW 5.5KW 6.2KW",
-          subname: "Single Phase Hybrid Solar Inverter",
-          description: "Areafly Solar Inverter series is designed to provide efficient and reliable power conversion solutions for various solar energy applications.Our team of experts is dedicated to providing ongoing assistance throughout the installation, operation, and maintenance phases, ensuring optimal performance and longevity of our inverters.",
+          "id": "2",
+          "tabName":"3.6KW 5.5KW 6.2KW",
+          "name": "3.6KW 5.5KW 6.2KW",
+          "subname": "AS Series Off-grid Solar Hybrid Inverter",
+            "description": "Intelligent Power Supply Mode, Intelligent Distribution of Solal Panel/Mains/Battery Power Shares",
          
-          image: "/images/products/inverter/2 AS Series 3.6KW 5.5KW 6.2KW/2 产品图/070A3289.jpg",
+          "image": "/images/products/category/1-2.png",
         },
         {
-          id: "3",
-          name: "AS Series 8.2KW 11KW",
-          subname: "Single Phase Hybrid Solar Inverter",
-          description: "Areafly Solar Inverter series is designed to provide efficient and reliable power conversion solutions for various solar energy applications.Our team of experts is dedicated to providing ongoing assistance throughout the installation, operation, and maintenance phases, ensuring optimal performance and longevity of our inverters.",
-          image: "/images/products/inverter/3 AS Series 8.2KW 11KW/产品图/070A3397.jpg",
+          "id": "3",
+          "tabName": "8.2KW 11KW",
+          "name": "8.2KW 11KW",
+          "subname": "AS Series Off-grid Solar Hybrid Inverte",
+            "description": "Intelligent Power Supply Mode, Intelligent Distribution of Solal Panel/Mains/Battery Power Shares",
+          "image": "/images/products/category/1-3.png",
 
         }
     ],
   },
   {
-    id: "electronics",
-    name: "电子产品",
+    id: "2",
+    name: "solar battery",
     products: [
       // 商品数据...
        {
-          id: "7",
-          name: "Solar Worker Cap",
-          description: "Protective cap with solar panel for charging devices.",
-          image: "https://placehold.co/600x400/64748b/ffffff?text=Worker+Cap",
+          id: "4",
+          tabName: "5KWH 10KWH<br>Wall-mounted",
+          name: "5KWH 10KWH",
+          subname: "Mobile Lithium Battery",
+            "description": "Areafly wall-mounted solar batteries are lightweight and easy to install, with a typical efficiency range of 15%-20% under standard test conditions. </br>Areafly Wall-mounted solar batteries provide stable power output and more than 15-year lifespan. ",
+          image: "/images/products/category/2-1.png",
         },
         {
-          id: "3",
-          name: "4.8KW 9.6KW",
+          id: "5",
+          tabName: "10KWH 15KWH<br>Mobile",
+          name: "10KWH 15KWH",
+          subname: "Residential Lithium Battery",
+            "description": "Areafly wheeled solar lithium batteries feature high-efficiency photovoltaic conversion, long cycle life (6000+ cycles), and robust mobility for off-grid applications. <br>They integrate smart BMS for safety, Ideal for RVs, boats, and portable power.",
+          image: "/images/products/category/2-2.png",
+        },
+        {
+          id: "6",
+          tabName: "15KWH 20KWH<br>Residential ",
+          name: "15KWH 20KWH ",
+          subname: "Wall-mounted  Lithium Battery",
+            "description": "Areafly rack-mounted high-voltage lithium batteries, designed for commercial and industrial use, offer scalable energy storage solutions with 51.2V-800V voltage platforms, supporting 5G base stations, microgrids, and peak shaving applications. Integrated with solar systems, they enable 24/7 renewable energy utilization through smart BMS and modular expansion, achieving 90%+ efficiency and 10,000+ cycle life.",
+          image: "/images/products/category/2-3.png",
+        },
+        {
+          id: "7",
+          name: "High Voltage Rack",
+          tabName:"High Voltage Rack",
           subname: "Single Phase Hybrid Solar Inverter",
-          description: "Areafly Solar Inverter series is designed to provide efficient and reliable power conversion solutions for various solar energy applications.Our team of experts is dedicated to providing ongoing assistance throughout the installation, operation, and maintenance phases, ensuring optimal performance and longevity of our inverters.",
-          image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?w=400&auto=format&fit=crop",
+            "description": "Areafly rack-mounted high-voltage lithium batteries, designed for commercial and industrial use, offer scalable energy storage solutions with 51.2V-800V voltage platforms, supporting 5G base stations, microgrids, and peak shaving applications. Integrated with solar systems, they enable 24/7 renewable energy utilization through smart BMS and modular expansion, achieving 90%+ efficiency and 10,000+ cycle life.",
+          image: "/images/products/category/2-4.png",
+        },
+        {
+          id: "8",
+          name: "Solar Gel Battery",
+          tabName: "Solar Gel Battery",
+          subname: "Solar Inverter",
+            "description": "Areafly lead-acid batteries feature stable voltage output and cost-effectiveness, with enhanced durability through advanced alloy technology. Designed for solar energy storage, they offer reliable performance in off-grid systems, combining affordability with proven reliability.",
+          image: "/images/products/category/2-5.png",
         }
     ],
   },

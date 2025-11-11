@@ -1,0 +1,53 @@
+{
+    "id": 6,
+    "slug": "",
+    "image": "/images/products/battery/3/thumbs/1.png",
+    "translations": {
+        "en": {
+            "name": "15KWH 20KWH Residential Lithium Battery",
+            "description": "Residential Lithium Battery Serise<br>Areafly Residential Solar Lithium Batteries offers up to 10 times longer cyde life and fivetimes longer float/calendar life than lead acid battery, helping itminimize replacement cost and reduce total cost of ownership.",
+            "features": [
+                "Max. efficiency 100%",
+                "Easy installation low maintenance",
+                "Lithium iron phosphate battery cells",
+                "Work with leading branded inverters",
+                "Supports 485,can,232 communication protocols"
+            ]
+        },
+        "zh": {
+  "name": "15KWH 20KWH 家用锂电池",
+  "description": "家用锂电池系列<br>Areafly家用太阳能锂电池的循环寿命比铅酸电池长10倍，浮充/日历寿命长5倍，有助于最小化更换成本并降低总拥有成本。",
+  "features": [
+    "最高效率100%",
+    "安装简便，维护量低",
+    "磷酸铁锂电池电芯",
+    "可与知名品牌逆变器配合使用",
+    "支持485、can、232通信协议"
+  ]
+},
+        "fr": {
+  "name": "Batterie lithium résidentielle 15KWH 20KWH",
+  "description": "Série de batteries lithium résidentielles<br>Les batteries lithium solaires résidentielles Areafly offrent une durée de cycle jusqu'à 10 fois plus longue et une durée de flottaison/calendrier 5 fois plus longue qu'une batterie au plomb, ce qui permet de minimiser les coûts de remplacement et de réduire le coût total de possession.",
+  "features": [
+    "Efficacité maximale 100%",
+    "Installation facile, faible entretien",
+    "Cellules de batterie au phosphate de fer lithium",
+    "Fonctionne avec les onduleurs de grandes marques",
+    "Prend en charge les protocoles de communication 485, can, 232"
+  ]
+}},
+        "thumbs": [
+            {
+                "url": "/images/products/battery/3/thumbs/1.png",
+                "alt": "alt1"
+            }
+        ],
+        "infos": [
+            {
+                "url": "/images/products/battery/3/infos/1.jpg",
+                "alt": "alt1"
+            }
+        ],
+        "download": "/images/products/battery/3/download.jpg",
+        "parameters": "&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;MODEL&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-48300F&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-48400F&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Specification&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;51.2V300Ah&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;51.2V400Ah&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Rated Voltage&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;51.2V&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Rated Capacity&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;300Ah&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;400Ah&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Rated Energy&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;15.36KWh&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;20.48KWh&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Dimensions(mm)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;811*450*260&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;900*450*260&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Weight&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;119KG&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;140KG&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Recommended Charging&lt;br /&gt; Voltage&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;57.6V&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Recommended Charging Current&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;60A&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;80A&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Max.Charging Current&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;200A&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;200A&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Recommended Discharging Current&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;150A&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;150A&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Max.Pulse Current&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;220A(3S)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;220A(3S)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Discharge Cut-off&amp;nbsp; Voltage&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;43.2V&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Combination Method&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;16S1P&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;16S1P&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Cycle Life&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;&amp;ge;6000 cycles @80%DOD @25℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Months Self Discharge&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;1%/Month&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Efficiency of Charge&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;&amp;ge;97%&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Efficiency of Discharge&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;&amp;ge;98%&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Charge Temperature&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;0℃~55℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Discharge Temperature&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;-20℃~60℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Storage Temperature&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;0℃~40℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;IP Class&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;IP 30&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Plastic Case&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;Metal&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Protection&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;Overcharge protection、Overdischarge protection、Overcurrent protection、&lt;br /&gt; Shortcircuit protection、Overtemperature protection&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Sea Level(m)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;&amp;le;2000&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Humidity&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;0~95%(no condensation)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Noise(dB)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;&amp;lt;30℃&amp;lt;40dB(1 meter)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Warranty&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;5 Years&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Certificate&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;CE,RoHS,REACH,UN38.3,MSDS&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
+    }
