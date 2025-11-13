@@ -3,13 +3,7 @@ import * as React from "react";
 import { ScrollableTabs } from "@/components/ScrollableTabs";
 import { ProductCard,Product } from "./ProductCard";
 
-interface Category {
-  id: string;
-  name: string;
-  tabName: string;
-  count?: number;
-  products: Product[];
-}
+
 
 interface ProductCategoryTabsProps {
   categories: Product[];
@@ -17,7 +11,7 @@ interface ProductCategoryTabsProps {
   closeModal?: () => void; // 可选
 }
 
-export function ProductCategoryTabs({ categories, openProductModal }: ProductCategoryTabsProps) {
+export function ProductCategoryTabs({ categories }: ProductCategoryTabsProps) {
   const [activeTab, setActiveTab] = React.useState(categories[0]?.id || "");
   const [animationKey, setAnimationKey] = React.useState(0);
   const [direction, setDirection] = React.useState<"left" | "right">("right");

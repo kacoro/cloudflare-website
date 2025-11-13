@@ -2,12 +2,9 @@
 import * as React from "react"
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationSubMenuLink
 } from "@/components/ui/navigation-menu-demo"
 import NavigationLink from "./NavigationLink";
 

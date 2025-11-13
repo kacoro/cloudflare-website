@@ -3,11 +3,10 @@ import BottomBar from "./BottomBar";
 import { Button } from "@/components/ui/button";
 import NavigationLink from "../Navigation/NavigationLink";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { FaEnvelope, FaMapMarker, FaPhone } from "react-icons/fa";
 export default function Footer() {
-  const t = useTranslations("Contact");
+  // const t = useTranslations("Contact");
   return (
     <footer className=" w-full ">
       <div className="w-full bg-black text-white text-xs md:text-base p-2 md:p-12">

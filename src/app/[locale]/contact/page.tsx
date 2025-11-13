@@ -1,4 +1,4 @@
-import { Locale, useTranslations } from 'next-intl';
+import { Locale } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { use } from 'react';
 import Image from 'next/image';
@@ -16,7 +16,6 @@ export default function AboutPage({
   // Enable static rendering
   setRequestLocale(locale as Locale);
 
-  const t = useTranslations('Contact');
 
   return (
     <div className="relative min-h-screen flex flex-col bg-[#fafafa]">
