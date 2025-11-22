@@ -21,9 +21,9 @@ export async function News({ locale }: PageProps) {
           className="w-full h-[150px] object-cover" />
 
       </div>
-      <div className="max-w-4xl mx-auto pb-20 mt-14">
+      <div className="max-w-5xl  pb-20 mt-14 mx-auto">
         <div className="flex not-md:flex-col ">
-          <ul className="grid  grid-cols-1 md:grid-cols-3 gap-7 px-4 md:px-0 ">
+          <ul className="grid  grid-cols-1 md:grid-cols-3 gap-7 px-5 ">
             {latestNews?.map(({ id, title, date, image }, index) => (
               <ListItem href={`/news/${id}`} key={index} title={title} date={formatDate(date,locale)} image={image}  >
               </ListItem>)
@@ -47,7 +47,7 @@ function ListItem({
   return (
     <li {...props} className="flex flex-col" >
       <NavigationLink href={href} className="flex p-0 aspect-[250/150] overflow-hidden border border-primary rounded-lg  transition-transform duration-300 hover:scale-110">
-        <Image src={image} alt={title || 'news'} width={280} height={150} className="w-full object-cover" />
+        <Image src={image} alt={title || 'news'} width={280} height={150} loading="lazy" className="w-full object-cover" />
       </NavigationLink >
       <NavigationLink href={href}
         className="font-bold mt-7 p-0 whitespace-pre-line line-clamp-1 text-primary hover:text-primary  transition-colors" >
@@ -56,7 +56,7 @@ function ListItem({
 
       <Image src="/images/line-2.png" className="mt-2.5 mb-4" alt="Arrow Right" width={238} height={2} />
       <div className="flex justify-between">
-        <span className="text-sm text-primary group-hover:text-white transition-colors flex justify-end">{date}</span>
+        <span className="text-sm  group-hover:text-white transition-colors flex justify-end">{date}</span>
         <NavigationLink href={href} className="p-0 m-0 flex justify-end">
           <Image src="/images/right-button.png" alt="Arrow Right" width={35} height={7}
             className="object-contain" />

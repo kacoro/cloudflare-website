@@ -123,7 +123,7 @@ const sampleCategories = [
   return (
     <>
     <div className=" mx-auto "> 
-      <Image src="/images/banner/product.jpg" width={1920} height={355} alt="Product Image"  className="w-full h-auto" />
+      <Image src="/images/banner/product.jpg" width={1920} height={355} alt="Product Image"  className="w-full h-[120px] sm:h-[200px] md:h-[250px] lg:h-[355px] object-cover" />
     </div>
       {sampleCategories.map((category,index)=>(
         <div 
