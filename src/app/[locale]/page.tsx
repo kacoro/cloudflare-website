@@ -5,8 +5,7 @@ import {use} from 'react';
 import { CarouselDemo } from '@/components/Carousel';
 import {VideoDemo} from '@/components/Home/VideoDemo';
 import { Products } from '@/components/Home/Products';
-import { HomeNews } from '@/components/Home/HomeNews';
-
+import { News } from "@/components/News";
 type PageProps = {
   params: Promise<{locale: Locale}>;
 };
@@ -19,7 +18,7 @@ export default function IndexPage({params}:PageProps) {
       <CarouselDemo />
       <VideoDemo  />
       <Products locale={locale}/>
-      <HomeNews />
+      <News locale={locale}/>
     </div>
   );
 }
