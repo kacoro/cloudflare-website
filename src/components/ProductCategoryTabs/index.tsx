@@ -93,6 +93,122 @@ const sampleCategories = [
         }
     ],
   },
+    {
+    id: "3",
+    name: "solar panel",
+    products: [
+      // 商品数据...
+       {
+          id: "9",
+          tabName: "450w",
+          name: "450w",
+          subname: "Solar Panel",
+            "description": "Areafly Solar Panels are renowned for high quality and efficiency. These panels are meticulously crafted using advanced materials and cutting-edge technologies, ensuring optimal performance and longevity. ",
+          image: "/images/products/category/3-1.png",
+        },
+        {
+          id: "10",
+          tabName: "500w",
+          name: "500w",
+          subname: "Solar Panel",
+            "description": "Areafly Solar Panels are renowned for high quality and efficiency. These panels are meticulously crafted using advanced materials and cutting-edge technologies, ensuring optimal performance and longevity. ",
+          image: "/images/products/category/3-2.png",
+        },
+        {
+          id: "11",
+          tabName: "550w",
+          name: "550w",
+          subname: "Solar Panel",
+            "description": "Areafly Solar Panels are renowned for high quality and efficiency. These panels are meticulously crafted using advanced materials and cutting-edge technologies, ensuring optimal performance and longevity. ",
+          image: "/images/products/category/3-3.png",
+        },
+        {
+          id: "12",
+          name: "585w",
+          tabName:"585w",
+          subname: "Solar Panel",
+            "description": "Areafly Solar Panels are renowned for high quality and efficiency. These panels are meticulously crafted using advanced materials and cutting-edge technologies, ensuring optimal performance and longevity. ",
+          image: "/images/products/category/3-4.png",
+        }
+    ],
+  },
+    {
+    id: "4",
+    name: "solar lighting",
+    products: [
+      // 商品数据...
+       {
+          id: "13",
+          tabName: "AS-A10-05 40W-200W",
+          name: "AS-A10-05",
+          subname: "Solar Street Light 40W-200W",
+            "description": "As a 13-year veteran in solar product manufacturing, our solar lighting series embodies cutting-edge innovation and unwavering reliability.",
+          image: "/images/products/category/4-1.png",
+        },
+        {
+          id: "14",
+          tabName: "AS-A1005 40W-200W",
+          name: "AS-A1005",
+          subname: " Solar Street Light 40W-200W",
+            "description": "As a 13-year veteran in solar product manufacturing, our solar lighting series embodies cutting-edge innovation and unwavering reliability.",
+          image: "/images/products/category/4-2.png",
+        },
+        {
+          id: "15",
+          tabName: "AS-AIOSC01 30W-100W",
+          name: "AS-AIOSC01",
+          subname: "Solar Street Light 30W-100W",
+            "description": "As a 13-year veteran in solar product manufacturing, our solar lighting series embodies cutting-edge innovation and unwavering reliability.",
+          image: "/images/products/category/4-3.png",
+        }
+    ],
+  },
+    {
+    id: "5",
+    name: "Solar Water Pump",
+    products: [
+      // 商品数据...
+       {
+          id: "16",
+          tabName: "Solar submersible Pump",
+          name: "Solar",
+          subname: "submersible Pump",
+            "description": "As a solar energy company, we take pride in the high quality of our deep well water pumps. These pumps are designed and manufactured with the utmost care and precision to ensure optimal performance and longevity.",
+          image: "/images/products/category/5-1.png",
+        },
+        {
+          id: "17",
+          tabName: "Solar Surface Pump",
+          name: "Solar",
+          subname: "Surface Pump",
+            "description": "Areafly Solar Water Pumps are made from top-quality materials, ensuring durability and longevity. The pumps are equipped with advanced technology, such as intelligent control systems and energy-saving features, which help to optimize performance and reduce energy consumption.",
+          image: "/images/products/category/5-2.png",
+        }
+    ],
+  },
+    {
+    id: "6",
+    name: "Solar Energy System",
+    products: [
+      // 商品数据...
+       {
+          id: "18",
+          tabName: "Home Energy Storage System",
+          name: "Home",
+          subname: "Energy Storage System",
+            "description": "As a solar energy company, we are committed to providing our customers with innovative and sustainable solutions that help reduce their carbon footprint and save money. ",
+          image: "/images/products/category/6-1.png",
+        },
+        {
+          id: "19",
+          tabName: "Commercial Energy Storage System",
+          name: "Commercial",
+          subname: "Energy Storage System",
+            "description": "Our industrial and commercial energy storage systems offer numerous advantages. As a solar energy company, we are proud to provide these innovative solutions that help businesses make a positive impact on the planet while also saving money in the long run.",
+          image: "/images/products/category/6-2.png",
+        }
+    ],
+  }
 ];
   // 页面加载后执行滚动逻辑
   useEffect(() => {
