@@ -1,0 +1,56 @@
+{
+    "id": 18,
+    "slug": "energySystem",
+    "image": "/images/products/energySystem/1/thumbs/1.png",
+    "translations": {
+        "en": {
+            "name": "Home Energy Storage System",
+            "description": "As a solar energy company, we are committed to providing our customers with innovative and sustainable solutions that help reduce their carbon footprint and save money. <br/>Our home energy storage systems offer numerous advantages, including reduced reliance on traditional energy sources, long-term cost savings, and increased property value. By choosing one of our systems, you can enjoy the benefits of clean, renewable energy while contributing to a greener future.",
+            "features": []
+        },
+        "zh": {
+            "name": "家用储能系统",
+            "description": "作为一家太阳能公司，我们致力于为客户提供创新和可持续的解决方案，帮助减少碳足迹并节省资金。<br/>我们的家用储能系统提供了诸多优势，包括减少对传统能源的依赖、长期成本节约以及房产增值。通过选择我们的系统之一，您可以享受清洁可再生能源的好处，同时为更绿色的未来做出贡献。",
+            "features": []
+        },
+        "fr": {
+            "name": "Système de Stockage d'Énergie Domestique",
+            "description": "En tant qu'entreprise d'énergie solaire, nous nous engageons à fournir à nos clients des solutions innovantes et durables qui les aident à réduire leur empreinte carbone et à économiser de l'argent. <br/>Nos systèmes de stockage d'énergie domestiques offrent de nombreux avantages, notamment une réduction de la dépendance aux sources d'énergie traditionnelles, des économies à long terme et une augmentation de la valeur du bien immobilier. En choisissant l'un de nos systèmes, vous pouvez profiter des avantages d'une énergie propre et renouvelable tout en contribuant à un avenir plus vert.",
+            "features": []
+        }
+    },
+    "thumbs": [
+        {
+            "url": "/images/products/energySystem/1/thumbs/1.png",
+            "alt": "alt1"
+        }
+    ],
+    "infos": [
+        {
+            "url": "/images/products/energySystem/1/infos/1.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/energySystem/1/infos/2.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/energySystem/1/infos/3.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/energySystem/1/infos/4.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/energySystem/1/infos/5.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/energySystem/1/infos/6.jpg",
+            "alt": "alt1"
+        }
+    ],
+    "download": "",
+    "parameters": ""
+}

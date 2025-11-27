@@ -1,0 +1,52 @@
+{
+    "id": 18,
+    "slug": "energySystem",
+    "image": "/images/products/energySystem/2/thumbs/1.png",
+    "translations": {
+        "en": {
+            "name": "Commercial Energy Storage System",
+            "description": "Our industrial and commercial energy storage systems offer numerous advantages. As a solar energy company, we are proud to provide these innovative solutions that help businesses make a positive impact on the planet while also saving money in the long run.<br/>Our collaboration with African governments and businesses is built on mutual necessity and opportunity.  Projects in the Central African Republic and the 100MW plant in demonstrate this shared commitment. <br/>We combine our world-leading technological expertise in solar and storage with a deep understanding of local contexts and needs, co-developing solutions that empower industries, stabilise grids, and accelerate Africa's clean energy future – one resilient factory and stable community at a time. ",
+            "features": []
+        },
+        "zh": {
+            "name": "商用储能系统",
+            "description": "我们的工业和商业储能系统具有诸多优势。作为一家太阳能公司，我们很自豪能提供这些创新解决方案，帮助企业在长期运行中为地球产生积极影响的同时节省资金。<br/>我们与非洲各国政府和企业的合作建立在相互需求和机遇的基础上。中非共和国的项目和100MW电厂都体现了这种共同承诺。<br/>我们将世界领先的太阳能和储能技术专长与对当地环境和需求的深度理解相结合，共同开发能够赋能工业、稳定电网并加速非洲清洁能源未来的解决方案——一次一个有韧性的工厂和一个稳定的社区。",
+            "features": []
+        },
+        "fr": {
+            "name": "Système de Stockage d'Énergie Commercial",
+            "description": "Nos systèmes de stockage d'énergie industriels et commerciaux offrent de nombreux avantages. En tant qu'entreprise d'énergie solaire, nous sommes fiers de fournir ces solutions innovantes qui aident les entreprises à avoir un impact positif sur la planète tout en économisant de l'argent à long terme.<br/>Notre collaboration avec les gouvernements et les entreprises africains repose sur une nécessité et une opportunité mutuelles. Les projets en République centrafricaine et la centrale de 100MW illustrent cet engagement partagé. <br/>Nous combinons notre expertise technologique de pointe mondiale en solaire et en stockage avec une compréhension approfondie des contextes et besoins locaux, co-développant des solutions qui responsabilisent les industries, stabilisent les réseaux et accélèrent l'avenir énergétique propre de l'Afrique – une usine résiliente et une communauté stable à la fois.",
+            "features": []
+        }
+    },
+    "thumbs": [
+        {
+            "url": "/images/products/energySystem/2/thumbs/1.png",
+            "alt": "alt1"
+        },
+         {
+            "url": "/images/products/energySystem/2/thumbs/2.png",
+            "alt": "alt1"
+        }
+    ],
+    "infos": [
+        {
+            "url": "/images/products/energySystem/2/infos/0.png",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/energySystem/2/infos/1.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/energySystem/2/infos/3.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/energySystem/2/infos/4.jpg",
+            "alt": "alt1"
+        }
+    ],
+    "download": "",
+    "parameters": ""
+}

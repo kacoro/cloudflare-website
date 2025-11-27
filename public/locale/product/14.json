@@ -1,0 +1,54 @@
+{
+    "id": 13,
+    "slug": "lighting",
+    "image": "/images/products/lighting/2/thumbs/1.png",
+    "translations": {
+        "en": {
+            "name": "AS-A1005  Solar Street Light 40W-200W",
+            "description": "<p>As a 13-year veteran in solar product manufacturing, our solar lighting series embodies cutting-edge innovation and unwavering reliability.</p><div class='text-left'><h3 class='strong py-2'>Core Advantages :</h3><p>1. Unmatched Efficiency - Equipped with high-efficiency monocrystalline silicon panels (conversion rate up to 22%), ensuring rapid charging and extended illumination even in low-light conditions.</p><p>2. Durability Redefined - IP65 waterproof rating and UV-resistant materials withstand extreme weather, from scorching summers to freezing winters.</p><p>3. Smart Lighting Solutions - Features motion sensors and adaptive brightness control, reducing energy waste while enhancing security.</p></div>",
+            "features": [
+                "Mono crystalline silicon solar panel, waterproof grade lp65!light working time: 12 hours, 5-7 days in rainy days, solarenergy integrated system."
+            ]
+        },
+        "zh": {
+            "name": "AS-A1005 太阳能路灯 40W-200W",
+            "description": "<p>作为拥有13年太阳能产品制造经验的老牌厂商，我们的太阳能照明系列体现了前沿创新和坚定不移的可靠性。</p><div class='text-left'><h3 class='strong py-2'>核心优势：</h3><p>1. 卓越效能 - 配备高效单晶硅电池板（转换率高达22%），确保快速充电和在弱光条件下也能长时间照明。</p><p>2. 经久耐用 - IP65防水等级和抗紫外线材料，能够承受极端天气，从炎热夏季到严寒冬日。</p><p>3. 智能照明解决方案 - 配备运动传感器和自适应亮度控制，减少能源浪费同时增强安全性。</p></div>",
+            "features": [
+                "单晶硅太阳能电池板，防水等级IP65！照明工作时间：12小时，雨天续航5-7天，太阳能一体化系统。"
+            ]
+        },
+        "fr": {
+            "name": "AS-A1005 Lampe Solaire de Rue 40W-200W",
+            "description": "<p>En tant que vétéran de 13 ans dans la fabrication de produits solaires, notre série d'éclairage solaire incarne l'innovation de pointe et une fiabilité inébranlable.</p><div class='text-left'><h3 class='strong py-2'>Avantages Principaux :</h3><p>1. Efficacité Inégalée - Équipée de panneaux en silicium monocristallin hautement efficaces (taux de conversion jusqu'à 22%), assurant une charge rapide et un éclairage prolongé même par faible luminosité.</p><p>2. Durabilité Redéfinie - Indice d'étanchéité IP65 et matériaux résistants aux UV résistent aux conditions climatiques extrêmes, des étés torrides aux hivers glaciaux.</p><p>3. Solutions d'Éclairage Intelligentes - Dotées de capteurs de mouvement et de contrôle adaptatif de la luminosité, réduisant le gaspillage d'énergie tout en renforçant la sécurité.</p></div>",
+            "features": [
+                "Panneau solaire en silicium monocristallin, indice d'étanchéité IP65 ! Temps de fonctionnement lumineux : 12 heures, 5-7 jours par temps de pluie, système intégré d'énergie solaire."
+            ]
+        }
+    },
+    "thumbs": [
+        {
+            "url": "/images/products/lighting/2/thumbs/1.png",
+            "alt": "alt1"
+        }
+    ],
+    "infos": [
+        {
+            "url": "/images/products/lighting/2/infos/1.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/lighting/2/infos/2.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/lighting/2/infos/3.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/lighting/2/infos/4.jpg",
+            "alt": "alt1"
+        }
+    ],
+    "download": "/images/products/lighting/2/download.jpg",
+    "parameters": "&lt;table style=&quot;&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;Item No.&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;Power&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;Luminous Efficiency&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;Product Size(mm)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;Weight(kg)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AI001&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;30W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;368*860*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;8kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AI001&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;40W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;368*1090*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;10kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AI001&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;50W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;368*1190*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;12kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AI001&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;60W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;368*1350*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;14kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AI001&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;70W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;368*1510*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;16kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AI001&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;80W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;528*1360*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;18kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AI001&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;100W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;528*1510*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;24kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
+}

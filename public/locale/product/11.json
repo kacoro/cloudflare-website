@@ -1,0 +1,64 @@
+{
+    "id": 11,
+    "slug": "solarpane",
+    "image": "/images/products/panel/3/thumbs/1.png",
+    "translations": {
+        "en": {
+            "name": "550w",
+            "description": "Areafly Solar Panels are renowned for high quality and efficiency. These panels are meticulously crafted using advanced materials and cutting-edge technologies, ensuring optimal performance and longevity. ",
+            "features": [
+                "Multi Busbar Technology",
+                "Higher output power",
+                "Low light performance",
+                "Better resistance to hot spots",
+                "Adaptability to harsh environments"
+            ]
+        },
+        "zh": {
+  "name": "550w",
+  "description": "Les panneaux solaires Areafly sont réputés pour leur haute qualité et leur efficacité. Ces panneaux sont méticuleusement conçus en utilisant des matériaux avancés et des technologies de pointe, garantissant des performances optimales et une longue durée de vie.",
+  "features": [
+    "Technologie Multi Busbar",
+    "Puissance de sortie supérieure",
+    "Performance en faible luminosité",
+    "Meilleure résistance aux points chauds",
+    "Adaptabilité aux environnements difficiles"
+  ]
+},
+        "fr": {
+  "name": "550w",
+  "description": "Les panneaux solaires Areafly sont réputés pour leur haute qualité et leur efficacité. Ces panneaux sont méticuleusement conçus en utilisant des matériaux avancés et des technologies de pointe, garantissant des performances optimales et une longue durée de vie.",
+  "features": [
+    "Technologie Multi Busbar",
+    "Puissance de sortie supérieure",
+    "Performance en faible luminosité",
+    "Meilleure résistance aux points chauds",
+    "Adaptabilité aux environnements difficiles"
+  ]
+}
+    },
+    "thumbs": [
+        {
+            "url": "/images/products/panel/3/thumbs/1.png",
+            "alt": "alt1"
+        }
+    ],
+    "infos": [
+        {
+            "url": "/images/products/panel/3/infos/1.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/panel/3/infos/2.jpg",
+            "alt": "alt1"
+        },{
+            "url": "/images/products/panel/3/infos/3.jpg",
+            "alt": "alt1"
+        },{
+            "url": "/images/products/panel/3/infos/4.jpg",
+            "alt": "alt1"
+        }
+    ],
+    "download": "/images/products/panel/3/download.jpg",
+    "parameters": "&lt;table style=&quot;width: 100%;&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;MODEL Type&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS550M&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Rate Maximum Power(Pmax/W)&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;550&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Module Efficiency(%)&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;21.3&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Open Circuit Voltage(Voc/V)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;49.95&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Short Circuit Current(Isc/A)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;14.05&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Voltage at Pmax(Vmp/V)&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;41.97&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Current at Pmax(Imp/A)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;13.11&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Power Tolerance&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;0~+5w&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Temperature Coefficent of lsc&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;+0.046%℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Temperature Coefficent of Voc&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;-0.276%℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;Temperature Coefficent of Pmax&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;-0.350%℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;37%&quot;&gt; &lt;p align=&quot;left&quot;&gt;STC&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;62%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Irradiance 1000W/m&lt;sup&gt;2&lt;/sup&gt; Cell Temperature 25℃ AM1.5&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
+}

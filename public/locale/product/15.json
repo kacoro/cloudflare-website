@@ -1,0 +1,54 @@
+{
+    "id": 15,
+    "slug": "lighting",
+    "image": "/images/products/lighting/3/thumbs/1.png",
+    "translations": {
+        "en": {
+            "name": "AS-AIOSC01 Solar Street Light 30W-100W",
+            "description": "<p>As a 13-year veteran in solar product manufacturing, our solar lighting series embodies cutting-edge innovation and unwavering reliability.</p><div class='text-left'><h3 class='strong py-2'>Core Advantages :</h3><p>1. Unmatched Efficiency - Equipped with high-efficiency monocrystalline silicon panels (conversion rate up to 22%), ensuring rapid charging and extended illumination even in low-light conditions.</p><p>2. Durability Redefined - IP65 waterproof rating and UV-resistant materials withstand extreme weather, from scorching summers to freezing winters.</p><p>3. Smart Lighting Solutions - Features motion sensors and adaptive brightness control, reducing energy waste while enhancing security.</p></div>",
+            "features": [
+                "Solar street lights do not require cables, AC power supply, or electricity charges. Adopt DC power supply and control; lt has the advantages of good stability,long life,high luminousrate,easy installation and maintenance,high safety performance, energy saving and envi, ronmental protection, economic and practical."
+            ]
+        },
+        "zh": {
+            "name": "AS-AIOSC01 太阳能路灯 30W-100W",
+            "description": "<p>作为拥有13年太阳能产品制造经验的老牌厂商，我们的太阳能照明系列体现了前沿创新和坚定不移的可靠性。</p><div class='text-left'><h3 class='strong py-2'>核心优势：</h3><p>1. 卓越效能 - 配备高效单晶硅电池板（转换率高达22%），确保快速充电和在弱光条件下也能长时间照明。</p><p>2. 经久耐用 - IP65防水等级和抗紫外线材料，能够承受极端天气，从炎热夏季到严寒冬日。</p><p>3. 智能照明解决方案 - 配备运动传感器和自适应亮度控制，减少能源浪费同时增强安全性。</p></div>",
+            "features": [
+                "太阳能路灯无需电缆、交流电源供电和电费。采用直流电源供电和控制；具有稳定性好、寿命长、光效高、安装维护简便、安全性能高、节能环保、经济实用等优点。"
+            ]
+        },
+        "fr": {
+            "name": "AS-AIOSC01 Lampe Solaire de Rue 30W-100W",
+            "description": "<p>En tant que vétéran de 13 ans dans la fabrication de produits solaires, notre série d'éclairage solaire incarne l'innovation de pointe et une fiabilité inébranlable.</p><div class='text-left'><h3 class='strong py-2'>Avantages Principaux :</h3><p>1. Efficacité Inégalée - Équipée de panneaux en silicium monocristallin hautement efficaces (taux de conversion jusqu'à 22%), assurant une charge rapide et un éclairage prolongé même par faible luminosité.</p><p>2. Durabilité Redéfinie - Indice d'étanchéité IP65 et matériaux résistants aux UV résistent aux conditions climatiques extrêmes, des étés torrides aux hivers glaciaux.</p><p>3. Solutions d'Éclairage Intelligentes - Dotées de capteurs de mouvement et de contrôle adaptatif de la luminosité, réduisant le gaspillage d'énergie tout en renforçant la sécurité.</p></div>",
+            "features": [
+                "Les lampadaires solaires ne nécessitent pas de câbles, d'alimentation électrique alternative ou de frais d'électricité. Adoption d'une alimentation et d'un contrôle en courant continu ; elle présente les avantages d'une bonne stabilité, d'une longue durée de vie, d'un haut taux de luminosité, d'une installation et d'un entretien faciles, d'une haute performance de sécurité, d'économie d'énergie et de protection environnementale, économique et pratique."
+            ]
+        }
+    },
+    "thumbs": [
+        {
+            "url": "/images/products/lighting/3/thumbs/1.png",
+            "alt": "alt1"
+        }
+    ],
+    "infos": [
+        {
+            "url": "/images/products/lighting/3/infos/1.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/lighting/3/infos/2.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/lighting/3/infos/3.jpg",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/lighting/3/infos/4.jpg",
+            "alt": "alt1"
+        }
+    ],
+    "download": "/images/products/lighting/3/download.jpg",
+    "parameters": "&lt;table &gt; &lt;tbody&gt; &lt;tr&gt; &lt;td colspan=&quot;3&quot; width=&quot;100%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Technical parameter&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Item&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-DB01&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-DB02&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Power&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;90W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;140W&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Luminous Efficiency&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;180-190LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;180-190LM/W&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;LED&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Philips&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Philips&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;CCT&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3000K/4000K/6000K&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3000K/4000K/6000K&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Installation height&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;below 7 meters&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;more than 8 meters&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
+}
