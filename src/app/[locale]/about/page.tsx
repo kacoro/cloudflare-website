@@ -1,3 +1,4 @@
+import { AboutTabs } from '@/components/About/tabs';
 import { Locale, useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
@@ -18,7 +19,7 @@ export default function AboutPage({
 
   return (
     <>
-      <div className="max-w-[1920px] mx-auto">
+      <div className="flex max-w-[1920px] mx-auto">
         <Image
           src="/images/banner/about.jpg"
           alt="about"
@@ -27,7 +28,7 @@ export default function AboutPage({
           className="float-right  object-cover  "
         />
       </div>
-      <div>
+      <div >
         <div className="max-w-[905px] mx-auto py-18  px-4">
           <Image
             className=""
@@ -244,6 +245,10 @@ export default function AboutPage({
                 </div>
             </div>
         </div>
+        </section>
+        <section className="relative  overflow-hidden">
+          <AboutTabs/>
+        
         </section>
     </>
   );

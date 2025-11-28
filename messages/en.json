@@ -57,7 +57,14 @@
     "employees":"skillful employees",
     "Staff":"R&D staff",
     "productionLines":"Production Lines",
-    "monthlyCapacity":"Production per month" 
+    "monthlyCapacity":"Production per month",
+    "tabs":{
+      "1": "Independent <br/>R&D team",
+      "2": "One to One customer <br/>service consultation",
+      "3": "Professional design team,<br/>private customization.",
+      "4": "Perfect after-sales <br/>service system"
+
+    }
   },
   "Video": {
     "content": "<h1>Solar energy application products  and solution provider</h1><p>Guangzhou Areafly Solar Technology Co., Ltd. has been engaged in research, continuous development, and efficient production of high-quality solar inverters, batteries, solar lightings, solar water pumps and solar energy systems for over 12 years.  </p><p>Areafly Solar operates a factory covering nearly 5,000 square meters, with more than 100 skilled employees, 8 R&D engineers, and 8 production lines capable of producing up to 100,000 units per month. Every product undergoes strict testing to ensure our customers receive reliable, high-quality solutions.  </p><p>Areafly Solar's products have been sold in more than 200 countries worldwide.  Our mission is to help solve global electricity shortages and contribute to achieving the goal of carbon neutrality.</p>",

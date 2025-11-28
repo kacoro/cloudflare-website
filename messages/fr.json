@@ -49,14 +49,20 @@
   },
   "AboutPage": {
     "title": "À propos",
-    "description": "<p>Guangzhou Areafly Solar Technology Co., Ltd. s'engage dans la recherche, le développement soutenu et la production efficace d'éclairage solaire de haute qualité, <span>de batteries, d'onduleurs solaires, de systèmes d'énergie solaire depuis plus de <strong>12</strong> ans, avec son siège social à Guangzhou, en Chine.</span></p><p>Areafly Solar possède une usine de près de <strong>5 000</strong> mètres carrés, plus de 100 employés qualifiés et 8 membres du personnel R&D, et 8 lignes de production avec une capacité de 100 000 pièces par mois.</p><p>Nous disposons d'un atelier de moulage, de machines de moulage par injection, d'un atelier de finition, de lignes d'assemblage et d'équipements de test variés. Tous nos produits doivent être testés un par un pour garantir à nos clients des produits de haute qualité. Notre objectif a toujours été de rendre nos produits conformes, sûrs, économes en énergie et écologiques.</p>",
-    "description2": "<p>Les produits d'Areafly Solar sont bien vendus dans plus de 200 pays. Notre mission est de faire de notre mieux pour résoudre le problème des pénuries d'électricité dans le monde, et de contribuer à la réalisation de l'objectif de « neutralité carbone ».</p> <p>À l'avenir, Guangzhou Areafly Solar Technology Co., Ltd. s'attachera à la mission d'illuminer le monde avec de l'énergie verte, et s'efforcera de transformer l'entreprise en fournisseur fiable de produits et de solutions d'énergie verte.</p> <p>Atteindre « Une qualité supérieure, Une meilleure innovation, Un service exceptionnel. »</p><p>Votre attention est ma motivation !</p>",
-    "Staff": "R&D staff",
-    "contriesCovered": "Les pays et les zones sont couverts",
-    "monthlyCapacity": "Production par mois",
+    "description": "<p>Guangzhou Areafly Solar Technology Co., Ltd. s'engage dans la recherche, le développement soutenu et la production efficace de produits d'éclairage solaire de haute qualité, <span>de batteries, d'onduleurs solaires, de systèmes d'énergie solaire depuis plus de <strong>12</strong> ans, avec son siège social à Guangzhou, en Chine.</span></p><p>Areafly Solar possède une usine de près de <strong>5 000</strong> mètres carrés, plus de 100 employés qualifiés et 8 membres du personnel de R&D, ainsi que 8 lignes de production avec une capacité de 100 000 pièces par mois.</p><p>Nous disposons d'un atelier de moulage, de machines de moulage par injection, d'un atelier de finition, de lignes d'assemblage et d'équipements de test variés. Tous nos produits doivent être testés pour garantir à nos clients des produits de haute qualité. Notre objectif est de rendre nos produits conformes, sûrs, économes en énergie et écologiques.</p>",
+    "description2": "<p>Les produits d'Areafly Solar sont bien vendus dans plus de 200 pays. Notre mission est de faire de notre mieux pour résoudre le problème des pénuries d'électricité dans le monde et contribuer à la réalisation de l'objectif de « neutralité carbone ».</p><p>Dans l'avenir, Guangzhou Areafly Solar Technology Co., Ltd. s'en tiendra à la mission d'illuminer le monde avec de l'énergie verte et s'efforcera de transformer l'entreprise en fournisseur fiable de produits et de solutions d'énergie verte.</p><p>Atteindre « Une qualité supérieure, Une meilleure innovation, Un service supérieur ».</p><p>Votre attention fait ma motivation !</p>",
+    "contriesCovered": "Pays et régions couverts",
+    "totalArea": "Surface totale - 5 000 ㎡",
+    "employees": "employés qualifiés",
+    "Staff": "personnel de R&D",
     "productionLines": "Lignes de production",
-    "employees": "employés habiles",
-    "totalArea": "Zone totale-5 000 ㎡"
+    "monthlyCapacity": "Production par mois",
+    "tabs": {
+      "1": "Équipe de R&D<br/>indépendante",
+      "2": "Consultation de service<br/>clientèle individuelle",
+      "3": "Équipe de conception<br/>professionnelle, sur mesure.",
+      "4": "Système de service<br/>après-vente parfait"
+    }
   },
   "Video": {
     "content": "<h1>Fournisseur de produits et de solutions pour l'énergie solaire</h1><p>Guangzhou Areafly Solar Technology Co., Ltd. est engagée depuis plus de 12 ans dans la recherche, le développement continu et la production efficace d'onduleurs solaires, de batteries, d'éclairages solaires, de pompes à eau solaires et de systèmes d'énergie solaire de haute qualité.</p><p>Areafly Solar exploite une usine d'une superficie de près de 5 000 mètres carrés, avec plus de 100 employés qualifiés, 8 ingénieurs de R&D et 8 lignes de production capables de produire jusqu'à 100 000 unités par mois. Chaque produit subit des tests stricts pour garantir que nos clients reçoivent des solutions fiables et de haute qualité.</p><p>Les produits d'Areafly Solar ont été vendus dans plus de 200 pays dans le monde. Notre mission est d'aider à résoudre les pénuries mondiales d'électricité et de contribuer à atteindre l'objectif de neutralité carbone.</p>"
