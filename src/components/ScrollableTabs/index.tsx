@@ -35,7 +35,7 @@ export function ScrollableTabs({
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full text-primary">
       {/* 左侧滚动按钮 */}
       <Button
         variant="ghost"
@@ -49,7 +49,7 @@ export function ScrollableTabs({
       {/* 滚动容器 */}
       <div
         ref={scrollContainerRef}
-        className="flex overflow-x-auto scrollbar-hide py-2 px-4 md:px-0 md:justify-center"
+        className="flex overflow-x-auto scrollbar-hide py-2 px-4 md:px-0 justify-center"
       >
         <div className="flex space-x-4 md:space-x-16">
           {categories.map((category) => (

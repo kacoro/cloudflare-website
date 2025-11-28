@@ -29,9 +29,23 @@
     "title": "next-intl example"
   },
   "Navigation": {
-    "home": "Maison",
-    "pathnames": "Noms",
-    "about": "À propos"
+    "home": "首页",
+    "products": {
+      "title": "产品",
+      "subNavigation": {
+        "solarInverter": "Solar Inverter",
+        "solarBattery": "Solar Battery",
+        "solarPanelArray": "Solar Panel Array",
+        "solarMount": "Solar Mount",
+        "solarMeter": "Solar Meter",
+        "solarSystem": "Solar System",
+        "solarPanel": "Solar Panel"
+      }
+    },
+    "project": "项目",
+    "news": "新闻",
+    "about": "关于我们",
+    "contact": "联系我们"
   },
   "AboutPage": {
     "title": "À propos",

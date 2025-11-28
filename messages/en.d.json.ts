@@ -34,8 +34,8 @@ declare const messages: {
   },
   "Navigation": {
     "home": "Home",
-    "projects": {
-      "title": "Projects",
+    "products": {
+      "title": "Products",
       "subNavigation": {
         "solarInverter": "Solar Inverter",
         "solarBattery": "Solar Battery",
@@ -46,7 +46,9 @@ declare const messages: {
         "solarPanel": "Solar Panel"
       }
     },
-    "about": "About",
+    "project": "Project",
+    "news": "News",
+    "about": "About Us",
     "contact": "Contact"
   },
   "AboutPage": {

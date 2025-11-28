@@ -50,7 +50,7 @@ export default async function LocaleLayout({children, params}: Props) {
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
         <SidebarProvider defaultOpen={defaultOpen}>
-        <AppSidebar />
+        <AppSidebar  />
         
         <main className="flex flex-col min-h-screen w-full">
           <div className="w-full flex-grow">

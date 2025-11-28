@@ -28,10 +28,24 @@
     "description": "这是一个案例使用next-intl next.js。试着改变右上角看看内容是否有变化",
     "title": "next-intl 案例"
   },
-  "Navigation": {
+ "Navigation": {
     "home": "首页",
-    "pathnames": "路径名",
-    "about": "关于"
+    "products": {
+      "title": "产品",
+      "subNavigation": {
+        "solarInverter": "Solar Inverter",
+        "solarBattery": "Solar Battery",
+        "solarPanelArray": "Solar Panel Array",
+        "solarMount": "Solar Mount",
+        "solarMeter": "Solar Meter",
+        "solarSystem": "Solar System",
+        "solarPanel": "Solar Panel"
+      }
+    },
+    "project": "项目",
+    "news": "新闻",
+    "about": "关于我们",
+    "contact": "联系我们"
   },
   "AboutPage": {
     "title": "关于",
