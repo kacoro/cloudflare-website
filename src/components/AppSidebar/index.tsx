@@ -55,7 +55,7 @@ export function AppSidebar() {
             {items.map((item) => (
               <SidebarMenuItem key={item.title}>
                 <SidebarMenuButton asChild >
-                  <NavigationLink href={item.url} className= "rounded-none text-2xl active:text-white hover:bg-primary hover:text-white h-auto [&>svg]:size-6" >
+                  <NavigationLink href={item.url} className= "rounded-none text-lg active:text-white hover:bg-primary hover:text-white h-auto [&>svg]:size-6" >
                     {/* <item.icon  /> */}
                     <span>{item.title}</span>
                   </NavigationLink>
