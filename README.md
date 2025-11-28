@@ -23,9 +23,23 @@
 
 ## 开始
 
+创建.env和.env.local文件,参考.env.example
+
+.env
+```bash
+NEXTJS_ENV=development
+NEXT_PUBLIC_BASE_URL="http://127.0.0.1:3000"
+```
+
+.env.local
+```bash
+NEXTJS_ENV=production
+NEXT_PUBLIC_BASE_URL="https://areafly.kacoro.workers.dev/"
+```
+
+
 ```bash
 npm install 
-npm install -g wrangler
 ```
 
 ## 开发
@@ -34,18 +48,18 @@ npm install -g wrangler
 npm run dev
 ```
 
-## 构建、预览、发布
+## 构建
 
-> 由于在windows平台默认预览会失败，所以改成下面的命令来看在cloudflare上的效果
-
-构建
 ```bash
 npm run wbuild
 ```
 
+## 构建、发布到cloudflare
+> 构建时需要先停止dev服务，否则可能会产生失败
+
 预览
 ```bash
-npm run wrangler
+npm run wbuild
 ```
 
 发布
