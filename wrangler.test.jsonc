@@ -1,23 +1,24 @@
 // wrangler.test.jsonc
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "areaflysolar",
+  "name": "areaflysolar-test",
   "main": ".open-next/worker.js",
   "compatibility_date": "2025-03-01",
   "compatibility_flags": [
-    "nodejs_compat", 
+    "nodejs_compat",
     "global_fetch_strictly_public"
   ],
   "assets": {
     "binding": "ASSETS",
     "directory": ".open-next/assets"
   },
+ 
   "observability": {
     "enabled": true
   },
   "vars": {
     "NEXTJS_ENV": "production",
-    "NEXT_PUBLIC_BASE_URL": "https://areaflysolar.com",
+    "NEXT_PUBLIC_BASE_URL": "https://test.areaflysolar.com",
     "NODE_ENV": "production"
   }
 }
