@@ -28,18 +28,19 @@ export default async function NewsDetailPage({
   return (
     <div >
       <div className="max-w-5xl mx-auto pb-20">
-        <div className='my-14'>
+        <div className='mx-2 md:mb-8 '>
             <BreadcrumbDemo title={newsData.title} />
         </div>
        
         {/* 大图 */}
-        <div className="mb-8 rounded-lg overflow-hidden">
+        <div className="mb-8 rounded-lg aspect-[250/150] overflow-hidden flex items-center justify-center">
           <Image
             src={newsData.image}
             alt={newsData.title}
             width={1000}
-            height={1000}
-            className="w-full h-96 object-cover"
+            height={600}
+            loading='lazy'
+            className=" object-cover"
           />
         </div>
         <div className='px-5'>

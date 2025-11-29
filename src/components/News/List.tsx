@@ -16,7 +16,7 @@ export async function News({ locale }: PageProps) {
 
   return (
     <div className=" ">
-      <div className="bg-primary  flex items-center justify-center">
+      <div className="bg-primary  flex items-center justify-center ">
         <Image src="/images/banner/news.jpg" width={1920} height={150} alt="Product Image"
           className="w-full h-[150px] object-cover" />
 
@@ -46,7 +46,7 @@ function ListItem({
 
   return (
     <li {...props} className="flex flex-col" >
-      <NavigationLink href={href} className="flex p-0 aspect-[250/150] overflow-hidden border border-primary rounded-lg  transition-transform duration-300 hover:scale-110">
+      <NavigationLink href={href} className="flex justify-center items-center p-0 aspect-[250/150] overflow-hidden border border-primary rounded-lg  transition-transform duration-300 hover:scale-110">
         <Image src={image} alt={title || 'news'} width={280} height={150} loading="lazy" className="w-full object-cover" />
       </NavigationLink >
       <NavigationLink href={href}

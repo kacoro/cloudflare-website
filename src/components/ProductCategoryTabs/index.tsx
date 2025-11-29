@@ -6,12 +6,18 @@ import { ProductDialog } from "./ProductDialog";
 import Image from "next/image";
 // 定义产品类型
 import {Product} from "./ProductCard";
-export  function ProductsServer() {
+import { Category, ProductListData } from "@/api/product";
+
+
+
+export  function ProductsServer({categories}: { categories: Category[] }) {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   // 这里放置实际的数据获取逻辑
   // const sampleCategories = await fetchProductData(); // 假设这是您的异步数据获取函数
     // 示例数据
+  
+    
 const sampleCategories = [
   {
     id: "1",
@@ -241,7 +247,7 @@ const sampleCategories = [
     <div className=" mx-auto "> 
       <Image src="/images/banner/product.jpg" width={1920} height={355} alt="Product Image"  className="w-full h-[120px] sm:h-[200px] md:h-[250px] lg:h-[355px] object-cover" />
     </div>
-      {sampleCategories.map((category,index)=>(
+      {categories.map((category,index)=>(
         <div 
           key={category.id} 
           id={category.id}

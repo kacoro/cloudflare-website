@@ -1,3 +1,4 @@
+import { fetchDataList } from '@/lib/fetch';
 import { Product, ProductTranslation } from '@/types/product';
 import fs from 'fs';
 import path from 'path';
@@ -7,7 +8,24 @@ export interface ProductsData {
 }
 
 // 从public目录获取产品数据
+export interface ProductItem {
+  id: string;
+  tabName: string;
+  name: string;
+  subname: string;
+  description: string;
+  image: string;
+}
 
+export interface Category {
+  id: string;
+  name: string;
+  products: ProductItem[];
+}
+
+export interface ProductListData {
+  list: Category[];
+}
 
 
 export const fetchProductsData = async (): Promise<ProductsData> => {
@@ -99,6 +117,17 @@ export const getProductById = async (locale: string = 'en',id:number): Promise<(
       description: data.translations[locale]?.description || data.translations['en']?.description || '',
       features: data.translations[locale]?.features || data.translations['en']?.features || []
     };
+  } catch (error) {
+    console.error('Error fetching products:', error);
+    return null;
+  }
+};
+
+export const getProductList = async (locale: string = 'en',id:number=1): Promise<(ProductListData|null )> => {
+  try {
+    const data = await fetchDataList<ProductListData>(id,"product",locale);
+    if (!data) throw new Error('product list not found');
+    return data;
   } catch (error) {
     console.error('Error fetching products:', error);
     return null;

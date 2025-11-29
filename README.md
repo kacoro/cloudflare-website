@@ -23,18 +23,20 @@
 
 ## 开始
 
-创建.env和.env.local文件,参考.env.example
+创建.env.development和.env.production文件,参考.env.example,按需添加.env.test
 
-.env
+.env.developmen
 ```bash
+NODE_ENV=development
 NEXTJS_ENV=development
 NEXT_PUBLIC_BASE_URL="http://127.0.0.1:3000"
 ```
 
-.env.local
+.env.production
 ```bash
+NODE_ENV=production
 NEXTJS_ENV=production
-NEXT_PUBLIC_BASE_URL="https://areafly.kacoro.workers.dev/"
+NEXT_PUBLIC_BASE_URL="https://your-domain.com/"
 ```
 
 

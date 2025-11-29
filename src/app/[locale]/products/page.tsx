@@ -1,14 +1,24 @@
 
 
+import { getProductList } from "@/api/product";
 import { ProductsServer } from "@/components/ProductCategoryTabs";
-
-export default async function ProductsPage() {
+type PageProps = {
+  params: Promise<{ locale: string; id: number }>;
+};
  
 
-
+export default async function ProductsPage({
+  params
+}: PageProps) {
+  const { locale } = await params;
+  const categories = await getProductList(locale)
   return (
-    <div className="">
-      <ProductsServer />
-    </div>
+    <>
+      {categories ? (
+        <div className="">
+          <ProductsServer categories={categories.list} />
+        </div>
+      ) : null}
+    </>
   );
 }
