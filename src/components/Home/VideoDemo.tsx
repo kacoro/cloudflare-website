@@ -19,6 +19,7 @@ export function VideoDemo() {
         muted
         loop
         controls={false}
+        poster="/images/video-poster.jpg" // 添加这一行
         className="object-cover h-full w-full"
       >
         <source src="/videos/f1080p.webm" type="video/webm" />
@@ -104,6 +105,7 @@ export function VideoDemo() {
               autoPlay
               controls
               className="w-full rounded-lg shadow-2xl"
+              poster="/images/video-poster.jpg" 
             >
               <source src="/videos/f1080p.webm" type="video/webm" />
               <source src="/videos/f720p.mp4" type="video/mp4" />

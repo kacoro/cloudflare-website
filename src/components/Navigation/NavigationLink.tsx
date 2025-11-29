@@ -16,7 +16,7 @@ export default function NavigationLink({
     <Link
       aria-current={isActive ? 'page' : undefined}
       className={cn(
-        'inline-block px-2 py-3 transition-colors',
+        'inline-block px-2 py-3 transition-colors cursor-pointer',
         isActive?'isActive':"",
         isActive ? 'text-primary' : 'text-black',
         className

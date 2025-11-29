@@ -24,7 +24,7 @@ export async function Products({ locale }: { locale: Locale }) {
         </NavigationLink>
       </div>
 
-      <div className="grid grid-cols-3 gap-5 pb-10">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 pb-10 px-3">
         {products.map((item) => (
           <div key={item.id} className="group aspect-square bg-gradient-to-br from-white bg-white to-primary p-[2px] rounded-xl 
            transition-all duration-500   hover:shadow-primary  
