@@ -18,7 +18,7 @@ export default function NavigationLink({
       className={cn(
         'inline-block px-2 py-3 transition-colors',
         isActive?'isActive':"",
-        isActive ? 'text-primary' : 'text-black hover:text-white',
+        isActive ? 'text-primary' : 'text-black',
         className
       )}
       href={href}

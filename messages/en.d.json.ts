@@ -66,7 +66,6 @@ declare const messages: {
       "2": "One to One customer <br/>service consultation",
       "3": "Professional design team,<br/>private customization.",
       "4": "Perfect after-sales <br/>service system"
-
     }
   },
   "Video": {

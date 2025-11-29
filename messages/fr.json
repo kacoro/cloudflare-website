@@ -29,23 +29,23 @@
     "title": "next-intl example"
   },
   "Navigation": {
-    "home": "首页",
+    "home": "Accueil",
     "products": {
-      "title": "产品",
+      "title": "Produits",
       "subNavigation": {
-        "solarInverter": "Solar Inverter",
-        "solarBattery": "Solar Battery",
-        "solarPanelArray": "Solar Panel Array",
-        "solarMount": "Solar Mount",
-        "solarMeter": "Solar Meter",
-        "solarSystem": "Solar System",
-        "solarPanel": "Solar Panel"
+        "solarInverter": "Onduleur solaire",
+        "solarBattery": "Batterie solaire",
+        "solarPanelArray": "Chaîne de panneaux solaires",
+        "solarMount": "Montage solaire",
+        "solarMeter": "Compteur solaire",
+        "solarSystem": "Système solaire",
+        "solarPanel": "Panneau solaire"
       }
     },
-    "project": "项目",
-    "news": "新闻",
-    "about": "关于我们",
-    "contact": "联系我们"
+    "project": "Projets",
+    "news": "Actualités",
+    "about": "À propos de nous",
+    "contact": "Contactez-nous"
   },
   "AboutPage": {
     "title": "À propos",

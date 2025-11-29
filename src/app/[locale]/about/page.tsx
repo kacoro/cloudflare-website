@@ -246,7 +246,7 @@ export default function AboutPage({
             </div>
         </div>
         </section>
-        <section className="relative  overflow-hidden">
+        <section className="max-w-[904px] mx-auto">
           <AboutTabs/>
         
         </section>

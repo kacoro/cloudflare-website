@@ -18,15 +18,15 @@ export function AboutTabs(){
         },
     ]
     return (
-        <div className="grid grid-cols-10 py-18 "> 
-           <div className='col-span-5 md:col-span-3 '>
-            <ul className="flex flex-col justify-center items-center"> 
+        <div className="grid grid-cols-10 py-18 px-2"> 
+           <div className='col-span-5 md:col-span-3 flex'>
+            <ul className="flex flex-col justify-evenly items-center "> 
                {items.map((item,index) => (
-                <li key={index} className="flex flex-col pl-2.5 ">
-                    <div className='grid grid-cols-10  justify-between items-center py-2.5'>
+                <li key={index} className="flex flex-col flex-1 items-center">
+                    <div className='grid grid-cols-10 flex-1 justify-between items-center py-2.5'>
                         <Image src={`/images/aboutus/tabs/${index+1}.png`} alt={item.title} width={60} height={60} className='col-span-2' />
                         <span></span>
-                        <h3 className="text-sm md:text-lg font-semibold col-span-6"                        
+                        <h3 className="text-xs md:text-lg font-semibold col-span-6"                        
                         dangerouslySetInnerHTML={{ __html: item.title || "" }} />
                         <span></span>
                     </div>
