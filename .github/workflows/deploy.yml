@@ -21,9 +21,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build and Export
-        run: npm run build-static
-        # 使用 build-static 脚本，它会执行 next build && next export
+      - name: Build
+        run: npm run build
+        # 现在只需运行 next build，因为它会自动导出静态文件
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
