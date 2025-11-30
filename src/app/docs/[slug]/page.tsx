@@ -1,25 +1,29 @@
 // page.tsx
 import React from 'react'
-import { getDocBySlug, getAllDocs } from '../../../lib/docs'
-import markdownToHtml from '../../../lib/markdownToHtml'
+import { getDocBySlug, getAllDocs } from '@/lib/docs'
+import markdownToHtml from '@/lib/markdownToHtml'
 
+
+interface DocPageProps {
+  params: Promise<{  // params 现在明确标记为 Promise
+    slug: string;
+  }>;
+}
 export async function generateStaticParams() {
   const docs = getAllDocs()
-  console.log("All docs found:", docs)
   
   const params = docs.map((doc) => ({
     slug: doc.slug,
   }))
   
-  console.log("Generated static params:", params)
   return params
 }
 
 // 修改参数解构方式，增加容错处理
-export default async function Doc({ params }: { params: Promise<{ slug: string }> | { slug: string } }): Promise<React.ReactElement> {
+export default async function Doc({ params }: DocPageProps){
   // 处理 params 可能是 Promise 的情况
-  const resolvedParams = params instanceof Promise ? await params : params;
-  const { slug } = resolvedParams || {};
+  const resolvedParams = await params;
+const { slug } = resolvedParams;
   
   console.log("Requested slug:", slug)
   
@@ -34,7 +38,6 @@ export default async function Doc({ params }: { params: Promise<{ slug: string }
   }
   
   const doc = getDocBySlug(slug)
-  console.log("Found doc:", doc)
   
   const content = await markdownToHtml(doc.content || '')
 
