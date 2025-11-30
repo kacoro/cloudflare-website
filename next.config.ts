@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
-  output: "export", // 启用 Cloudflare 兼容性
+  output: "export", 
+  basePath: process.env.NODE_ENV === 'production' ? '/cloudflare-website' : '',
   allowedDevOrigins: ["local-origin.dev", "*.local-origin.dev"],
   images: {
     remotePatterns: [
