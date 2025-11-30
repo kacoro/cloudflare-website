@@ -6,14 +6,14 @@ import markdownToHtml from '@/lib/markdownToHtml'
 
 interface DocPageProps {
   params: Promise<{  // params 现在明确标记为 Promise
-    slug: string;
+    slug: string[];
   }>;
 }
 export async function generateStaticParams() {
   const docs = getAllDocs()
   
   const params = docs.map((doc) => ({
-    slug: doc.slug,
+    slug: doc.slug.split('/'),
   }))
   
   return params
@@ -23,7 +23,8 @@ export async function generateStaticParams() {
 export default async function Doc({ params }: DocPageProps){
   // 处理 params 可能是 Promise 的情况
   const resolvedParams = await params;
-const { slug } = resolvedParams;
+  const slug = resolvedParams.slug.join('/');
+
   
   console.log("Requested slug:", slug)
   

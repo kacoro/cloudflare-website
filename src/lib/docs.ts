@@ -4,48 +4,73 @@ import matter from 'gray-matter'
 
 const docsDirectory = path.join(process.cwd(), 'docs')
 
-console.log('DOCS_PATH:', docsDirectory)
-console.log('Directory exists:', fs.existsSync(docsDirectory))
+export interface Doc {
+  slug: string
+  title: string
+  category?: string
+  subcategory?: string
+  content?: string
+  [key: string]: any
+}
 
-export function getDocBySlug(slug: string) {
-  const fullPath = path.join(docsDirectory, `${slug}.md`)
-  console.log(`Looking for document: ${fullPath}`)
-  console.log(`File exists: ${fs.existsSync(fullPath)}`)
+export function getAllDocs(): Doc[] {
+  const docs: Doc[] = []
   
-  // 检查文件是否存在
-  if (!fs.existsSync(fullPath)) {
+  function traverseDirectory(dirPath: string, relativePath: string = '') {
+    const entries = fs.readdirSync(dirPath, { withFileTypes: true })
+    
+    entries.forEach(entry => {
+      const fullPath = path.join(dirPath, entry.name)
+      const relativeEntryPath = path.join(relativePath, entry.name)
+      
+      if (entry.isDirectory()) {
+        traverseDirectory(fullPath, relativeEntryPath)
+      } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        const fileContents = fs.readFileSync(fullPath, 'utf8')
+        const { data } = matter(fileContents)
+        
+        const slug = relativeEntryPath.replace(/\.md$/, '')
+        const pathParts = slug.split('/')
+        
+        docs.push({
+          slug,
+          title: data.title || pathParts[pathParts.length - 1],
+          category: pathParts[0] !== path.basename(entry.name, '.md') ? pathParts[0] : undefined,
+          subcategory: pathParts.length > 2 ? pathParts[1] : undefined,
+          ...data
+        })
+      }
+    })
+  }
+  
+  traverseDirectory(docsDirectory)
+  return docs
+}
+
+export function getDocBySlug(slug: string): Doc {
+  const realSlug = slug.replace(/\.md$/, '')
+  const fullPath = path.join(docsDirectory, `${realSlug}.md`)
+  
+  try {
+    const fileContents = fs.readFileSync(fullPath, 'utf8')
+    const { data, content } = matter(fileContents)
+    
     return {
-      slug,
-      title: 'Document Not Found',
+      slug: realSlug,
+      content,
+      title: data.title || realSlug,
+      ...data
+    }
+  } catch (error) {
+    return {
+      slug: realSlug,
+      title: realSlug,
       content: 'Document not found'
     }
   }
-  
-  const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents)
-
-  return {
-    slug,
-    content,
-    ...data
-  }
 }
 
-export function getAllDocs() {
-  // 确保docs目录存在
-  if (!fs.existsSync(docsDirectory)) {
-    console.log('Docs directory does not exist')
-    return []
-  }
-  
-  const files = fs.readdirSync(docsDirectory)
-  console.log('Files in docs directory:', files)
-  
-  const markdownFiles = files.filter(file => file.endsWith('.md'))
-  console.log('Markdown files found:', markdownFiles)
-    
-  const slugs = markdownFiles.map(file => file.replace('.md', ''))
-  console.log('Slugs generated:', slugs)
-    
-  return slugs.map(slug => getDocBySlug(slug))
+export function getDocsByCategory(category: string): Doc[] {
+  const allDocs = getAllDocs()
+  return allDocs.filter(doc => doc.category === category)
 }
