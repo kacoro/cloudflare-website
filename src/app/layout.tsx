@@ -10,7 +10,7 @@ export default async function DocsLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const docs = getAllDocs();
+  const docsTree = getAllDocs()
 
   return (
      <html lang="en">
@@ -18,7 +18,7 @@ export default async function DocsLayout({
     <div className="flex flex-col md:flex-row min-h-screen">
       {/* 左侧菜单 */}
       <aside className="w-full md:w-64 bg-gray-50 p-4 border-r">
-        <SidebarNav docs={docs} />
+          <SidebarNav items={docsTree} />
       </aside>
       
       {/* 右侧内容 */}
