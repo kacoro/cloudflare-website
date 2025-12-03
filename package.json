@@ -19,7 +19,7 @@
 		"wdeploy:test": "wrangler deploy --config wrangler.test.jsonc"
 	},
 	"dependencies": {
-		"@opennextjs/cloudflare": "^1.9.2",
+		"@opennextjs/cloudflare": "^1.10.1",
 		"@radix-ui/react-aspect-ratio": "^1.1.7",
 		"@radix-ui/react-dialog": "^1.1.15",
 		"@radix-ui/react-dropdown-menu": "^2.1.16",

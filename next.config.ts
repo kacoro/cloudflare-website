@@ -1,23 +1,32 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 const nextConfig: NextConfig = {
-  output: "standalone", // 启用 Cloudflare 兼容性
+  output: process.env.NEXT_OUTPUT_STANDALONE === 'true' ? "standalone" : undefined, // 启用 Cloudflare 兼容性
+  
   allowedDevOrigins: ["local-origin.dev", "*.local-origin.dev"],
   images: {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "images.unsplash.com",
+        hostname: "test.areaflysolar.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "localhost:3000",
         port: "",
         pathname: "/**",
       },
     ],
+    
     formats: ["image/webp"], // 强制转WebP/AVIF
-    deviceSizes: [640, 750, 828, 1080, 1920], // 必须配置尺寸，否则Image Optimizer不启动
-    imageSizes: [64, 128, 256, 384],
-    unoptimized: false,
+    deviceSizes: [375, 640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [64, 128, 256, 375, 512, 1024],
+    
     
   },
+  
   // 静态资源缓存配置
   // async headers() {
   //   return [
@@ -71,5 +80,5 @@ const withNextIntl = createNextIntlPlugin({
 export default withNextIntl(nextConfig);
 
 // added by create cloudflare to enable calling `getCloudflareContext()` in `next dev`
-import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
-initOpenNextCloudflareForDev();
+ import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
+ initOpenNextCloudflareForDev();

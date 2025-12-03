@@ -8,11 +8,26 @@
     "nodejs_compat",
     "global_fetch_strictly_public"
   ],
+  "workers_dev": false,        // 生产环境应设为 false
+  "preview_urls": false,       // 生产环境建议设为 false
+ 
+  "routes": [
+    {
+      "pattern": "test.areaflysolar.com",
+      "zone_name": "areaflysolar.com",
+      "custom_domain": true
+    }
+  ],
   "assets": {
     "binding": "ASSETS",
     "directory": ".open-next/assets"
   },
- 
+  // "r2_buckets": [
+  //   {
+  //     "binding": "MY_BUCKET",
+  //     "bucket_name": "areafly-test"
+  //   }
+  // ],
   "observability": {
     "enabled": true
   },

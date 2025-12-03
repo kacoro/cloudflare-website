@@ -95,13 +95,16 @@ export default function AboutPage({
 
     <div >
       <div className=" mx-auto ">
-        <Image src="/images/project/1.jpg" width={1920} height={355} alt="Product Image" className="w-full h-auto" />
+       <div className='aspect-1920/1200 overflow-hidden relative'>
+          <Image src="/images/project/1.jpg"  fill alt="Product Image" className="object-cover" />
+      </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 mt-10 md:mt-40 ">
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 md:gap-7 lg:gap-12'>
-          <div className="col-span-3 md:col-span-3 lg:col-span-3 2xl:col-span-2 text-lg">
+          <div className="col-span-3 md:col-span-3  lg:col-span-3 2xl:col-span-2 text-lg">
+           
             <Image
-              className="mb-7"
+              className="mb-7 object-cover"
               src="/logo.png"
               alt="Areafly Solar logo"
               width={229}

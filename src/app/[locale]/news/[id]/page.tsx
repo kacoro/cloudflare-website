@@ -33,16 +33,15 @@ export default async function NewsDetailPage({
         </div>
        
         {/* 大图 */}
-        <div className="mb-8 rounded-lg aspect-[250/150] overflow-hidden flex items-center justify-center">
-          <Image
-            src={newsData.image}
-            alt={newsData.title}
-            width={1000}
-            height={600}
-            loading='lazy'
-            className=" object-cover"
-          />
-        </div>
+       <div className="mb-8 rounded-lg aspect-250/150 overflow-hidden relative">
+  <Image
+    src={newsData.image}
+    alt={newsData.title}
+    fill
+    loading='lazy'
+    className="object-cover"
+  />
+</div>
         <div className='px-5'>
           {/* 标题 */}
           <h1 className="text-3xl font-bold mb-4 text-primary">{newsData.title}</h1>
