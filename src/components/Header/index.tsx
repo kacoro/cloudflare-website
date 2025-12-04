@@ -15,7 +15,7 @@ export default async function Header() {
             >
               <Image
                 className="dark:invert"
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Areafly Solar logo"
                 width={229}
                 height={43}

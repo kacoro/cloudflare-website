@@ -21,7 +21,7 @@ export default function AboutPage({
     <>
       <div className="flex max-w-[1920px] mx-auto">
         <Image
-          src="/images/banner/about.jpg"
+          src="/images/banner/about.webp"
           alt="about"
           width={1920}
           height={919}
@@ -32,7 +32,7 @@ export default function AboutPage({
         <div className="max-w-[905px] mx-auto py-18  px-4">
           <Image
             className=""
-            src="/logo.png"
+            src="/logo.webp"
             alt="Areafly Solar logo"
             width={229}
             height={43}
@@ -46,7 +46,7 @@ export default function AboutPage({
           })}
 
           <Image
-            src="/images/about.jpg"
+            src="/images/about.webp"
             alt="about"
             width={379}
             height={347}
@@ -63,14 +63,14 @@ export default function AboutPage({
       <div
         className=' bg-cover bg-center '
         style={{
-          backgroundImage: "url('/images/aboutus/bg.jpg')",
+          backgroundImage: "url('/images/aboutus/bg.webp')",
         }}
       >
         <ul className='max-w-[904px] mx-auto grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 text-white  py-8 md:py-15'>
           <li className='flex flex-col justify-center items-center'>
             <Image
               priority
-              src="/images/aboutus/0.png"
+              src="/images/aboutus/0.webp"
               height={87}
               width={89}
               className=' fill-current stroke-current'
@@ -82,7 +82,7 @@ export default function AboutPage({
           <li className='flex flex-col justify-center items-center'>
             <Image
               priority
-              src="/images/aboutus/1.png"
+              src="/images/aboutus/1.webp"
               height={87}
               width={89}
               className=' fill-current stroke-current'
@@ -94,7 +94,7 @@ export default function AboutPage({
           <li className='flex flex-col justify-center items-center'>
             <Image
               priority
-              src="/images/aboutus/2.png"
+              src="/images/aboutus/2.webp"
               height={87}
               width={89}
               className=' fill-current stroke-current'
@@ -106,7 +106,7 @@ export default function AboutPage({
           <li className='flex flex-col justify-center items-center'>
             <Image
               priority
-              src="/images/aboutus/3.png"
+              src="/images/aboutus/3.webp"
               height={87}
               width={89}
               className=' fill-current stroke-current'
@@ -117,7 +117,7 @@ export default function AboutPage({
           <li className='flex flex-col justify-center items-center'>
             <Image
               priority
-              src="/images/aboutus/4.png"
+              src="/images/aboutus/4.webp"
               height={87}
               width={89}
               className=' fill-current stroke-current'
@@ -129,7 +129,7 @@ export default function AboutPage({
           <li className='flex flex-col justify-center items-center'>
             <Image
               priority
-              src="/images/aboutus/5.png"
+              src="/images/aboutus/5.webp"
               height={87}
               width={89}
               className=' fill-current stroke-current'
@@ -143,7 +143,7 @@ export default function AboutPage({
       </div>
         <section className="relative overflow-hidden"> 
          
-            <Image src="/images/aboutus/bg3.jpg" 
+            <Image src="/images/aboutus/bg3.webp" 
                  alt="Cargo ship sailing on the ocean representing international trade" 
                  className="w-full h-full object-cover object-center"    width={1920} height={690}/>
               </section>
@@ -152,7 +152,7 @@ export default function AboutPage({
           <li className='group relative overflow-hidden h-[435px] p-6'>
             <Image
               priority
-              src="/images/aboutus/1.jpg"
+              src="/images/aboutus/thumbs/1.webp"
               height={286}
               width={435}
               className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110'
@@ -171,7 +171,7 @@ export default function AboutPage({
           <li className='group relative overflow-hidden h-[435px] p-6'>
             <Image
               priority
-              src="/images/aboutus/2.jpg"
+              src="/images/aboutus/thumbs/2.webp"
               height={286}
               width={435}
               className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110'
@@ -190,7 +190,7 @@ export default function AboutPage({
           <li className='group relative overflow-hidden h-[435px] p-6'>
             <Image
               priority
-              src="/images/aboutus/3.jpg"
+              src="/images/aboutus/thumbs/3.webp"
               height={286}
               width={435}
               className='absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110'
@@ -211,7 +211,7 @@ export default function AboutPage({
       </div>
         <section className="relative  min-h-[600px] overflow-hidden"> 
           <div className="absolute inset-0 z-0">
-            <Image src="/images/aboutus/bg22.jpg" 
+            <Image src="/images/aboutus/bg22.webp" 
                  alt="Cargo ship sailing on the ocean representing international trade" 
                  className="w-full h-full object-cover object-center"    width={1920} height={690}/>
        

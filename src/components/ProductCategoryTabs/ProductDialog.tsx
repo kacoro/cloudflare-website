@@ -19,7 +19,7 @@ export function ProductDialog({ open, onOpenChange, product }: DialogDemoProps) 
           <DialogHeader>
             <DialogTitle hidden>Product Details</DialogTitle>
               <Image
-              src="/logo.png"
+              src="/logo.webp"
               alt="Areafly Solar logo"
               width={229}
               height={43}

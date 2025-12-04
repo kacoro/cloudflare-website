@@ -1,7 +1,7 @@
 {
     "id": 15,
     "slug": "lighting",
-    "image": "/images/products/lighting/3/thumbs/1.png",
+    "image": "/images/products/lighting/3/thumbs/1.webp",
     "translations": {
         "en": {
             "name": "AS-AIOSC01 Solar Street Light 30W-100W",
@@ -27,28 +27,28 @@
     },
     "thumbs": [
         {
-            "url": "/images/products/lighting/3/thumbs/1.png",
+            "url": "/images/products/lighting/3/thumbs/1.webp",
             "alt": "alt1"
         }
     ],
     "infos": [
         {
-            "url": "/images/products/lighting/3/infos/1.jpg",
+            "url": "/images/products/lighting/3/infos/1.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/lighting/3/infos/2.jpg",
+            "url": "/images/products/lighting/3/infos/2.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/lighting/3/infos/3.jpg",
+            "url": "/images/products/lighting/3/infos/3.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/lighting/3/infos/4.jpg",
+            "url": "/images/products/lighting/3/infos/4.webp",
             "alt": "alt1"
         }
     ],
-    "download": "/images/products/lighting/3/download.jpg",
+    "download": "/images/products/lighting/3/download.webp",
     "parameters": "&lt;table &gt; &lt;tbody&gt; &lt;tr&gt; &lt;td colspan=&quot;3&quot; width=&quot;100%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Technical parameter&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Item&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-DB01&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-DB02&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Power&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;90W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;140W&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Luminous Efficiency&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;180-190LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;180-190LM/W&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;LED&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Philips&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Philips&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;CCT&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3000K/4000K/6000K&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;3000K/4000K/6000K&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;20%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Installation height&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;below 7 meters&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;39%&quot;&gt; &lt;p align=&quot;center&quot;&gt;more than 8 meters&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
 }

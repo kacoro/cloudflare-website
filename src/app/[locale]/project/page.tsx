@@ -30,62 +30,62 @@ export default function AboutPage({
   const imageData: ImageItem[] = [
     {
       id: 1,
-      src: '/images/project/2.jpg',
+      src: '/images/project/2.webp',
       alt: 'Sihanoukville, Cambodia',
       title: 'Sihanoukville, Cambodia',
     },
     {
       id: 2,
-      src: '/images/project/3.jpg',
+      src: '/images/project/3.webp',
       alt: 'France',
       title: "France",
       description: 'PV+storage , 50 kW/102 kWh',
     },
     {
       id: 3,
-      src: '/images/project/4.jpg',
+      src: '/images/project/4.webp',
       alt: 'Australia-Fremantle',
       title: "Australia-Fremantle",
       description: 'Smart Microgrid and<br/>VPP-100kW/670kWh',
     },
     {
       id: 4,
-      src: '/images/project/5.jpg',
+      src: '/images/project/5.webp',
       alt: 'Thailand',
       title: 'Thailand',
       description: 'Energy storage expansion<br/>50kW/266kWh',
     },
     {
       id: 5,
-      src: '/images/project/6.jpg',
+      src: '/images/project/6.webp',
       alt: 'Australia-Fremantle',
       title: 'Niger,Africa',
       description: 'Off-grid optical storage system<br/>1.25 MW/4 Mwh',
     },
     {
       id: 6,
-      src: '/images/project/7.jpg',
+      src: '/images/project/7.webp',
       alt: 'Philippine Islands',
       title: 'Philippine Islands',
       description: 'Solar+battery+diesel microgrid system<br/>50 kW/100 kWh',
     },
     {
       id: 7,
-      src: '/images/project/8.jpg',
+      src: '/images/project/8.webp',
       alt: 'Tangshan, Hebei',
       title: 'Tangshan, Hebei',
       description: 'Peak shaving and frequency regulation<br/>10MW/20MWh',
     },
     {
       id: 8,
-      src: '/images/project/9.jpg',
+      src: '/images/project/9.webp',
       alt: 'Tanzania',
       title: 'Tanzania',
       description: 'Solar+battery+diesel microgrid system<br/>50kW/130kWh',
     },
     {
       id: 9,
-      src: '/images/project/10.jpg',
+      src: '/images/project/10.webp',
       alt: 'Southeast Asia Myanmar',
       title: 'Southeast Asia Myanmar',
       description: 'Solar+diesel microgrid system<br/>50kW+100kW/100kWh+300kWh',
@@ -96,7 +96,7 @@ export default function AboutPage({
     <div >
       <div className=" mx-auto ">
        <div className='aspect-1920/1200 overflow-hidden relative'>
-          <Image src="/images/project/1.jpg"  fill alt="Product Image" className="object-cover" />
+          <Image src="/images/project/1.webp"  fill alt="Product Image" className="object-cover" />
       </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 mt-10 md:mt-40 ">
@@ -105,7 +105,7 @@ export default function AboutPage({
            
             <Image
               className="mb-7 object-cover"
-              src="/logo.png"
+              src="/logo.webp"
               alt="Areafly Solar logo"
               width={229}
               height={43}
@@ -178,13 +178,13 @@ export default function AboutPage({
         </div>
       </div>
       <div className=" mx-auto my-11 xl:my-22">
-        <Image src="/images/project/11.jpg" width={1920} height={200} alt="Product Image" className="w-full object-cover min-h-50" />
+        <Image src="/images/project/11.webp" width={1920} height={200} alt="Product Image" className="w-full object-cover min-h-50" />
       </div>
       <div className="max-w-[1172px]  mx-auto px-5">
         <div className="grid grid-cols-3 sm:grid-cols-10 group  gap-3 md:gap-7">
           <div className='col-span-3  sm:col-span-1'></div>
           <div className='sm:col-span-3'><Image
-            src="/images/project/12.jpg"
+            src="/images/project/12.webp"
             alt="Areafly Solar logo"
             width={323}
             height={211}
@@ -192,7 +192,7 @@ export default function AboutPage({
           /></div>
           <div className='sm:col-span-3'>
             <Image
-              src="/images/project/13.jpg"
+              src="/images/project/13.webp"
               alt="Areafly Solar logo"
               width={323}
               height={211}
@@ -200,7 +200,7 @@ export default function AboutPage({
             /></div>
           <div className='sm:col-span-3 '>
             <Image
-              src="/images/project/14.jpg"
+              src="/images/project/14.webp"
               alt="Areafly Solar logo"
               width={323}
               height={211}
@@ -209,14 +209,14 @@ export default function AboutPage({
           </div>
           <div className='col-span-1 sm:col-span-4'></div>
           <div className='sm:col-span-3'><Image
-            src="/images/project/15.jpg"
+            src="/images/project/15.webp"
             alt="Areafly Solar logo"
             width={323}
             height={211}
             className='w-full transition-transform duration-500 hover:scale-105'
           /></div>
           <div className='sm:col-span-3'><Image
-            src="/images/project/16.jpg"
+            src="/images/project/16.webp"
             alt="Areafly Solar logo"
             width={323}
             height={211}
@@ -234,7 +234,7 @@ export default function AboutPage({
           <div className='col-span-2 sm:col-span-1  lg:col-span-2'></div>
           <div className='order-8 sm:order-none sm:col-span-3'>
             <Image
-              src="/images/project/17.jpg"
+              src="/images/project/17.webp"
               alt="Areafly Solar logo"
               width={323}
               height={211}
@@ -254,7 +254,7 @@ export default function AboutPage({
           </div>
           <div className='row-span-3 sm:row-span-4'>
             <Image
-              src="/images/project/23.jpg"
+              src="/images/project/23.webp"
               alt="Areafly Solar logo"
               width={274}
               height={485}
@@ -263,7 +263,7 @@ export default function AboutPage({
             />
           </div>
           <div className='row-span-3 sm:row-span-4'><Image
-            src="/images/project/24.jpg"
+            src="/images/project/24.webp"
             alt="Areafly Solar logo"
             width={274}
             height={485}
@@ -271,7 +271,7 @@ export default function AboutPage({
             className='w-full h-full  transition-transform duration-500 hover:scale-105'
           /></div>
           <div className='col-span-1'><Image
-            src="/images/project/18.jpg"
+            src="/images/project/18.webp"
             alt="Areafly Solar logo"
             width={201}
             height={110}
@@ -279,7 +279,7 @@ export default function AboutPage({
             className='w-full h-full transition-transform duration-500 hover:scale-105'
           /></div>
           <div className='col-span-1'><Image
-            src="/images/project/19.jpg"
+            src="/images/project/19.webp"
             alt="Areafly Solar logo"
             width={201}
             height={110}
@@ -287,7 +287,7 @@ export default function AboutPage({
             className='w-full h-full transition-transform duration-500 hover:scale-105'
           /></div>
           <div className='row-span-2'><Image
-            src="/images/project/22.jpg"
+            src="/images/project/22.webp"
             alt="Areafly Solar logo"
             width={240}
             height={241}
@@ -295,7 +295,7 @@ export default function AboutPage({
             className='w-full h-full transition-transform duration-500 hover:scale-105'
           /></div>
           <div className='col-span-1'><Image
-            src="/images/project/19.jpg"
+            src="/images/project/19.webp"
             alt="Areafly Solar logo"
             width={201}
             height={110}
@@ -303,7 +303,7 @@ export default function AboutPage({
             className='w-full h-full transition-transform duration-500 hover:scale-105'
           /></div>
           <div className='col-span-1'><Image
-            src="/images/project/20.jpg"
+            src="/images/project/20.webp"
             alt="Areafly Solar logo"
             width={201}
             height={110}
@@ -318,7 +318,7 @@ export default function AboutPage({
         <ul className='grid grid-cols-4 gap-2 md:gap-4'>
           <li>
             <Image
-              src="/images/project/25.jpg"
+              src="/images/project/25.webp"
               alt="Areafly Solar logo"
               width={275}
               height={485}
@@ -327,7 +327,7 @@ export default function AboutPage({
             />
           </li>
           <li><Image
-            src="/images/project/26.jpg"
+            src="/images/project/26.webp"
             alt="Areafly Solar logo"
             width={275}
             height={485}
@@ -335,7 +335,7 @@ export default function AboutPage({
             className='w-full h-full transition-transform duration-500 hover:scale-105'
           /></li>
           <li><Image
-            src="/images/project/27.jpg"
+            src="/images/project/27.webp"
             alt="Areafly Solar logo"
             width={275}
             height={485}
@@ -343,7 +343,7 @@ export default function AboutPage({
             className='w-full h-full transition-transform duration-500 hover:scale-105'
           /></li>
           <li><Image
-            src="/images/project/28.jpg"
+            src="/images/project/28.webp"
             alt="Areafly Solar logo"
             width={275}
             height={485}
@@ -357,7 +357,7 @@ export default function AboutPage({
         <ul className='grid grid-cols-5 gap-2 md:gap-4'>
           <li className='col-span-2'>
             <Image
-              src="/images/project/29.jpg"
+              src="/images/project/29.webp"
               alt="Areafly Solar logo"
               width={450}
               height={485}
@@ -366,7 +366,7 @@ export default function AboutPage({
             />
           </li>
           <li><Image
-            src="/images/project/30.jpg"
+            src="/images/project/30.webp"
             alt="Areafly Solar logo"
             width={275}
             height={485}
@@ -374,7 +374,7 @@ export default function AboutPage({
             className='w-full h-full transition-transform duration-500 hover:scale-105'
           /></li>
           <li><Image
-            src="/images/project/31.jpg"
+            src="/images/project/31.webp"
             alt="Areafly Solar logo"
             width={275}
             height={485}
@@ -382,7 +382,7 @@ export default function AboutPage({
             className='w-full h-full transition-transform duration-500 hover:scale-105'
           /></li>
           <li><Image
-            src="/images/project/32.jpg"
+            src="/images/project/32.webp"
             alt="Areafly Solar logo"
             width={275}
             height={485}
@@ -396,7 +396,7 @@ export default function AboutPage({
           lighting up the night in an efficient and environmentally friendly way!</h3>
         <ul className='grid grid-cols-3 gap-2 md:gap-4'>
           <li><Image
-            src="/images/project/33.jpg"
+            src="/images/project/33.webp"
             alt="Areafly Solar logo"
             width={380}
             height={255}
@@ -404,7 +404,7 @@ export default function AboutPage({
             className='w-full h-full transition-transform duration-500 hover:scale-105'
           /></li>
           <li><Image
-            src="/images/project/34.jpg"
+            src="/images/project/34.webp"
             alt="Areafly Solar logo"
             width={380}
             height={255}
@@ -412,7 +412,7 @@ export default function AboutPage({
             className='w-full h-full transition-transform duration-500 hover:scale-105'
           /></li>
           <li><Image
-            src="/images/project/35.jpg"
+            src="/images/project/35.webp"
             alt="Areafly Solar logo"
             width={380}
             height={255}

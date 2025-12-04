@@ -5,26 +5,9 @@ const nextConfig: NextConfig = {
   
   allowedDevOrigins: ["local-origin.dev", "*.local-origin.dev"],
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "test.areaflysolar.com",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "localhost:3000",
-        port: "",
-        pathname: "/**",
-      },
-    ],
-    
     formats: ["image/webp"], // 强制转WebP/AVIF
     deviceSizes: [375, 640, 750, 828, 1080, 1200, 1920],
     imageSizes: [64, 128, 256, 375, 512, 1024],
-    
-    
   },
   
   // 静态资源缓存配置

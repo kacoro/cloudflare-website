@@ -1,7 +1,7 @@
 {
     "id": 18,
     "slug": "energySystem",
-    "image": "/images/products/energySystem/2/thumbs/1.png",
+    "image": "/images/products/energySystem/2/thumbs/1.webp",
     "translations": {
         "en": {
             "name": "Commercial Energy Storage System",
@@ -21,29 +21,29 @@
     },
     "thumbs": [
         {
-            "url": "/images/products/energySystem/2/thumbs/1.png",
+            "url": "/images/products/energySystem/2/thumbs/1.webp",
             "alt": "alt1"
         },
          {
-            "url": "/images/products/energySystem/2/thumbs/2.png",
+            "url": "/images/products/energySystem/2/thumbs/2.webp",
             "alt": "alt1"
         }
     ],
     "infos": [
         {
-            "url": "/images/products/energySystem/2/infos/0.png",
+            "url": "/images/products/energySystem/2/infos/0.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/energySystem/2/infos/1.jpg",
+            "url": "/images/products/energySystem/2/infos/1.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/energySystem/2/infos/3.jpg",
+            "url": "/images/products/energySystem/2/infos/3.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/energySystem/2/infos/4.jpg",
+            "url": "/images/products/energySystem/2/infos/4.webp",
             "alt": "alt1"
         }
     ],

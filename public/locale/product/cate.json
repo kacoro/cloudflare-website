@@ -3,7 +3,7 @@
     {
       "id": 1,
       "slug": "SolarInverter",
-      "image": "/images/products/products-1.jpg",
+      "image": "/images/products/products-1.webp",
       "translations": {
         "en": {
           "name": "Solar Inverter",
@@ -22,7 +22,7 @@
     {
       "id": 2,
       "slug": "SolarBattery",
-      "image": "/images/products/products-2.jpg",
+      "image": "/images/products/products-2.webp",
       "translations": {
         "en": {
           "name": "Solar Battery",
@@ -41,7 +41,7 @@
     {
       "id": 3,
       "slug": "SolarLighting",
-      "image": "/images/products/products-3.jpg",
+      "image": "/images/products/products-3.webp",
       "translations": {
         "en": {
           "name": "Solar Lighting",
@@ -60,7 +60,7 @@
     {
       "id": 4,
       "slug": "SolarWaterPump",
-      "image": "/images/products/products-4.jpg",
+      "image": "/images/products/products-4.webp",
       "translations": {
         "en": {
           "name": "Solar Water Pump",
@@ -79,7 +79,7 @@
     {
       "id": 5,
       "slug": "SolarPanel",
-      "image": "/images/products/products-5.jpg",
+      "image": "/images/products/products-5.webp",
       "translations": {
         "en": {
           "name": "Solar Panel",
@@ -98,7 +98,7 @@
     {
       "id": 6,
       "slug": "SolarEnergySystem",
-      "image": "/images/products/products-6.jpg",
+      "image": "/images/products/products-6.webp",
       "translations": {
         "en": {
           "name": "Solar Energy System",

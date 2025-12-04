@@ -32,18 +32,18 @@ function decodeHtml(html: string): string {
 export  function  ProductDetail({ data }: Props) {
     const product = data;
     const producttionLine = [
-        { url: "/images/productionLine/2.jpg", alt: "alt2" },
-        { url: "/images/productionLine/3.jpg", alt: "alt3" },
-        { url: "/images/productionLine/4.jpg", alt: "alt3" },
-        { url: "/images/productionLine/5.jpg", alt: "alt3" },
-        { url: "/images/productionLine/6.jpg", alt: "alt3" },
-        { url: "/images/productionLine/7.jpg", alt: "alt3" },
-        { url: "/images/productionLine/8.jpg", alt: "alt3" },
-        { url: "/images/productionLine/9.jpg", alt: "alt3" },
-        { url: "/images/productionLine/10.jpg", alt: "alt3" },
-        { url: "/images/productionLine/11.jpg", alt: "alt3" },
-        { url: "/images/productionLine/12.jpg", alt: "alt3" },
-        { url: "/images/productionLine/1.jpg", alt: "alt1" },
+        { url: "/images/productionLine/2.webp", alt: "alt2" },
+        { url: "/images/productionLine/3.webp", alt: "alt3" },
+        { url: "/images/productionLine/4.webp", alt: "alt3" },
+        { url: "/images/productionLine/5.webp", alt: "alt3" },
+        { url: "/images/productionLine/6.webp", alt: "alt3" },
+        { url: "/images/productionLine/7.webp", alt: "alt3" },
+        { url: "/images/productionLine/8.webp", alt: "alt3" },
+        { url: "/images/productionLine/9.webp", alt: "alt3" },
+        { url: "/images/productionLine/10.webp", alt: "alt3" },
+        { url: "/images/productionLine/11.webp", alt: "alt3" },
+        { url: "/images/productionLine/12.webp", alt: "alt3" },
+        { url: "/images/productionLine/1.webp", alt: "alt1" },
     ];
     const OPTIONS: EmblaOptionsType = {loop: true}
     if (!product) {
@@ -90,7 +90,7 @@ export  function  ProductDetail({ data }: Props) {
                     if (typeof document !== 'undefined'&& product.download) {
                         const link = document.createElement('a');
                         link.href = product.download; // 替换为实际图片路径
-                        link.download = product.name + '.jpg'; // 设置下载的文件名
+                        link.download = product.name + '.webp'; // 设置下载的文件名
                         document.body.appendChild(link);
                         link.click();
                         document.body.removeChild(link);

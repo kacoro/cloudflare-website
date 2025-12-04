@@ -1,7 +1,7 @@
 {
     "id": 5,
     "slug": "HybridInvertersForSolarCostEffective1.6KW-11KW",
-    "image": "/images/products/battery/2/thumbs/1.png",
+    "image": "/images/products/battery/2/thumbs/1.webp",
     "translations": {
         "en": {
             "name": "10KWH 15KWH Mobile Lithium  Battery",
@@ -43,36 +43,36 @@
     },
     "thumbs": [
         {
-            "url": "/images/products/battery/2/thumbs/1.png",
+            "url": "/images/products/battery/2/thumbs/1.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/battery/2/thumbs/2.png",
+            "url": "/images/products/battery/2/thumbs/2.webp",
             "alt": "alt2"
         },
         {
-            "url": "/images/products/battery/2/thumbs/3.png",
+            "url": "/images/products/battery/2/thumbs/3.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/battery/2/thumbs/4.png",
+            "url": "/images/products/battery/2/thumbs/4.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/battery/2/thumbs/5.png",
+            "url": "/images/products/battery/2/thumbs/5.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/battery/2/thumbs/6.png",
+            "url": "/images/products/battery/2/thumbs/6.webp",
             "alt": "alt3"
         }
     ],
     "infos": [
         {
-            "url": "/images/products/battery/2/infos/1.jpg",
+            "url": "/images/products/battery/2/infos/1.webp",
             "alt": "alt1"
         }
     ],
-    "download": "/images/products/battery/2/download.jpg",
+    "download": "/images/products/battery/2/download.webp",
     "parameters": "&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;MODEL&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-BM51205&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;TG-BM51280&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Rate voltage(Vdc)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;51.2&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Cell combination(S1P) Rate&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;16&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;capacity(AH)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;205&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;280&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Energy storage(KWH)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;10.5&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;14.3&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Cycle life&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;25&amp;plusmn;2℃,0.5C/0.5C,EOL70%&amp;ge;6000&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Charge voltage(V)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;56&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Max.charge current(A)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;100(Optional 150/200A for 205/280AH pack)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Max.discharge current(A)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;100(Optional 150/200A for 205/280AH pack)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Discharge cut-off voltage(VDC)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;43.2&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Charge cut-off voltage(VDC)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;58.4&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Charge temperature&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;0℃~50℃@60&amp;plusmn;25%Relative Humidity&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Discharge temperature&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;-20℃~50℃@60&amp;plusmn;25%Relative Humidity&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Storage temperature&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;-20℃~50℃@60&amp;plusmn;25%Relative Humidity&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;IP class&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;1p20&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Material system&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;LiFePO4&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Case material&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;Metal&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Case type&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;Mobile Power&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Product dimension L*W*H(mm)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;622*520*227&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;766*520*221&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Package dimension L*W*H(mm)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;722*695*328&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;866*695*328&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Net weight(kg)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;92&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;115&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Gross weight(kg)&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;112&lt;/p&gt; &lt;/td&gt; &lt;td&gt; &lt;p align=&quot;center&quot;&gt;135&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Protocol(Optional)&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;CAN/RS485/RS232&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Monitoring&lt;/p&gt; &lt;/td&gt; &lt;td colspan=&quot;2&quot; width=&quot;379&quot;&gt; &lt;p align=&quot;center&quot;&gt;Bluetooth/WLAN Optional&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;left&quot;&gt;Certificates&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;UN38.3,MSDS&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;189&quot;&gt; &lt;p align=&quot;center&quot;&gt;UN38.3,MSDS,CE-EMC&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
 }

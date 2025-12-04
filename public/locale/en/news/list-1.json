@@ -5,21 +5,21 @@
     "id": 3,
     "title": "Why choose Areafly Solar？",
     "date": "2025-05-28", 
-    "image": "/images/news/3.jpg", 
+    "image": "/images/news/3.webp", 
     "content": "<p>12 years of industry experience, leading brand in the industry</p><p>Outstanding quality & excellent after-sales service</p><p>One-stop solar energy solution</p><p>Rich experience in government projects</p><p>Automated production line & industry standard certification</p>"
   },
     {
     "id": 2,
     "title": "Celebrate the successful opening of Areafly's first store in Cameroon.",
     "date": "2024-06-19",
-     "image": "/images/news/2.jpg", 
+     "image": "/images/news/2.webp", 
     "content": "<p>The new store serves as a one-stop hub where customers can explore our full range of solar products, consult with professional sales, and access fast, responsive service. </p>"
   },
   {
     "id": 1,
     "title": "The 60kva/125KWH solar system located in Johannesburg, South Africa, has been successfully completed.",
     "date": "2024-03-10", 
-    "image": "/images/news/1.jpg",
+    "image": "/images/news/1.webp",
     "content": "<p>Areafly Solar are well recognized by customers all over the world. Since 2020, We has signed and provided solar street light and power station projects with governments in the world.</p>"
   }]
 }

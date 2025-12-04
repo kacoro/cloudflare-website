@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="max-w-5xl grid grid-cols-2  mx-auto  p-2">
           <div className=" flex flex-col items-center py-1 space-x-3 ">
               <Image
-                src="/images/logo-white.png"
+                src="/images/logo-white.webp"
                 alt="Areafly Solar logo"
                 width={229}
                 height={43}
@@ -22,7 +22,7 @@ export default function Footer() {
                 <ul className="flex justify-around flex-row text-center text-base uppercase font-bold flex-nowrap">
                   <li  >
                   <Image
-                      src="/images/whatsapp.jpg"
+                      src="/images/whatsapp.webp"
                       alt="whats app"
                       width={99}
                       height={99}
@@ -32,7 +32,7 @@ export default function Footer() {
                   </li>
                   <li >
                   <Image
-                      src="/images/wechat.jpg"
+                      src="/images/wechat.webp"
                       alt="wechat"
                       width={99}
                       height={99}

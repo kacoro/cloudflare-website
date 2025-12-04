@@ -45,7 +45,7 @@ export function Main({ product }: ProductCardProps) {
                             className="text-center p-0 m-0"
                           ><h3 className="font-semibold text-lg line-clamp-1 text-primary md:text-4xl cursor-pointer">{product.name}</h3></NavigationLink>
             <p className=" text-lg line-clamp-1 text-primary my-4 ">{product.subname}</p>
-            <Image src="/images/line.png" width={468} height={2} alt="line" />
+            <Image src="/images/line.webp" width={468} height={2} alt="line" />
             <p className="text-sm  line-clamp-6 my-5">
               {product.description}
             </p>
@@ -53,7 +53,7 @@ export function Main({ product }: ProductCardProps) {
                             href={`/products/${product.id}`}
                             className="text-center"
                           >
-            <Image src="/images/right-button.png" width={35} height={7} alt="line" /></NavigationLink>
+            <Image src="/images/right-button.webp" width={35} height={7} alt="line" /></NavigationLink>
           </CardContent>
         </div>
       </div>

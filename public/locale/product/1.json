@@ -1,7 +1,7 @@
 {
     "id": 1,
     "slug": "HybridInvertersForSolarCostEffective1.6KW-11KW",
-    "image": "/images/products/inverter/1/thumbs/1.png",
+    "image": "/images/products/inverter/1/thumbs/1.webp",
     "translations": {
         "en": {
             "name": "Hybrid Inverters For Solar Cost Effective 1.6KW-11KW",
@@ -48,45 +48,45 @@
     },
     "thumbs": [
         {
-            "url": "/images/products/inverter/1/thumbs/1.png",
+            "url": "/images/products/inverter/1/thumbs/1.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/inverter/1/thumbs/2.png",
+            "url": "/images/products/inverter/1/thumbs/2.webp",
             "alt": "alt2"
         },
         {
-            "url": "/images/products/inverter/1/thumbs/3.png",
+            "url": "/images/products/inverter/1/thumbs/3.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/inverter/1/thumbs/4.png",
+            "url": "/images/products/inverter/1/thumbs/4.webp",
             "alt": "alt3"
         }
     ],
     "infos": [
         {
-            "url": "/images/products/inverter/1/infos/1.png",
+            "url": "/images/products/inverter/1/infos/1.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/inverter/1/infos/2.png",
+            "url": "/images/products/inverter/1/infos/2.webp",
             "alt": "alt2"
         },
         {
-            "url": "/images/products/inverter/1/infos/3.png",
+            "url": "/images/products/inverter/1/infos/3.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/inverter/1/infos/4.png",
+            "url": "/images/products/inverter/1/infos/4.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/inverter/1/infos/5.png",
+            "url": "/images/products/inverter/1/infos/5.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/inverter/1/infos/6.png",
+            "url": "/images/products/inverter/1/infos/6.webp",
             "alt": "alt3"
         }
     ],

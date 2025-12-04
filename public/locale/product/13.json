@@ -1,7 +1,7 @@
 {
     "id": 13,
     "slug": "lighting",
-    "image": "/images/products/lighting/1/thumbs/1.png",
+    "image": "/images/products/lighting/1/thumbs/1.webp",
     "translations": {
         "en": {
             "name": "AS-AIO-05  Solar Street Light 40W-200W",
@@ -27,28 +27,28 @@
     },
     "thumbs": [
         {
-            "url": "/images/products/lighting/1/thumbs/1.png",
+            "url": "/images/products/lighting/1/thumbs/1.webp",
             "alt": "alt1"
         }
     ],
     "infos": [
         {
-            "url": "/images/products/lighting/1/infos/1.jpg",
+            "url": "/images/products/lighting/1/infos/1.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/lighting/1/infos/2.jpg",
+            "url": "/images/products/lighting/1/infos/2.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/lighting/1/infos/3.jpg",
+            "url": "/images/products/lighting/1/infos/3.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/lighting/1/infos/4.jpg",
+            "url": "/images/products/lighting/1/infos/4.webp",
             "alt": "alt1"
         }
     ],
-    "download": "/images/products/lighting/1/download.jpg",
+    "download": "/images/products/lighting/1/download.webp",
     "parameters": "&lt;table style=&quot;width: 99%;&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;Item No.&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;Power&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;Luminous Efficiency&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;Product Size(mm)&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;Weight(kg)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AIO 05&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;30W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;368*860*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;8kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AIO 05&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;40W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;368*1090*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;10kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AIO 05&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;50W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;368*1190*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;12kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AIO 05&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;60W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;368*1350*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;14kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AIO 05&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;70W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;368*1510*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;16kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AIO 05&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;80W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;528*1360*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;18kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td width=&quot;100&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-AIO 05&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;70&quot;&gt; &lt;p align=&quot;center&quot;&gt;100W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;157&quot;&gt; &lt;p align=&quot;center&quot;&gt;190-200LM/W&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;158&quot;&gt; &lt;p align=&quot;center&quot;&gt;528*1510*50mm&lt;/p&gt; &lt;/td&gt; &lt;td width=&quot;83&quot;&gt; &lt;p align=&quot;center&quot;&gt;24kg&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
 }

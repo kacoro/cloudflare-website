@@ -1,7 +1,7 @@
 {
     "id": 2,
     "slug": "AS Series 3.6KW 5.5KW 6.2KW",
-    "image": "/images/products/inverter/2/thumbs/1.png",
+    "image": "/images/products/inverter/2/thumbs/1.webp",
     "translations": {
         "en": {
             "name": "AS Series 3.6KW 5.5KW 6.2KW Off-grid Solar Hybrid Inverter",
@@ -45,52 +45,52 @@
     },
     "thumbs": [
         {
-            "url": "/images/products/inverter/2/thumbs/1.png",
+            "url": "/images/products/inverter/2/thumbs/1.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/inverter/2/thumbs/2.png",
+            "url": "/images/products/inverter/2/thumbs/2.webp",
             "alt": "alt2"
         },
         {
-            "url": "/images/products/inverter/2/thumbs/3.png",
+            "url": "/images/products/inverter/2/thumbs/3.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/inverter/2/thumbs/4.png",
+            "url": "/images/products/inverter/2/thumbs/4.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/inverter/2/thumbs/5.png",
+            "url": "/images/products/inverter/2/thumbs/5.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/inverter/2/thumbs/6.png",
+            "url": "/images/products/inverter/2/thumbs/6.webp",
             "alt": "alt3"
         }
     ],
     "infos": [
         {
-            "url": "/images/products/inverter/2/infos/1.jpg",
+            "url": "/images/products/inverter/2/infos/1.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/inverter/2/infos/2.jpg",
+            "url": "/images/products/inverter/2/infos/2.webp",
             "alt": "alt2"
         },
         {
-            "url": "/images/products/inverter/2/infos/3.jpg",
+            "url": "/images/products/inverter/2/infos/3.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/inverter/2/infos/4.jpg",
+            "url": "/images/products/inverter/2/infos/4.webp",
             "alt": "alt3"
         },
         {
-            "url": "/images/products/inverter/2/infos/5.png",
+            "url": "/images/products/inverter/2/infos/5.webp",
             "alt": "alt3"
         }
     ],
-    "download": "/images/products/inverter/2/download.jpg",
+    "download": "/images/products/inverter/2/download.webp",
     "parameters": "&lt;table style=&quot;width: 626px;&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; align=&quot;left&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p align=&quot;left&quot;&gt;Model&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-3624&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;AS-6248&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p align=&quot;left&quot;&gt;Rated input voltage&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;220/230/240VAC&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;220/230/240VAC&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p align=&quot;left&quot;&gt;Voltage Range&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;90&amp;ndash;280VAC&amp;plusmn;3V (APL) / 170&amp;ndash;280VAC&amp;plusmn;3V (UPS)&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;90&amp;ndash;280VAC&amp;plusmn;3V (APL) / 170&amp;ndash;280VAC&amp;plusmn;3V (UPS)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p align=&quot;left&quot;&gt;Frequency&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;50Hz/60Hz (Auto Adaptive)&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;50Hz/60Hz (Auto Adaptive)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p align=&quot;left&quot;&gt;Rated Capacity&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;3600W&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;6200W&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p align=&quot;left&quot;&gt;Output Voltage&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;220/230/240VAC&amp;plusmn;5%&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;220/230/240VAC&amp;plusmn;5%&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p align=&quot;left&quot;&gt;Output Frequency&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;50/60Hz&amp;plusmn;0.1%&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;50/60Hz&amp;plusmn;0.1%&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p align=&quot;left&quot;&gt;Waveform&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;Pure Sine Wave&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;Pure Sine Wave&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p align=&quot;left&quot;&gt;Peak Power&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;7200VA&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;12400VA&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Battery Voltage&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;24Vdc&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;48Vdc&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Constant Charging Voltage&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;28.2Vdc&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;56.4Vdc&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Float Charging Voltage&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;27Vdc&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;54Vdc&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;PV Charging Mode&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;MPPT&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;MPPT&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Max PV Input Power&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;4200W&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;6200W&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;MPPT Tracking Range&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;30&amp;ndash;115Vdc&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;90&amp;ndash;500Vdc&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Best Voltage&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;30&amp;ndash;115Vdc&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;300&amp;ndash;400Vdc&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Max PV Input Voltage&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;500Vdc&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;500Vdc&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Max PV Charging Current&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;100A&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;100A&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Max AC Charging Current&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;80A&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;80A&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Max Total Charging Current&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;120A&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;120A&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Display&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;LCD Display&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;LCD Display&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Interface&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p&gt;RS232, Lithium Battery BMS Communication Card, WiFi Card, Dry Contact&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p&gt;RS232, Lithium Battery BMS Communication Card, WiFi Card, Dry Contact&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Parallel Connect&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;With Parallel&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;With Parallel&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Operating Temperature&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;-10&amp;ndash;50&amp;deg;C&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;-10&amp;ndash;50&amp;deg;C&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Humidity&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;20%&amp;ndash;95% (Non-condensing)&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;20%&amp;ndash;95% (Non-condensing)&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;top&quot; width=&quot;152&quot;&gt; &lt;p&gt;Storage Temperature&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;240&quot;&gt; &lt;p align=&quot;center&quot;&gt;-15&amp;ndash;60&amp;deg;C&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;234&quot;&gt; &lt;p align=&quot;center&quot;&gt;-15&amp;ndash;60&amp;deg;C&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
 }

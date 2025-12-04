@@ -10,7 +10,7 @@
                     "name": "1.6-11KW",
                     "subname": "经济型混合太阳能逆变器",
                     "description": "作为拥有13年太阳能产品制造经验的老牌厂商，我们的太阳能照明系列产品体现了尖端创新和坚定不移的可靠性。",
-                    "image": "/images/products/category/1-1.png"
+                    "image": "/images/products/category/1-1.webp"
                 },
                 {
                     "id": "2",
@@ -18,7 +18,7 @@
                     "name": "3.6KW 5.5KW 6.2KW",
                     "subname": "AS系列离网太阳能混合逆变器",
                     "description": "智能供电模式，智能分配太阳能板/市电/电池电力份额",
-                    "image": "/images/products/category/1-2.png"
+                    "image": "/images/products/category/1-2.webp"
                 },
                 {
                     "id": "3",
@@ -26,7 +26,7 @@
                     "name": "8.2KW 11KW",
                     "subname": "AS系列离网太阳能混合逆变器",
                     "description": "智能供电模式，智能分配太阳能板/市电/电池电力份额",
-                    "image": "/images/products/category/1-3.png"
+                    "image": "/images/products/category/1-3.webp"
                 }
             ]
         },
@@ -40,7 +40,7 @@
                     "name": "5KWH 10KWH",
                     "subname": "移动锂电池",
                     "description": "Areafly壁挂式太阳能电池重量轻，安装简便，在标准测试条件下典型效率范围为15%-20%。<br>Areafly壁挂式太阳能电池提供稳定的电力输出和超过15年的使用寿命。",
-                    "image": "/images/products/category/2-1.png"
+                    "image": "/images/products/category/2-1.webp"
                 },
                 {
                     "id": "5",
@@ -48,7 +48,7 @@
                     "name": "10KWH 15KWH",
                     "subname": "住宅锂电池",
                     "description": "Areafly轮式太阳能锂电池具有高效光伏转换、长循环寿命(6000+次循环)和强大的移动性，适用于离网应用。<br>集成智能BMS保障安全，非常适合房车、船舶和便携式电源。",
-                    "image": "/images/products/category/2-2.png"
+                    "image": "/images/products/category/2-2.webp"
                 },
                 {
                     "id": "6",
@@ -56,7 +56,7 @@
                     "name": "15KWH 20KWH",
                     "subname": "壁挂式锂电池",
                     "description": "Areafly机架式高压锂电池专为商业和工业用途设计，提供可扩展的储能解决方案，支持51.2V-800V电压平台，支持5G基站、微电网和削峰应用。与太阳能系统集成，通过智能BMS和模块化扩展实现24/7可再生能源利用，达到90%+效率和10000+次循环寿命。",
-                    "image": "/images/products/category/2-3.png"
+                    "image": "/images/products/category/2-3.webp"
                 },
                 {
                     "id": "7",
@@ -64,7 +64,7 @@
                     "tabName": "高压机架式",
                     "subname": "单相混合太阳能逆变器",
                     "description": "Areafly机架式高压锂电池专为商业和工业用途设计，提供可扩展的储能解决方案，支持51.2V-800V电压平台，支持5G基站、微电网和削峰应用。与太阳能系统集成，通过智能BMS和模块化扩展实现24/7可再生能源利用，达到90%+效率和10000+次循环寿命。",
-                    "image": "/images/products/category/2-4.png"
+                    "image": "/images/products/category/2-4.webp"
                 },
                 {
                     "id": "8",
@@ -72,7 +72,7 @@
                     "tabName": "太阳能胶体电池",
                     "subname": "太阳能逆变器",
                     "description": "Areafly铅酸电池具有稳定的电压输出和成本效益，通过先进技术增强耐用性。专为太阳能储能设计，在离网系统中提供可靠的性能，结合经济性和经过验证的可靠性。",
-                    "image": "/images/products/category/2-5.png"
+                    "image": "/images/products/category/2-5.webp"
                 }
             ]
         },
@@ -86,7 +86,7 @@
                     "name": "450w",
                     "subname": "太阳能板",
                     "description": "Areafly太阳能板以高质量和高效率著称。这些面板采用先进材料和尖端技术精心制造，确保最佳性能和持久性。",
-                    "image": "/images/products/category/3-1.png"
+                    "image": "/images/products/category/3-1.webp"
                 },
                 {
                     "id": "10",
@@ -94,7 +94,7 @@
                     "name": "500w",
                     "subname": "太阳能板",
                     "description": "Areafly太阳能板以高质量和高效率著称。这些面板采用先进材料和尖端技术精心制造，确保最佳性能和持久性。",
-                    "image": "/images/products/category/3-2.png"
+                    "image": "/images/products/category/3-2.webp"
                 },
                 {
                     "id": "11",
@@ -102,7 +102,7 @@
                     "name": "550w",
                     "subname": "太阳能板",
                     "description": "Areafly太阳能板以高质量和高效率著称。这些面板采用先进材料和尖端技术精心制造，确保最佳性能和持久性。",
-                    "image": "/images/products/category/3-3.png"
+                    "image": "/images/products/category/3-3.webp"
                 },
                 {
                     "id": "12",
@@ -110,7 +110,7 @@
                     "tabName": "585w",
                     "subname": "太阳能板",
                     "description": "Areafly太阳能板以高质量和高效率著称。这些面板采用先进材料和尖端技术精心制造，确保最佳性能和持久性。",
-                    "image": "/images/products/category/3-4.png"
+                    "image": "/images/products/category/3-4.webp"
                 }
             ]
         },
@@ -124,7 +124,7 @@
                     "name": "AS-A10-05",
                     "subname": "太阳能路灯 40W-200W",
                     "description": "作为拥有13年太阳能产品制造经验的老牌厂商，我们的太阳能照明系列产品体现了尖端创新和坚定不移的可靠性。",
-                    "image": "/images/products/category/4-1.png"
+                    "image": "/images/products/category/4-1.webp"
                 },
                 {
                     "id": "14",
@@ -132,7 +132,7 @@
                     "name": "AS-A1005",
                     "subname": "太阳能路灯 40W-200W",
                     "description": "作为拥有13年太阳能产品制造经验的老牌厂商，我们的太阳能照明系列产品体现了尖端创新和坚定不移的可靠性。",
-                    "image": "/images/products/category/4-2.png"
+                    "image": "/images/products/category/4-2.webp"
                 },
                 {
                     "id": "15",
@@ -140,7 +140,7 @@
                     "name": "AS-AIOSC01",
                     "subname": "太阳能路灯 30W-100W",
                     "description": "作为拥有13年太阳能产品制造经验的老牌厂商，我们的太阳能照明系列产品体现了尖端创新和坚定不移的可靠性。",
-                    "image": "/images/products/category/4-3.png"
+                    "image": "/images/products/category/4-3.webp"
                 }
             ]
         },
@@ -154,7 +154,7 @@
                     "name": "太阳能",
                     "subname": "潜水泵",
                     "description": "作为一家太阳能能源公司，我们为深井水泵的高质量感到自豪。这些水泵经过精心设计和制造，确保最佳性能和持久性。",
-                    "image": "/images/products/category/5-1.png"
+                    "image": "/images/products/category/5-1.webp"
                 },
                 {
                     "id": "17",
@@ -162,7 +162,7 @@
                     "name": "太阳能",
                     "subname": "表面泵",
                     "description": "Areafly太阳能水泵采用优质材料制造，确保耐用性和持久性。水泵配备先进技术，如智能控制系统和节能功能，有助于优化性能并降低能耗。",
-                    "image": "/images/products/category/5-2.png"
+                    "image": "/images/products/category/5-2.webp"
                 }
             ]
         },
@@ -176,7 +176,7 @@
                     "name": "家庭",
                     "subname": "储能系统",
                     "description": "作为一家太阳能能源公司，我们致力于为客户提供创新和可持续的解决方案，帮助减少碳足迹并节省资金。",
-                    "image": "/images/products/category/6-1.png"
+                    "image": "/images/products/category/6-1.webp"
                 },
                 {
                     "id": "19",
@@ -184,7 +184,7 @@
                     "name": "商用",
                     "subname": "储能系统",
                     "description": "我们的工业和商用储能系统具有众多优势。作为一家太阳能能源公司，我们很自豪能提供这些创新解决方案，帮助企业对地球产生积极影响，同时长期节省资金。",
-                    "image": "/images/products/category/6-2.png"
+                    "image": "/images/products/category/6-2.webp"
                 }
             ]
         }

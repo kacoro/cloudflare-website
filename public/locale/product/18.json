@@ -1,7 +1,7 @@
 {
     "id": 18,
     "slug": "energySystem",
-    "image": "/images/products/energySystem/1/thumbs/1.png",
+    "image": "/images/products/energySystem/1/thumbs/1.webp",
     "translations": {
         "en": {
             "name": "Home Energy Storage System",
@@ -21,33 +21,33 @@
     },
     "thumbs": [
         {
-            "url": "/images/products/energySystem/1/thumbs/1.png",
+            "url": "/images/products/energySystem/1/thumbs/1.webp",
             "alt": "alt1"
         }
     ],
     "infos": [
         {
-            "url": "/images/products/energySystem/1/infos/1.jpg",
+            "url": "/images/products/energySystem/1/infos/1.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/energySystem/1/infos/2.jpg",
+            "url": "/images/products/energySystem/1/infos/2.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/energySystem/1/infos/3.jpg",
+            "url": "/images/products/energySystem/1/infos/3.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/energySystem/1/infos/4.jpg",
+            "url": "/images/products/energySystem/1/infos/4.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/energySystem/1/infos/5.jpg",
+            "url": "/images/products/energySystem/1/infos/5.webp",
             "alt": "alt1"
         },
         {
-            "url": "/images/products/energySystem/1/infos/6.jpg",
+            "url": "/images/products/energySystem/1/infos/6.webp",
             "alt": "alt1"
         }
     ],

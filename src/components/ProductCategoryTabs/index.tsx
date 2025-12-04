@@ -43,7 +43,7 @@ export  function ProductsServer({categories}: { categories: Category[] }) {
   return (
     <>
     <div className=" mx-auto "> 
-      <Image src="/images/banner/product.jpg" width={1920} height={355} alt="Product Image"  className="w-full h-[120px] sm:h-[200px] md:h-[250px] lg:h-[355px] object-cover" />
+      <Image src="/images/banner/product.webp" width={1920} height={355} alt="Product Image"  className="w-full h-[120px] sm:h-[200px] md:h-[250px] lg:h-[355px] object-cover" />
     </div>
       {categories.map((category,index)=>(
         <div 

@@ -9,7 +9,7 @@ import { News,NewsList} from '@/types/news';
 export const fetchDataById = async (id:number,slug:string,locale:string): Promise<News|null> => {
   try {
     // 使用fetch API替代文件系统读取，确保在所有环境中都能工作
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/locale/${locale}/${slug}/${id}.json`);
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/locale/${locale}/${slug}/${id}.json?v=1.0`);
     if (!response.ok) {
       throw new Error(`Failed to fetch  data: ${response.status} ${response.statusText}`);
     }

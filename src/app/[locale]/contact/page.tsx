@@ -19,7 +19,7 @@ export default function AboutPage({
 
   return (
     <div className="relative min-h-screen flex flex-col bg-[#fafafa]">
-       <Image src="/images/contact-bg.jpg" width={1920} height={1080} alt="Contact" className="absolute  bottom-0 w-full  object-cover" />
+       <Image src="/images/contact-bg.webp" width={1920} height={1080} alt="Contact" className="absolute  bottom-0 w-full  object-cover" />
       <div className="container mx-auto px-4 py-12 flex-grow">
 
         <div className="text-center mb-12">
@@ -34,7 +34,7 @@ export default function AboutPage({
 
             <div className="flex flex-col items-center">
               <div className=" rounded-lg ">
-                <Image src="/images/whatsapp.jpg" width={145} height={145} alt="WhatsApp QR Code" className="w-48 h-48" />
+                <Image src="/images/whatsapp.webp" width={145} height={145} alt="WhatsApp QR Code" className="w-48 h-48" />
               </div>
               <p className="mt-4 text-lg font-semibold text-center">WHATS APP</p>
             </div>
@@ -42,7 +42,7 @@ export default function AboutPage({
 
             <div className="flex flex-col items-center">
               <div className=" rounded-lg  ">
-                <Image src="/images/wechat.jpg" width={145} height={145} alt="WeChat QR Code" className="w-48 h-48" />
+                <Image src="/images/wechat.webp" width={145} height={145} alt="WeChat QR Code" className="w-48 h-48" />
               </div>
               <p className="mt-4 text-lg font-semibold text-center">WECHAT</p>
             </div>

@@ -17,7 +17,7 @@ export async function News({ locale }: PageProps) {
   return (
     <div className=" ">
       <div className="bg-primary  flex items-center justify-center ">
-        <Image src="/images/banner/news.jpg" width={1920} height={150} alt="Product Image"
+        <Image src="/images/banner/news.webp" width={1920} height={150} alt="Product Image"
           className="w-full h-[150px] object-cover" />
 
       </div>
@@ -54,11 +54,11 @@ function ListItem({
         {title}
       </NavigationLink>
 
-      <Image src="/images/line-2.png" className="mt-2.5 mb-4" alt="Arrow Right" width={238} height={2} />
+      <Image src="/images/line-2.webp" className="mt-2.5 mb-4" alt="Arrow Right" width={238} height={2} />
       <div className="flex justify-between">
         <span className="text-sm  group-hover:text-white transition-colors flex justify-end">{date}</span>
         <NavigationLink href={href} className="p-0 m-0 flex justify-end">
-          <Image src="/images/right-button.png" alt="Arrow Right" width={35} height={7}
+          <Image src="/images/right-button.webp" alt="Arrow Right" width={35} height={7}
             className="object-contain" />
         </NavigationLink>
       </div>
