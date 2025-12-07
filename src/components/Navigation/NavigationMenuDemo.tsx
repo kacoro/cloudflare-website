@@ -5,6 +5,9 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuContent,
+  NavigationSubMenuLink
 } from "@/components/ui/navigation-menu-demo"
 import NavigationLink from "./NavigationLink";
 
@@ -20,41 +23,41 @@ export function NavigationMenuDemo() {
             <NavigationLink href="/"  >Home</NavigationLink>
           </NavigationMenuLink>
       </NavigationMenuItem>
-         {/*
+         
         <NavigationMenuItem>
-          <NavigationMenuTrigger  className="hover:bg-primary">
-          <NavigationLink href="/products" >Products</NavigationLink>
+          <NavigationMenuTrigger  className="group/sub hover:bg-primary hover:text-white">
+          <NavigationLink href="/products" className="hover:bg-primary hover:text-white! group-hover/sub:text-white group-data-[state=open]/sub:text-white">Products</NavigationLink>
           </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[200px]  ">
               <li>
                 <NavigationSubMenuLink asChild >
-                  <NavigationLink href="/products/SolarInverter">Solar Inverter</NavigationLink>
+                  <NavigationLink href="/products#SolarInverter">Solar Inverter</NavigationLink>
                 </NavigationSubMenuLink >
                 <NavigationSubMenuLink asChild >
-                  <NavigationLink href="/products/SolarBattery">Solar Battery</NavigationLink>
+                  <NavigationLink href="/products#SolarBattery">Solar Battery</NavigationLink>
                 </NavigationSubMenuLink>
                 <NavigationSubMenuLink asChild >
-                  <NavigationLink href="/products/Solarpanel">Solar panel</NavigationLink>
+                  <NavigationLink href="/products#SolarPanel">Solar Panel</NavigationLink>
                 </NavigationSubMenuLink>
                 <NavigationSubMenuLink asChild >
-                  <NavigationLink href="/products/SolarLighting">Solar Lighting</NavigationLink>
+                  <NavigationLink href="/products#SolarLighting">Solar Lighting</NavigationLink>
                 </NavigationSubMenuLink>
                 <NavigationSubMenuLink asChild >
-                  <NavigationLink href="/products/SolarWaterPump">Solar Water Pump</NavigationLink>
+                  <NavigationLink href="/products#SolarWaterPump">Solar Water Pump</NavigationLink>
                 </NavigationSubMenuLink>
                 <NavigationSubMenuLink asChild >
-                  <NavigationLink href="/products/SolarEnergySystem">Solar Energy System</NavigationLink>
+                  <NavigationLink href="/products#SolarEnergySystem">Solar Energy System</NavigationLink>
                 </NavigationSubMenuLink>
               </li>
             </ul>
           </NavigationMenuContent>
-        </NavigationMenuItem> */}
-         <NavigationMenuItem>
+        </NavigationMenuItem> 
+         {/* <NavigationMenuItem>
           <NavigationMenuLink asChild >
             <NavigationLink href="/products">Products</NavigationLink>
           </NavigationMenuLink>
-        </NavigationMenuItem>
+        </NavigationMenuItem> */}
         <NavigationMenuItem>
           <NavigationMenuLink asChild >
             <NavigationLink href="/project">Project</NavigationLink>

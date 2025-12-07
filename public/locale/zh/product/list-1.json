@@ -1,7 +1,7 @@
 {
     "list": [
         {
-            "id": "1",
+            "id": "SolarInverter",
             "name": "太阳能逆变器",
             "products": [
                 {
@@ -31,7 +31,7 @@
             ]
         },
         {
-            "id": "2",
+            "id": "SolarBattery",
             "name": "太阳能电池",
             "products": [
                 {
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "id": "3",
+            "id": "SolarPanel",
             "name": "太阳能板",
             "products": [
                 {
@@ -115,7 +115,7 @@
             ]
         },
         {
-            "id": "4",
+            "id": "SolarLighting",
             "name": "太阳能照明",
             "products": [
                 {
@@ -145,7 +145,7 @@
             ]
         },
         {
-            "id": "5",
+            "id": "SolarWaterPump",
             "name": "太阳能水泵",
             "products": [
                 {
@@ -167,7 +167,7 @@
             ]
         },
         {
-            "id": "6",
+            "id": "SolarEnergySystem",
             "name": "太阳能能源系统",
             "products": [
                 {

@@ -1,4 +1,3 @@
-"use client";
 import BottomBar from "./BottomBar";
 import { Button } from "@/components/ui/button";
 import NavigationLink from "../Navigation/NavigationLink";
@@ -73,7 +72,7 @@ export default function Footer() {
                     </svg>
                   </Link>
                 </Button>
-                <Button variant="icon" size="icon">
+                <Button variant="icon" size="icon" asChild>
                   <Link href="https://www.youtube.com/@AreaflySolar" target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -93,34 +92,34 @@ export default function Footer() {
           </div>
           <div className=" flex justify-between ">
             <div className="flex flex-col ">
-              <NavigationLink href="/products/SolarInverter" className="text-white hover:text-primary" >
+              <NavigationLink href="/products#SolarInverter" className="text-white hover:text-primary" >
                   PRODUCTS
                 </NavigationLink>
               <div className="flex flex-col">
-                <NavigationLink href="/products/SolarInverter" className="text-white hover:text-primary" >
+                <NavigationLink href="/products#SolarInverter" className="text-white hover:text-primary" >
                   Solar Inverter
                 </NavigationLink>
-                <NavigationLink href="/products/SolarBattery" className="text-white hover:text-primary">
+                <NavigationLink href="/products#SolarBattery" className="text-white hover:text-primary">
                   Solar Battery
                 </NavigationLink>
-                <NavigationLink href="/products/Solarpanel" className="text-white hover:text-primary">
-                  Solar panel
+                <NavigationLink href="/products#SolarPanel" className="text-white hover:text-primary">
+                  Solar Panel
                 </NavigationLink>
-                <NavigationLink href="/products/SolarLighting" className="text-white hover:text-primary">
+                <NavigationLink href="/products#SolarLighting" className="text-white hover:text-primary">
                   Solar Lighting
                 </NavigationLink>
-                <NavigationLink href="/products/SolarWaterPump" className="text-white hover:text-primary">
+                <NavigationLink href="/products#SolarWaterPump" className="text-white hover:text-primary">
                   Solar Water Pump
                 </NavigationLink>
-                <NavigationLink href="/products/SolarEnergySystem" className="text-white hover:text-primary">
+                <NavigationLink href="/products#SolarEnergySystem" className="text-white hover:text-primary">
                   Solar Energy System
                 </NavigationLink>
               </div>
             </div>
             <div className="flex flex-col">
-              <NavigationLink href={"/project"} className="text-white hover:text-primary">PROIFCT</NavigationLink>
-              <NavigationLink href={"/about"} className="text-white hover:text-primary">About Us</NavigationLink>
-              <NavigationLink href={"/contact"} className="text-white hover:text-primary">CONTACT</NavigationLink>
+              <NavigationLink href={"/project"} className="text-white hover:text-primary uppercase">Project</NavigationLink>
+              <NavigationLink href={"/about"} className="text-white hover:text-primary uppercase">About Us</NavigationLink>
+              <NavigationLink href={"/contact"} className="text-white hover:text-primary uppercase">CONTACT</NavigationLink>
             </div>
           </div>
         </div>
