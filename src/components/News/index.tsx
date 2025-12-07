@@ -55,7 +55,7 @@ function ListItem({
               <h2 className="text-2xl font-bold pb-4 group-hover:text-white text-primary transition-colors">{title}</h2>
                 {children}
             </div>
-              <button className="flex items-end text-white opacity-100 transition-opacity group-hover:opacity-100"><MoveRight /></button>
+              <button className="flex items-end text-white opacity-0 transition-opacity group-hover:opacity-100"><MoveRight /></button>
       </NavigationLink>
     </li>
   )
