@@ -74,7 +74,7 @@ export default function Footer() {
                   </Link>
                 </Button>
                 <Button variant="icon" size="icon">
-                  <Link href="https://www.youtube.com/" target="_blank">
+                  <Link href="https://www.youtube.com/@AreaflySolar" target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="1em"
