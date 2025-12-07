@@ -17,7 +17,7 @@ export default async function ProductPage({
  const product = await getProductById(locale, id);
 
  if (!product) {
-        return <div className='flex flex-grow flex-row justify-center items-center max-w-[1446px] mx-auto relative px-5'>Product not found.</div>;
+        return <div className='flex grow flex-row justify-center items-center max-w-[1446px] mx-auto relative px-5'>Product not found.</div>;
    }
   return (
 

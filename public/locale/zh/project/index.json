@@ -1,0 +1,100 @@
+{
+    "description": [
+        "已成功在非洲和欧洲交付超过500MW的太阳能解决方案。我们的政府合作伙伴包括大型太阳能农场、智能路灯项目和离网农村电气化项目，展示了我们的技术专长和可靠性。",
+        "拥有ISO认证的制造工艺和按时项目执行的可靠记录，我们提供从设计到维护的端到端解决方案。我们与肯尼亚、加纳、德国和西班牙当地政府的合作关系突显了我们对可持续能源转型的承诺。",
+        "依托尖端的研发能力和全球供应链，Areafly Solar继续为社区提供清洁、负担得起的能源。"
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "项目案例",
+            "description": "储能案例-工业和商业",
+            "images": [
+                {
+                    "id": 1,
+                    "src": "/images/project/2.webp",
+                    "alt": "柬埔寨西哈努克港",
+                    "title": "柬埔寨西哈努克港"
+                },
+                {
+                    "id": 2,
+                    "src": "/images/project/3.webp",
+                    "alt": "法国",
+                    "title": "法国",
+                    "description": "光伏+储能，50 kW/102 kWh"
+                },
+                {
+                    "id": 3,
+                    "src": "/images/project/4.webp",
+                    "alt": "澳大利亚弗里曼特尔",
+                    "title": "澳大利亚弗里曼特尔",
+                    "description": "智能微电网和<br/>虚拟电厂-100kW/670kWh"
+                },
+                {
+                    "id": 4,
+                    "src": "/images/project/5.webp",
+                    "alt": "泰国",
+                    "title": "泰国",
+                    "description": "储能扩容<br/>50kW/266kWh"
+                },
+                {
+                    "id": 5,
+                    "src": "/images/project/6.webp",
+                    "alt": "澳大利亚弗里曼特尔",
+                    "title": "非洲尼日尔",
+                    "description": "离网光储系统<br/>1.25 MW/4 Mwh"
+                },
+                {
+                    "id": 6,
+                    "src": "/images/project/7.webp",
+                    "alt": "菲律宾群岛",
+                    "title": "菲律宾群岛",
+                    "description": "太阳能+电池+柴油微电网系统<br/>50 kW/100 kWh"
+                },
+                {
+                    "id": 7,
+                    "src": "/images/project/8.webp",
+                    "alt": "河北唐山",
+                    "title": "河北唐山",
+                    "description": "削峰填谷和频率调节<br/>10MW/20MWh"
+                },
+                {
+                    "id": 8,
+                    "src": "/images/project/9.webp",
+                    "alt": "坦桑尼亚",
+                    "title": "坦桑尼亚",
+                    "description": "太阳能+电池+柴油微电网系统<br/>50kW/130kWh"
+                },
+                {
+                    "id": 9,
+                    "src": "/images/project/10.webp",
+                    "alt": "东南亚缅甸",
+                    "title": "东南亚缅甸",
+                    "description": "太阳能+柴油微电网系统<br/>50kW+100kW/100kWh+300kWh"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "项目案例",
+            "description": "近年来太阳能路灯发展迅速，具有节能、环保、零电费、安装简便等优点，迅速进入公众视野。近年来，Areafly太阳能路灯点亮了321条城市道路和8672条乡村道路，承担了世界各地大大小小的区域项目。"
+        },
+        {
+            "id": 3,
+            "description": "福建省泉州市定制路灯。"
+        },
+        {
+            "id": 4,
+            "description": "12米市政路灯位于肯尼亚内罗毕。"
+        },
+        {
+            "id": 5,
+            "description": "刚果金沙萨13米高低臂路灯。"
+        },
+        {
+            "id": 6,
+            "description": "在尼日利亚辽阔的土地上，Areafly太阳能10米路灯正以高效环保的方式照亮夜晚！"
+        }
+    ],
+    "case": {}
+}

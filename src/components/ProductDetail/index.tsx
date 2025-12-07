@@ -1,21 +1,28 @@
 "use client";
 
-import { ReactNode } from 'react';
+import { ReactNode, useState } from 'react';
 import Image from "next/image"
 import EmblaCarousel from './EmblaCarousel'
-import { Product, ProductTranslation } from '@/types/product';
+import { ImageType, Product, ProductTranslation } from '@/types/product';
 
 import { BreadcrumbDemo } from './BreadcrumbDemo'
 import { CircleCheck } from 'lucide-react';
 import { EmblaOptionsType } from 'embla-carousel'
 import { Button } from '../ui/button';
 import LineCarousel from './LineCarousel';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '../ui/dialog';
 
 type Props = {
     children?: ReactNode;
     data: Product&ProductTranslation;
     locale?: string;
 };
+
+interface DialogDemoProps {
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+  image: ImageType;
+}
 // 在 ProductDetail 组件外部定义此函数
 function decodeHtml(html: string): string {
     return html.replace(/&lt;/g, '<')
@@ -45,10 +52,17 @@ export  function  ProductDetail({ data }: Props) {
         { url: "/images/productionLine/12.webp", alt: "alt3" },
         { url: "/images/productionLine/1.webp", alt: "alt1" },
     ];
+    const [selected, setSelected] = useState<ImageType | null>(null);
+      const [isModalOpen, setIsModalOpen] = useState(false);
+      
     const OPTIONS: EmblaOptionsType = {loop: true}
     if (!product) {
         return <div className='max-w-[1446px] mx-auto relative px-5'>Product not found.</div>;
     }
+      const openProductModal = (image: ImageType) => {
+        setSelected(image);
+        setIsModalOpen(true);
+      };
     return <>
         <div className='max-w-[1446px] mx-auto relative px-5'>
             <BreadcrumbDemo title={product.name} />
@@ -62,17 +76,20 @@ export  function  ProductDetail({ data }: Props) {
                     <ul className='md:ml-12'>
                        
                         {product.features&&product.features.map((feature, index) => (
-                            <li key={index} className="flex md:text-2xl mb-8"><CircleCheck className='text-primary mt-1 text-2xl mr-4 w-[24px] h-[24px] flex-shrink-0' /><span>{feature}</span></li>
+                            <li key={index} className="flex md:text-2xl mb-8"><CircleCheck className='text-primary mt-1 text-2xl mr-4 w-6 h-6 shrink-0' /><span>{feature}</span></li>
                         ))}
                     </ul>
                 </div>
             </div>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-5 pt-16 pb-32'>
                 {product.infos&&product.infos.map((image, index) => (
-                    <div key={index} className='flex justify-center aspect-w-468 aspect-h-584'>
-                        <Image loading='lazy' src={image.url} alt={image.alt} width={468} height={584}  className='transition-all duration-300 ease-out hover:scale-110 hover:shadow' />
+                    <div key={index} className='flex justify-center aspect-w-468 aspect-h-584 '>
+                        <Image loading='lazy' src={image.url} alt={image.alt} width={468} height={584}  className=' cursor-pointer object-contain transition-all duration-300 ease-out hover:scale-110 hover:shadow' onClick={()=>{
+                            openProductModal(image);
+                        }} />
                     </div>
                 ))}
+                {selected&&<ProductDialog open={isModalOpen} onOpenChange={setIsModalOpen} image={selected}/>}
             </div>
             <div className='text-4xl pb-8 text-center'>Parameter</div>
             <div className='flex flex-col items-center justify-center mb-10'>
@@ -110,4 +127,40 @@ export  function  ProductDetail({ data }: Props) {
         </div>
     </>
 
+}
+
+
+export function ProductDialog({ open, onOpenChange, image }: DialogDemoProps) {
+  return (
+    <Dialog open={open} onOpenChange={onOpenChange}>
+       
+        <DialogContent className="sm:max-w-[800px]  ">
+          <DialogHeader>
+            <DialogTitle hidden>Product Details</DialogTitle>
+              <Image
+              src="/logo.webp"
+              alt="Areafly Solar logo"
+              width={229}
+              height={43}
+              priority
+            />
+          </DialogHeader>
+          <div className="max-h-[85vh] overflow-y-auto">
+             <div className='w-full h-full'>  
+                <Image
+                
+                src={image.url}
+                alt={image.alt}
+                width={750}
+                height={600}
+                className="object-contain top-0 left-0 "
+              />
+             </div>
+              
+          </div>
+             
+            
+        </DialogContent>
+    </Dialog>
+  )
 }

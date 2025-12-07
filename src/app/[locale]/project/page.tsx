@@ -1,96 +1,31 @@
-import { Locale, useTranslations } from 'next-intl';
+import { Locale } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
-import { use } from 'react';
 import Image from 'next/image';
 import { cn } from '@/lib/utils';
+import { getProject } from '@/api/project';
 
 type PageProps = {
   params: Promise<{ locale: string }>;
 };
 
-// 定义图片数据类型
-interface ImageItem {
-  id: number;
-  src: string; // 实际项目中替换为真实图片路径
-  alt: string;
-  title: string;
-  description?: string;
-}
 
-export default function AboutPage({
+export default async function AboutPage({
   params
 }: PageProps) {
-  const { locale } = use(params);
+  const { locale } = await params
 
   // Enable static rendering
   setRequestLocale(locale as Locale);
-
-  const t = useTranslations('AboutPage');
+  const allProject = await getProject(locale);
+  const project1 = allProject?.projects?.[0];
+  const desc = allProject?.description;
   // 模拟图片数据（实际项目中可从接口获取）
-  const imageData: ImageItem[] = [
-    {
-      id: 1,
-      src: '/images/project/2.webp',
-      alt: 'Sihanoukville, Cambodia',
-      title: 'Sihanoukville, Cambodia',
-    },
-    {
-      id: 2,
-      src: '/images/project/3.webp',
-      alt: 'France',
-      title: "France",
-      description: 'PV+storage , 50 kW/102 kWh',
-    },
-    {
-      id: 3,
-      src: '/images/project/4.webp',
-      alt: 'Australia-Fremantle',
-      title: "Australia-Fremantle",
-      description: 'Smart Microgrid and<br/>VPP-100kW/670kWh',
-    },
-    {
-      id: 4,
-      src: '/images/project/5.webp',
-      alt: 'Thailand',
-      title: 'Thailand',
-      description: 'Energy storage expansion<br/>50kW/266kWh',
-    },
-    {
-      id: 5,
-      src: '/images/project/6.webp',
-      alt: 'Australia-Fremantle',
-      title: 'Niger,Africa',
-      description: 'Off-grid optical storage system<br/>1.25 MW/4 Mwh',
-    },
-    {
-      id: 6,
-      src: '/images/project/7.webp',
-      alt: 'Philippine Islands',
-      title: 'Philippine Islands',
-      description: 'Solar+battery+diesel microgrid system<br/>50 kW/100 kWh',
-    },
-    {
-      id: 7,
-      src: '/images/project/8.webp',
-      alt: 'Tangshan, Hebei',
-      title: 'Tangshan, Hebei',
-      description: 'Peak shaving and frequency regulation<br/>10MW/20MWh',
-    },
-    {
-      id: 8,
-      src: '/images/project/9.webp',
-      alt: 'Tanzania',
-      title: 'Tanzania',
-      description: 'Solar+battery+diesel microgrid system<br/>50kW/130kWh',
-    },
-    {
-      id: 9,
-      src: '/images/project/10.webp',
-      alt: 'Southeast Asia Myanmar',
-      title: 'Southeast Asia Myanmar',
-      description: 'Solar+diesel microgrid system<br/>50kW+100kW/100kWh+300kWh',
-    },
-  ];
+  const imageData = project1?.images || [];
+  const project2 = allProject?.projects?.[1];
+  const project3 = allProject?.projects?.[2];
+  const project4 = allProject?.projects?.[3];
+  const project5 = allProject?.projects?.[4];
+  const project6 = allProject?.projects?.[5];
   return (
 
     <div >
@@ -110,16 +45,13 @@ export default function AboutPage({
               width={229}
               height={43}
             />
-            <p className='pb-11'>
-              has successfully delivered over 500MW of solar solutions across Africa and Europe. Our government partnerships include large-scale solar farms, smart street lighting projects, and off-grid rural electrification programs, demonstrating our technical expertise and reliability.
-            </p>
-            <p className='pb-11'>
-              With ISO-certified manufacturing and a proven track record of on-time project execution, we provide end-to-end solutions from design to maintenance.  Our partnerships with local governments in Kenya, Ghana, Germany, and Spain highlight our commitment to sustainable energy transition.
-
-            </p>
-            <p className='pb-11 2xl:pb-0'>
-              Backed by cutting-edge R&D and a global supply chain, Areafly Solar continues to empower communities with clean, affordable energy.
-            </p>
+            {desc?.map((item, index) => (
+              <p 
+              className={`pb-11 ${index === desc.length - 1 ? '2xl:pb-0' : ''}`}
+              key={index}>
+              {desc?.[index]}
+             </p>
+            ))}
           </div>
           <div className='relative h-full col-span-3 md:col-span-3 lg:col-span-3  2xl:col-span-1'>
             <div className='2xl:absolute  bottom-0 w-full left-0'>
@@ -147,9 +79,10 @@ export default function AboutPage({
 
 
       </div>
-      <div className="max-w-7xl mx-auto px-5 mt-18 sm:mt-36  md:mt-72">
-        <h2 className='text-3xl md:text-6xl font-bold mb-7'>PROJECT CASE</h2>
-        <p className='text-base sm:text-2xl mb-12'>Energy storage cases-Industrial and commercial</p>
+      {project1&&(
+        <div className="max-w-7xl mx-auto px-5 mt-18 sm:mt-36  md:mt-72">
+        <h2 className='text-3xl md:text-6xl font-bold mb-7'>{project1.title}</h2>
+        <p className='text-base sm:text-2xl mb-12'>{project1.description}</p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 md:gap-7 lg:gap-12">
           {imageData.map((item, index) => (
             <div
@@ -177,6 +110,9 @@ export default function AboutPage({
           ))}
         </div>
       </div>
+      )}
+      
+      
       <div className=" mx-auto my-11 xl:my-22">
         <Image src="/images/project/11.webp" width={1920} height={200} alt="Product Image" className="w-full object-cover min-h-50" />
       </div>
@@ -222,17 +158,17 @@ export default function AboutPage({
             height={211}
             className='w-full transition-transform duration-500 hover:scale-105'
           /></div>
-          <div className='order-10 sm:order-none col-span-3 sm:col-span-6 lg:col-span-5'>
-            <h3 className='text-3xl font-bold pb-5'>PROJECT CASE</h3>
-            <div className='md:text-lg'>
-              Solar street lights have developed rapidly in recent years, with the advantages of energy saving,
-              environmental protection, zero electricity costs, easy installation and so on,
-              quickly entered the public&#39;s vision. In recent years, Areafly solar street lights have lit 321 urban and 8672 rural roads, to undertake large and small areas all over the world.
-            </div>
-
+          
+         
+        <div className='order-10 sm:order-0 col-span-3 sm:col-span-6 lg:col-span-5'>
+            <h3 className='text-3xl font-bold pb-5'>{project2?.title}</h3>
+            <div className='md:text-lg'>{project2?.description}
+              </div>
           </div>
+     
+    
           <div className='col-span-2 sm:col-span-1  lg:col-span-2'></div>
-          <div className='order-8 sm:order-none sm:col-span-3'>
+          <div className='order-8 sm:order-0 sm:col-span-3'>
             <Image
               src="/images/project/17.webp"
               alt="Areafly Solar logo"
@@ -248,8 +184,7 @@ export default function AboutPage({
         <div className='grid grid-cols-3 sm:grid-cols-5 gap-2 md:gap-4'>
 
           <div className='col-span-3 sm:row-span-2 sm:col-span-3 flex justify-center items-center'>
-            <h3 className='text-xl md:text-3xl font-bold pt-5'>Quanzhou City of Fujian Province
-              customized street lamp.</h3>
+            <h3 className='text-xl md:text-3xl font-bold pt-5'>{project3?.description}</h3>
 
           </div>
           <div className='row-span-3 sm:row-span-4'>
@@ -314,7 +249,7 @@ export default function AboutPage({
       </div>
 
       <div className="max-w-[1172px] mx-auto px-5 mt-18 xl:mt-45">
-        <h3 className='text-xl md:text-3xl font-bold mb-8'>12 meters municipal street lamp is located in Nairobi, Kenya.</h3>
+        <h3 className='text-xl md:text-3xl font-bold mb-8'>{project4?.description}</h3>
         <ul className='grid grid-cols-4 gap-2 md:gap-4'>
           <li>
             <Image
@@ -353,7 +288,7 @@ export default function AboutPage({
         </ul>
       </div>
       <div className="max-w-[1172px] mx-auto px-5 mt-18 xl:mt-45 ">
-        <h3 className='text-xl md:text-3xl font-bold mb-8'>13 meters high and low arm street lamp in Kinshasa, Congo.</h3>
+        <h3 className='text-xl md:text-3xl font-bold mb-8'>{project5?.description}</h3>
         <ul className='grid grid-cols-5 gap-2 md:gap-4'>
           <li className='col-span-2'>
             <Image
@@ -392,8 +327,7 @@ export default function AboutPage({
         </ul>
       </div>
       <div className="max-w-[1172px] mx-auto px-5 my-18 xl:my-45  ">
-        <h3 className='text-xl md:text-3xl font-bold mb-8'>In the vast land of Nigeria, Areafly solar 10 meters street lights are
-          lighting up the night in an efficient and environmentally friendly way!</h3>
+        <h3 className='text-xl md:text-3xl font-bold mb-8'>{project6?.description}</h3>
         <ul className='grid grid-cols-3 gap-2 md:gap-4'>
           <li><Image
             src="/images/project/33.webp"

@@ -1,0 +1,100 @@
+{
+    "description": [
+        "a livré avec succès plus de 500MW de solutions solaires à travers l'Afrique et l'Europe. Nos partenariats gouvernementaux incluent de grandes fermes solaires, des projets d'éclairage urbain intelligent et des programmes d'électrification rurale hors réseau, démontrant notre expertise technique et notre fiabilité.",
+        "Avec une fabrication certifiée ISO et un historique éprouvé d'exécution de projets dans les délais, nous fournissons des solutions complètes allant de la conception à la maintenance. Nos partenariats avec les gouvernements locaux au Kenya, au Ghana, en Allemagne et en Espagne soulignent notre engagement en faveur de la transition énergétique durable.",
+        "Soutenu par une R&D de pointe et une chaîne d'approvisionnement mondiale, Areafly Solar continue d'autonomiser les communautés avec de l'énergie propre et abordable."
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "CAS DE PROJET",
+            "description": "Cas de stockage d'énergie - Industriel et commercial",
+            "images": [
+                {
+                    "id": 1,
+                    "src": "/images/project/2.webp",
+                    "alt": "Sihanoukville, Cambodge",
+                    "title": "Sihanoukville, Cambodge"
+                },
+                {
+                    "id": 2,
+                    "src": "/images/project/3.webp",
+                    "alt": "France",
+                    "title": "France",
+                    "description": "PV+stockage, 50 kW/102 kWh"
+                },
+                {
+                    "id": 3,
+                    "src": "/images/project/4.webp",
+                    "alt": "Australie-Fremantle",
+                    "title": "Australie-Fremantle",
+                    "description": "Micro-réseau intelligent et<br/>RTE-100kW/670kWh"
+                },
+                {
+                    "id": 4,
+                    "src": "/images/project/5.webp",
+                    "alt": "Thaïlande",
+                    "title": "Thaïlande",
+                    "description": "Extension de stockage d'énergie<br/>50kW/266kWh"
+                },
+                {
+                    "id": 5,
+                    "src": "/images/project/6.webp",
+                    "alt": "Australie-Fremantle",
+                    "title": "Niger, Afrique",
+                    "description": "Système de stockage optique hors réseau<br/>1,25 MW/4 Mwh"
+                },
+                {
+                    "id": 6,
+                    "src": "/images/project/7.webp",
+                    "alt": "Îles Philippines",
+                    "title": "Îles Philippines",
+                    "description": "Système micro-réseau solaire+batterie+diesel<br/>50 kW/100 kWh"
+                },
+                {
+                    "id": 7,
+                    "src": "/images/project/8.webp",
+                    "alt": "Tangshan, Hebei",
+                    "title": "Tangshan, Hebei",
+                    "description": "Réduction des pics et régulation de fréquence<br/>10MW/20MWh"
+                },
+                {
+                    "id": 8,
+                    "src": "/images/project/9.webp",
+                    "alt": "Tanzanie",
+                    "title": "Tanzanie",
+                    "description": "Système micro-réseau solaire+batterie+diesel<br/>50kW/130kWh"
+                },
+                {
+                    "id": 9,
+                    "src": "/images/project/10.webp",
+                    "alt": "Myanmar, Asie du Sud-Est",
+                    "title": "Myanmar, Asie du Sud-Est",
+                    "description": "Système micro-réseau solaire+diesel<br/>50kW+100kW/100kWh+300kWh"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "CAS DE PROJET",
+            "description": "Les lampadaires solaires se sont développés rapidement ces dernières années, avec les avantages de l'économie d'énergie, de la protection environnementale, des coûts électriques nuls, d'une installation facile, etc., ils sont rapidement entrés dans le champ de vision du public. Ces dernières années, les lampadaires solaires Areafly ont illuminé 321 routes urbaines et 8672 routes rurales, pour entreprendre de grandes et petites zones du monde entier."
+        },
+        {
+            "id": 3,
+            "description": "Lampadaire personnalisé de la ville de Quanzhou, province de Fujian."
+        },
+        {
+            "id": 4,
+            "description": "Lampadaire municipal de 12 mètres situé à Nairobi, Kenya."
+        },
+        {
+            "id": 5,
+            "description": "Lampadaire à bras haut et bas de 13 mètres à Kinshasa, Congo."
+        },
+        {
+            "id": 6,
+            "description": "Dans les vastes terres du Nigeria, les lampadaires solaires de 10 mètres d'Areafly illuminent la nuit de manière efficace et respectueuse de l'environnement !"
+        }
+    ],
+    "case": {}
+}

@@ -1,0 +1,96 @@
+{
+    "description": [
+        "has successfully delivered over 500MW of solar solutions across Africa and Europe. Our government partnerships include large-scale solar farms, smart street lighting projects, and off-grid rural electrification programs, demonstrating our technical expertise and reliability.",
+        "With ISO-certified manufacturing and a proven track record of on-time project execution, we provide end-to-end solutions from design to maintenance.  Our partnerships with local governments in Kenya, Ghana, Germany, and Spain highlight our commitment to sustainable energy transition.",
+        "Backed by cutting-edge R&D and a global supply chain, Areafly Solar continues to empower communities with clean, affordable energy."
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "PROJECT CASE",
+            "description": "Energy storage cases-Industrial and commercial",
+            "images": [
+                {
+                    "id": 1,
+                    "src": "/images/project/2.webp",
+                    "alt": "Sihanoukville, Cambodia",
+                    "title": "Sihanoukville, Cambodia"
+                },
+                {
+                    "id": 2,
+                    "src": "/images/project/3.webp",
+                    "alt": "France",
+                    "title": "France",
+                    "description": "PV+storage , 50 kW/102 kWh"
+                },
+                {
+                    "id": 3,
+                    "src": "/images/project/4.webp",
+                    "alt": "Australia-Fremantle",
+                    "title": "Australia-Fremantle",
+                    "description": "Smart Microgrid and<br/>VPP-100kW/670kWh"
+                },
+                {
+                    "id": 4,
+                    "src": "/images/project/5.webp",
+                    "alt": "Thailand",
+                    "title": "Thailand",
+                    "description": "Energy storage expansion<br/>50kW/266kWh"
+                },
+                {
+                    "id": 5,
+                    "src": "/images/project/6.webp",
+                    "alt": "Australia-Fremantle",
+                    "title": "Niger,Africa",
+                    "description": "Off-grid optical storage system<br/>1.25 MW/4 Mwh"
+                },
+                {
+                    "id": 6,
+                    "src": "/images/project/7.webp",
+                    "alt": "Philippine Islands",
+                    "title": "Philippine Islands",
+                    "description": "Solar+battery+diesel microgrid system<br/>50 kW/100 kWh"
+                },
+                {
+                    "id": 7,
+                    "src": "/images/project/8.webp",
+                    "alt": "Tangshan, Hebei",
+                    "title": "Tangshan, Hebei",
+                    "description": "Peak shaving and frequency regulation<br/>10MW/20MWh"
+                },
+                {
+                    "id": 8,
+                    "src": "/images/project/9.webp",
+                    "alt": "Tanzania",
+                    "title": "Tanzania",
+                    "description": "Solar+battery+diesel microgrid system<br/>50kW/130kWh"
+                },
+                {
+                    "id": 9,
+                    "src": "/images/project/10.webp",
+                    "alt": "Southeast Asia Myanmar",
+                    "title": "Southeast Asia Myanmar",
+                    "description": "Solar+diesel microgrid system<br/>50kW+100kW/100kWh+300kWh"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "PROJECT CASE",
+            "description": "Solar street lights have developed rapidly in recent years, with the advantages of energy saving, environmental protection, zero electricity costs, easy installation and so on, quickly entered the public's vision. In recent years, Areafly solar street lights have lit 321 urban and 8672 rural roads, to undertake large and small areas all over the world."
+        },{
+            "id": 3,
+            "description":"Quanzhou City of Fujian Province customized street lamp."
+        },{
+            "id": 4,
+            "description":"12 meters municipal street lamp is located in Nairobi, Kenya."
+        },{
+            "id": 5,
+            "description":"13 meters high and low arm street lamp in Kinshasa, Congo."
+        },{
+            "id": 6,
+            "description":"In the vast land of Nigeria, Areafly solar 10 meters street lights are lighting up the night in an efficient and environmentally friendly way!"
+        }
+    ],
+    "case": {}
+}
