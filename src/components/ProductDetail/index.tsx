@@ -142,6 +142,7 @@ export function ProductDialog({ open, onOpenChange, image }: DialogDemoProps) {
               alt="Areafly Solar logo"
               width={229}
               height={43}
+              loading='lazy'
               priority
             />
           </DialogHeader>
@@ -152,6 +153,7 @@ export function ProductDialog({ open, onOpenChange, image }: DialogDemoProps) {
                 src={image.url}
                 alt={image.alt}
                 width={750}
+                loading='lazy'
                 height={600}
                 className="object-contain top-0 left-0 "
               />
