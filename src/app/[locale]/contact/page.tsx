@@ -20,7 +20,7 @@ export default function AboutPage({
   return (
     <div className="relative min-h-screen flex flex-col bg-[#fafafa]">
        <Image src="/images/contact-bg.webp" width={1920} height={1080} alt="Contact" className="absolute  bottom-0 w-full  object-cover" />
-      <div className="container mx-auto px-4 py-12 flex-grow">
+      <div className="container mx-auto px-4 py-12 grow">
 
         <div className="text-center mb-12">
           <h1 className="text-[clamp(2rem,5vw,3rem)] font-bold text-primary uppercase tracking-wider">Contact</h1>
@@ -87,7 +87,7 @@ export default function AboutPage({
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.youtube.com/@AreaflySolar-v2f
+                  https://www.youtube.com/@AreaflySolar
                 </a>
               </div>
             </li>

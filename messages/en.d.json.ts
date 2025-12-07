@@ -73,28 +73,7 @@ declare const messages: {
     "playButton": "Play",
     "watchVideo": "Watch video"
   },
-  "News": {
-    "1": {
-      "title": "News Center 1",
-      "content": " <p>Guangzhou Areafly Solar Technology Co., Ltd.</p><p >has been engaged in</p>"
-    },
-    "2": {
-      "title": "News Center 2",
-      "content": "<p>Guangzhou Areafly Solar Technology Co., Ltd.</p><p>has been engaged in</p>"
-    },
-    "3": {
-      "title": "News Center 3",
-      "content": " <p>Guangzhou Areafly Solar Technology Co., Ltd.</p><p>has been engaged in</p>"
-    },
-    "4": {
-      "title": "News Center 4",
-      "content": "<p>Guangzhou Areafly Solar Technology Co., Ltd.</p><p>has been engaged in</p>"
-    },
-    "5": {
-      "title": "News Center 5",
-      "content": "<p>Guangzhou Areafly Solar Technology Co., Ltd.</p><p>has been engaged in</p>"
-    }
-  },
+ 
   "Contact": {
     "Email": {
       "label": "Email",
