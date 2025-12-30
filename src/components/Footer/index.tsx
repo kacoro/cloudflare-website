@@ -4,8 +4,9 @@ import NavigationLink from "../Navigation/NavigationLink";
 import Image from "next/image";
 import Link from "next/link";
 import { FaEnvelope, FaMapMarker, FaPhone } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 export default function Footer() {
-  // const t = useTranslations("Contact");
+   const t = useTranslations("Contact");
   return (
     <footer className=" w-full ">
       <div className="w-full bg-black text-white text-xs md:text-base p-2 md:p-12">
@@ -150,13 +151,13 @@ export default function Footer() {
             </li>
             <li className="flex items-start col-span-1 md:col-span-2">
               <FaMapMarker className="text-primary text-lg mt-0.5 mr-4" />
-                <h3 >Address: <a
+                <h3 >{t('Address.label')}: <a
                   href="#"
                   className="hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  A003、005, first floor,Zone B, Yueyang Trade Mall, Yuexiu District, Guangzhou, Guangdong
+                  {t('Address.content')}
                 </a></h3>
                 
             </li>

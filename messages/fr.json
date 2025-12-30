@@ -65,7 +65,10 @@
     }
   },
   "Video": {
-    "content": "<h1>Fournisseur de produits et de solutions pour l'énergie solaire</h1><p>Guangzhou Areafly Solar Technology Co., Ltd. est engagée depuis plus de 12 ans dans la recherche, le développement continu et la production efficace d'onduleurs solaires, de batteries, d'éclairages solaires, de pompes à eau solaires et de systèmes d'énergie solaire de haute qualité.</p><p>Areafly Solar exploite une usine d'une superficie de près de 5 000 mètres carrés, avec plus de 100 employés qualifiés, 8 ingénieurs de R&D et 8 lignes de production capables de produire jusqu'à 100 000 unités par mois. Chaque produit subit des tests stricts pour garantir que nos clients reçoivent des solutions fiables et de haute qualité.</p><p>Les produits d'Areafly Solar ont été vendus dans plus de 200 pays dans le monde. Notre mission est d'aider à résoudre les pénuries mondiales d'électricité et de contribuer à atteindre l'objectif de neutralité carbone.</p>"
+    "title": "Produits et solutions d'application de l'énergie solaire <br/> et fournisseur de solutions",
+    "content": "<p>Guangzhou Areafly Solar Technology Co., Ltd. est engagée depuis plus de 12 ans dans la recherche, le développement continu et la production efficace d'onduleurs solaires de haute qualité, de batteries, d'éclairages solaires, de pompes solaires et de systèmes d'énergie solaire.</p><p>Areafly Solar exploite une usine couvrant près de 5 000 mètres carrés, avec plus de 100 employés qualifiés, 8 ingénieurs en R&D et 8 lignes de production capables de produire jusqu'à 100 000 unités par mois. Chaque produit subit des tests rigoureux afin de garantir à nos clients des solutions fiables et de haute qualité.</p><p>Les produits d'Areafly Solar sont vendus dans plus de 200 pays à travers le monde. Notre mission est d'aider à résoudre les pénuries d'électricité dans le monde entier et de contribuer à atteindre l'objectif de neutralité carbone.</p>",
+    "playButton": "Jouer",
+    "watchVideo": "Regarder la vidéo"
   },
  
   "Contact": {

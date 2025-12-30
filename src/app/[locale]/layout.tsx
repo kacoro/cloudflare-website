@@ -53,7 +53,7 @@ export default async function LocaleLayout({children, params}: Props) {
         <AppSidebar  />
         
         <main className="flex flex-col min-h-screen w-full">
-          <div className="w-full flex-grow">
+          <div className="w-full grow">
              <Topbar/>
             <Header />
             {children}

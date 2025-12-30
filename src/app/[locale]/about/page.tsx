@@ -147,7 +147,7 @@ export default function AboutPage({
                  alt="Cargo ship sailing on the ocean representing international trade" 
                  className="w-full h-full object-cover object-center"    width={1920} height={690}/>
               </section>
-      <div className="container  max-w-screen-lg flex items-center mx-auto space-x-8 min-h-[300px]">
+      <div className="container  max-w-5xl flex items-center mx-auto space-x-8 min-h-[300px]">
         <ul className=" w-full grid  grid-cols-1 md:grid-cols-3  gap-6 md:gap-8 text-white px-8 py-8 md:py-15 ">
           <li className='group relative overflow-hidden h-[435px] p-6'>
             <Image

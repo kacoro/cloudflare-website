@@ -1,20 +1,28 @@
 "use client"
-import Video from "../Video";
+import VideoComponent from '../Video/VideoComponent'
 import { useTranslations} from 'next-intl';
 import Image from "next/image";
-import { useState } from "react";
+import { useState,useRef } from "react";
 export function VideoDemo() {
     const v = useTranslations('Video');
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const videoRef = useRef<HTMLVideoElement>(null);
 
-  const openModal = () => setIsModalOpen(true);
-  const closeModal = () => setIsModalOpen(false);
+  const openModal = () => {setIsModalOpen(true);
+    // 打开弹窗时恢复播放
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
+  }
+  const closeModal = () => {setIsModalOpen(false); // 关闭弹窗时暂停视频
+    if (videoRef.current) {
+      videoRef.current.pause();
+    }};
 
   return (
     <section className="relative bg-background  h-screen w-full">
-      <Video
-        src="/videos/f1080p.webm"
-        alt="Solar energy in action"
+      <VideoComponent
+        src="/videos/1080p.mp4"
         autoPlay
         muted
         loop
@@ -22,19 +30,17 @@ export function VideoDemo() {
         poster="/images/video-poster.webp" // 添加这一行
         className="object-cover h-full w-full"
       >
-        <source src="/videos/f1080p.webm" type="video/webm" />
-        <source src="/videos/f720p.mp4" type="video/mp4" />
-      </Video>
+        <source src="/videos/1080p.mp4" type="video/mp4" />
+      </VideoComponent>
       <div className=" absolute left-0 top-0 h-full w-full inset-0 overflow-hidden
        bg-black/80 flex flex-col items-center justify-center">
         <div className=" max-w-[950] mx-auto  text-center p-5 ">
           <div className="h-full w-full  overflow-hidden text-ellipsis">
-            {v.rich("content", {
-              h1: (chunks) => (
-                <h1 className="text-white text-lg sm:text-2xl mb-6 sm:mb-12 md:text-5xl/snug font-bold md:mb-14">
-                  {chunks}
+            <h1 className="text-white text-2xl mb-6 sm:mb-12 md:mb-14 md:text-5xl/snug font-bold " dangerouslySetInnerHTML={{ __html: v('title') }}>
+            
                 </h1>
-              ),
+            {v.rich("content", {
+             
               p: (chunks) => (
                 <p className="font-mono text-xs sm:text-base text-white mb-2.5">{chunks}</p>
               ),
@@ -64,14 +70,14 @@ export function VideoDemo() {
             alt="logo"
             width={295}
             height={166}
-            className="w-40 md:w-[295px] md:mt-14"
+            className="w-40 md:w-[295px] md:mt-12"
           />
       </div>
       
       {/* 视频弹窗 */}
-      {isModalOpen && (
+      
         <div 
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-lg"
+          className={`fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-lg ${isModalOpen ? 'block' : 'hidden'}`}
           onClick={closeModal}
         >
           <div 
@@ -99,20 +105,18 @@ export function VideoDemo() {
               </svg>
             </button>
             
-            <Video
-              src="/videos/f1080p.webm"
-              alt="Solar energy in action"
-              autoPlay
+            <VideoComponent
+              ref={videoRef}
+              src="/videos/1080p.mp4"
+              
               controls
               className="w-full rounded-lg shadow-2xl"
               poster="/images/video-poster.webp" 
             >
-              <source src="/videos/f1080p.webm" type="video/webm" />
-              <source src="/videos/f720p.mp4" type="video/mp4" />
-            </Video>
+            </VideoComponent>
           </div>
         </div>
-      )}
+     
     </section>
   );
 }

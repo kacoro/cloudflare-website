@@ -1,4 +1,4 @@
-import { Locale } from 'next-intl';
+import { Locale, useTranslations } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { use } from 'react';
 import Image from 'next/image';
@@ -16,7 +16,7 @@ export default function AboutPage({
   // Enable static rendering
   setRequestLocale(locale as Locale);
 
-
+  const t = useTranslations('Contact');
   return (
     <div className="relative min-h-screen flex flex-col bg-[#fafafa]">
        <Image src="/images/contact-bg.webp" width={1920} height={1080} alt="Contact" className="absolute  bottom-0 w-full  object-cover" />
@@ -68,12 +68,12 @@ export default function AboutPage({
               <div>
                 <h3 className=" text-2xl">Instagram</h3>
                 <a
-                  href="https://www.instagram.com/areaflysolar0701/"
+                  href="https://www.instagram.com/areaflysolar0701"
                   className="text-gray-600 hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.instagram.com/areaflysolar0701/
+                  https://www.instagram.com/areaflysolar0701
                 </a>
               </div>
             </li>
@@ -82,7 +82,7 @@ export default function AboutPage({
               <div>
                 <h3 className=" text-2xl">Youtube</h3>
                 <a
-                  href="https://www.youtube.com/@AreaflySolar-v2f"
+                  href="https://www.youtube.com/@AreaflySolar"
                   className="text-gray-600 hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -122,14 +122,14 @@ export default function AboutPage({
             <li className="flex items-start col-span-1 md:col-span-2">
               <FaMapMarker className="text-primary text-2xl mt-1 mr-4" />
               <div>
-                <h3 className=" text-2xl">Address</h3>
+                <h3 className=" text-2xl">{t("Address.label")}</h3>
                 <a
                   href="#"
                   className="text-gray-600 hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  A003、005, first floor,Zone B, Yueyang Trade Mall, Yuexiu District, Guangzhou, Guangdong
+                  {t("Address.content")}
                 </a>
               </div>
             </li>
