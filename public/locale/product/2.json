@@ -84,11 +84,15 @@
         },
         {
             "url": "/images/products/inverter/2/infos/4.webp",
-            "alt": "alt3"
+            "alt": "alt4"
         },
         {
             "url": "/images/products/inverter/2/infos/5.webp",
-            "alt": "alt3"
+            "alt": "alt5"
+        },
+        {
+            "url": "/images/products/inverter/2/infos/6.webp",
+            "alt": "alt6"
         }
     ],
     "download": "/images/products/inverter/2/download.webp",

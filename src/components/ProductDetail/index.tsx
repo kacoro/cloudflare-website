@@ -143,7 +143,7 @@ export function ProductDialog({ open, onOpenChange, image }: DialogDemoProps) {
               width={229}
               height={43}
               loading='lazy'
-              priority
+              
             />
           </DialogHeader>
           <div className="max-h-[85vh] overflow-y-auto">
@@ -158,10 +158,7 @@ export function ProductDialog({ open, onOpenChange, image }: DialogDemoProps) {
                 className="object-contain top-0 left-0 "
               />
              </div>
-              
           </div>
-             
-            
         </DialogContent>
     </Dialog>
   )
