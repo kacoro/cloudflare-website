@@ -36,41 +36,41 @@
             "products": [
                 {
                     "id": "4",
-                    "tabName": "5KWH 10KWH<br>Wall-mounted",
+                    "tabName": "Wall-mounted <br>Lithium Battery",
                     "name": "5KWH 10KWH",
-                    "subname": "Mobile Lithium Battery",
+                    "subname": "Wall-mounted Lithium Battery",
                     "description": "Areafly wall-mounted solar batteries are lightweight and easy to install, with a typical efficiency range of 15%-20% under standard test conditions. </br>Areafly Wall-mounted solar batteries provide stable power output and more than 15-year lifespan. ",
                     "image": "/images/products/category/2-1.webp"
                 },
                 {
                     "id": "5",
-                    "tabName": "10KWH 15KWH<br>Mobile",
+                    "tabName": "Mobile<br>Lithium Battery",
                     "name": "10KWH 15KWH",
-                    "subname": "Residential Lithium Battery",
+                    "subname": "Mobile Lithium Battery",
                     "description": "Areafly wheeled solar lithium batteries feature high-efficiency photovoltaic conversion, long cycle life (6000+ cycles), and robust mobility for off-grid applications. <br>They integrate smart BMS for safety, Ideal for RVs, boats, and portable power.",
                     "image": "/images/products/category/2-2.webp"
                 },
                 {
                     "id": "6",
-                    "tabName": "15KWH 20KWH<br>Residential ",
+                    "tabName": "Residential<br>Lithium Battery ",
                     "name": "15KWH 20KWH ",
-                    "subname": "Wall-mounted  Lithium Battery",
-                    "description": "Areafly rack-mounted high-voltage lithium batteries, designed for commercial and industrial use, offer scalable energy storage solutions with 51.2V-800V voltage platforms, supporting 5G base stations, microgrids, and peak shaving applications. Integrated with solar systems, they enable 24/7 renewable energy utilization through smart BMS and modular expansion, achieving 90%+ efficiency and 10,000+ cycle life.",
+                    "subname": "Residential Lithium Battery",
+                    "description": "Areafly Residential Solar Lithium Batteries ‌offer space-saving design, high efficiency, and stable power supply for diverse applications.",
                     "image": "/images/products/category/2-3.webp"
                 },
                 {
                     "id": "7",
+                    "tabName": "High Voltage <br>Lithium Battery",
                     "name": "High Voltage Rack",
-                    "tabName": "High Voltage Rack",
-                    "subname": "Single Phase Hybrid Solar Inverter",
+                    "subname": "Lithium Battery",
                     "description": "Areafly rack-mounted high-voltage lithium batteries, designed for commercial and industrial use, offer scalable energy storage solutions with 51.2V-800V voltage platforms, supporting 5G base stations, microgrids, and peak shaving applications. Integrated with solar systems, they enable 24/7 renewable energy utilization through smart BMS and modular expansion, achieving 90%+ efficiency and 10,000+ cycle life.",
                     "image": "/images/products/category/2-4.webp"
                 },
                 {
                     "id": "8",
-                    "name": "Solar Gel Battery",
                     "tabName": "Solar Gel Battery",
-                    "subname": "Solar Inverter",
+                    "name": "Solar Gel Battery",
+                    "subname": "Cost-effective, Reliable Performance",
                     "description": "Areafly lead-acid batteries feature stable voltage output and cost-effectiveness, with enhanced durability through advanced alloy technology. Designed for solar energy storage, they offer reliable performance in off-grid systems, combining affordability with proven reliability.",
                     "image": "/images/products/category/2-5.webp"
                 }

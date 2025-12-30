@@ -46,8 +46,9 @@ export function Main({ product }: ProductCardProps) {
                           ><h3 className="font-semibold text-lg line-clamp-1 text-primary md:text-4xl cursor-pointer">{product.name}</h3></NavigationLink>
             <p className=" text-lg line-clamp-1 text-primary my-4 ">{product.subname}</p>
             <Image src="/images/line.webp" width={468} height={2} alt="line" />
-            <p className="text-sm  line-clamp-6 my-5">
-              {product.description}
+            <p className="text-sm  line-clamp-6 my-5"   dangerouslySetInnerHTML={{ __html: product.description || "" }}
+>
+              
             </p>
              <NavigationLink
                             href={`/products/${product.id}`}
