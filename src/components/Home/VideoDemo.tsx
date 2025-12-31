@@ -7,7 +7,8 @@ export function VideoDemo() {
     const v = useTranslations('Video');
     const [isModalOpen, setIsModalOpen] = useState(false);
     const videoRef = useRef<HTMLVideoElement>(null);
-
+    const baseUrl = process.env.NEXT_PUBLIC_CDN_URL || '';
+    const videoUrl = `${baseUrl}/videos/1080p.mp4`;
   const openModal = () => {setIsModalOpen(true);
     // 打开弹窗时恢复播放
     if (videoRef.current) {
@@ -22,7 +23,6 @@ export function VideoDemo() {
   return (
     <section className="relative bg-background  h-screen w-full">
       <VideoComponent
-        src="/videos/1080p.mp4"
         autoPlay
         muted
         loop
@@ -30,7 +30,7 @@ export function VideoDemo() {
         poster="/images/video-poster.webp" // 添加这一行
         className="object-cover h-full w-full"
       >
-        <source src="/videos/1080p.mp4" type="video/mp4" />
+        <source src={videoUrl} type="video/mp4" />
       </VideoComponent>
       <div className=" absolute left-0 top-0 h-full w-full inset-0 overflow-hidden
        bg-black/80 flex flex-col items-center justify-center">
@@ -107,12 +107,12 @@ export function VideoDemo() {
             
             <VideoComponent
               ref={videoRef}
-              src="/videos/1080p.mp4"
               
               controls
               className="w-full rounded-lg shadow-2xl"
               poster="/images/video-poster.webp" 
             >
+               <source src={videoUrl} type="video/mp4" />
             </VideoComponent>
           </div>
         </div>

@@ -11,3 +11,7 @@
 # CSS/JS 资源缓存
 /_next/static/*
   Cache-Control: public,max-age=31536000,immutable
+
+# cdn 
+https://static.areaflysolar.com/*
+  Cache-Control: public,max-age=31536000,immutable

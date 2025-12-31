@@ -16,7 +16,8 @@
 		"wdeploy": "wrangler deploy --minify",
 		"build:test": "cross-env NODE_ENV=test dotenv -e .env.test next build  --minify",
 		"wbuild:test": "cross-env NODE_ENV=test dotenv -e .env.test opennextjs-cloudflare build",
-		"wdeploy:test": "wrangler deploy --config wrangler.test.jsonc"
+		"wdeploy:test": "wrangler deploy --config wrangler.test.jsonc",
+		"r2:list": "wrangler r2 object put areafly --directory ./public --overwrite"
 	},
 	"dependencies": {
 		"@opennextjs/cloudflare": "^1.10.1",

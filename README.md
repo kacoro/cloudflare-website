@@ -29,7 +29,8 @@
 ```bash
 NODE_ENV=development
 NEXTJS_ENV=development
-NEXT_PUBLIC_BASE_URL="http://127.0.0.1:3000"
+NEXT_PUBLIC_BASE_URL="http://localhost:3000"
+NEXT_PUBLIC_CDN_URL=https://localhost:3000
 ```
 
 .env.production
@@ -37,6 +38,7 @@ NEXT_PUBLIC_BASE_URL="http://127.0.0.1:3000"
 NODE_ENV=production
 NEXTJS_ENV=production
 NEXT_PUBLIC_BASE_URL="https://your-domain.com/"
+NEXT_PUBLIC_CDN_URL=https://your-cdn.com/
 ```
 
 

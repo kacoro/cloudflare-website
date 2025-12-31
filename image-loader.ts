@@ -5,6 +5,19 @@ const normalizeSrc = (src: string) => {
   return src.startsWith("/") ? src.slice(1) : src;
 };
  
+// export default function cloudflareLoader({ src, width, quality }: ImageLoaderProps) {
+//   const params = [`width=${width}`];
+//   if (quality) {
+//     params.push(`quality=${quality}`);
+//   }
+//   if (process.env.NODE_ENV === "development") {
+//     // Serve the original image when using `next dev`
+//     return `${src}?${params.join("&")}`;
+//   }
+//   return `/cdn-cgi/image/${params.join(",")}/${normalizeSrc(src)}`;
+    
+
+// }
 export default function cloudflareLoader({ src, width, quality }: ImageLoaderProps) {
   const params = [`width=${width}`];
   if (quality) {
@@ -14,5 +27,7 @@ export default function cloudflareLoader({ src, width, quality }: ImageLoaderPro
     // Serve the original image when using `next dev`
     return `${src}?${params.join("&")}`;
   }
-  return `/cdn-cgi/image/${params.join(",")}/${normalizeSrc(src)}`;
+  return `${process.env.NEXT_PUBLIC_CDN_URL}/${normalizeSrc(src)}`;
+    
+
 }
