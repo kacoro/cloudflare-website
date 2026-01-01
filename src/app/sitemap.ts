@@ -1,12 +1,12 @@
 import type { MetadataRoute } from 'next'
 import { env } from 'process'
-
+import {routing} from '@/i18n/routing'
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = env.NEXT_PUBLIC_BASE_URL || 'https://areafly.com'
   const lastModified = new Date();
   const newsCount = 3;
   const productCount = 19;
-  
+  const locales = routing.locales;
   // 生成新闻页面URLs
   const newsUrls = Array.from({ length: newsCount }, (_, i) => `news/${i + 1}`);
   
@@ -19,21 +19,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // 合并所有URLs
   const urls = [...baseUrls, ...newsUrls, ...productUrls];
  
-  const sitemap = urls.map(url => {
-    // 如果url为空字符串，表示是根路径，只保留基础路径
-    const path = url === "" ? "" : `/${url}`;
+  // const sitemap = urls.map(url => {
+  //   // 如果url为空字符串，表示是根路径，只保留基础路径
+  //   const path = url === "" ? "" : `/${url}`;
     
-    return {
-      url: `${baseUrl}/en${path}`, // 英语子路径
-      lastModified: lastModified,
-      alternates: {
-        languages: {
-          en: `${baseUrl}/en${path}`,
-          'zh-CN': `${baseUrl}/zh${path}`,
-          fr: `${baseUrl}/fr${path}` // 法语子路径
-        },
-      },
-    };
+  //   return {
+  //     url: `${baseUrl}${path}`, // 默认路径
+  //     lastModified: lastModified,
+  //     alternates: {
+  //       languages: {
+  //         en: `${baseUrl}/en${path}`,
+  //         'zh-CN': `${baseUrl}/zh${path}`,
+  //         fr: `${baseUrl}/fr${path}` // 法语子路径
+  //       },
+  //     },
+  //   };
+  // });
+  // 为每个locale生成URL
+  const sitemap = urls.flatMap(url => {
+    return locales.map(locale => {
+      const path = url === "" ? "" : `/${url}`;
+      return {
+        url: `${baseUrl}/${locale}${path}`,
+        lastModified: lastModified,
+      };
+    });
   });
   return sitemap;
 }
