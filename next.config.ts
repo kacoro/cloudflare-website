@@ -8,9 +8,9 @@ const nextConfig: NextConfig = {
   images: {
     loader: "custom",
     loaderFile: './image-loader.ts',
-    // formats: ["image/webp"], // 强制转WebP/AVIF
-    // deviceSizes: [375, 640, 750, 828, 1080, 1200, 1920],
-    // imageSizes: [64, 128, 256, 375, 512, 1024],
+     formats: ["image/webp"], // 强制转WebP/AVIF
+     deviceSizes: [375, 640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [64, 128, 256, 375, 512, 1024],
   },
   
   // 静态资源缓存配置
