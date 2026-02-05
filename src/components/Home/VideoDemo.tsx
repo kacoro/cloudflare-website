@@ -42,7 +42,7 @@ export function VideoDemo() {
             {v.rich("content", {
              
               p: (chunks) => (
-                <p className="font-mono text-xs sm:text-base text-white mb-2.5">{chunks}</p>
+                <p className="font-mono text-left text-xs sm:text-base text-white mb-2.5">{chunks}</p>
               ),
             })}
           </div>

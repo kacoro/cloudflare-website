@@ -73,7 +73,7 @@ export default function Index() {
 
     <LocaleSwitcherSelect  label={t('label')}>
       {routing.locales.map((cur) => (
-        <li className="flex items-center space-x-1" key={cur} value={cur}  onClick={() => onSelectChange(cur)}>
+        <li className="flex cursor-pointer items-center space-x-1 " key={cur} value={cur}  onClick={() => onSelectChange(cur)}>
         <LocalFlagIcon countryCode={cur} />  <span>{languageNames[cur] || cur}</span>
         </li>
       ))}

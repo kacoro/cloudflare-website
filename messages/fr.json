@@ -72,6 +72,18 @@
   },
  
   "Contact": {
+      "Facebook":{
+      "label": "Facebook",
+      "content": "https://www.facebook.com/areaflysolarwdr"
+    },
+    "Instagram":{
+      "label": "Instagram",
+      "content": "https://www.instagram.com/areaflysolar573"
+    },
+    "Youtube": {
+      "label": "Youtube", 
+      "content": "https://www.youtube.com/@AreaflySolar"
+    },
     "Address": {
       "content": "A003、005, premier étage, zone B, Yueyang Trade Mall, district de Yuexiu, Guangzhou, Guangdong",
       "label": "Adresse"

@@ -5,6 +5,9 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import NavigationLink from '@/components/Navigation/NavigationLink';
 import { BreadcrumbDemo } from '@/components/News/BreadcrumbDemo'
+import { getSeoDescription, getSeoKeywords } from '@/lib/utils';
+import { Locale } from 'next-intl';
+import { Metadata } from 'next';
 type PageProps = {
   params: Promise<{ locale: string; id: number }>;
 };
@@ -69,3 +72,45 @@ export default async function NewsDetailPage({
     </div>
   );
 }
+
+
+export async function generateMetadata(
+  { params }: PageProps
+): Promise<Metadata> {
+  // 与页面组件一致，获取 locale 和 id
+  const { id, locale } = await params;
+
+  try {
+    // 复用现有 API：getProductById 获取产品数据（包含 SEO 字段）
+    const news = await getNewsById(locale as Locale, id);
+    if (!news) {
+      // 产品不存在时，返回兜底 SEO 元数据
+      return {
+        title: "Product Not Found",
+        description: "The requested product is unavailable.",
+        keywords: "product, not found, unavailable"
+      };
+    }
+    const description = getSeoDescription(news.content)
+
+    const keywords = getSeoKeywords(news.title,description,' product, areafly ,solar')
+    // 生成产品专属 SEO 元数据（假设 product 包含 seo 字段：keywords + description）
+    // 若你的 product 字段名不同，对应修改即可
+    return {
+      title: `${news.title}|Areafly Solar`, // 产品标题（作为页面标题）
+      description: description, // 产品专属描述（兜底为标题）
+      keywords:  keywords, // 产品专属关键词（兜底）
+      // 多语言 hreflang 标签（关联不同语言版本，避免重复内容，提升多语言 SEO）
+      
+    };
+  } catch (error) {
+    console.error("Failed to generate product SEO metadata:", error);
+    // 异常时返回兜底元数据
+    return {
+      title: "Product Error",
+      description: "Failed to load product details.",
+      keywords: "product, error, load failed"
+    };
+  }
+}
+// **********************************************************************************

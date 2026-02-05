@@ -6,59 +6,59 @@ import Link from "next/link";
 import { FaEnvelope, FaMapMarker, FaPhone } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 export default function Footer() {
-   const t = useTranslations("Contact");
+  const t = useTranslations("Contact");
   return (
     <footer className=" w-full ">
       <div className="w-full bg-black text-white text-xs md:text-base p-2 md:p-12">
         <div className="max-w-5xl grid grid-cols-2  mx-auto  p-2">
           <div className=" flex flex-col items-center py-1 space-x-3 ">
-              <Image
-                src="/images/logo-white.webp"
-                alt="Areafly Solar logo"
-                width={229}
-                height={43}
-              />
-              <div className="w-full py-10">
-                <ul className="flex justify-around flex-row text-center text-base uppercase font-bold flex-nowrap">
-                  <li  >
+            <Image
+              src="/images/logo-white.webp"
+              alt="Areafly Solar logo"
+              width={229}
+              height={43}
+            />
+            <div className="w-full py-10">
+              <ul className="flex justify-around flex-row text-center text-base uppercase font-bold flex-nowrap">
+                <li  >
                   <Image
-                      src="/images/whatsapp.webp"
-                      alt="whats app"
-                      width={99}
-                      height={99}
-                      priority
-                    />
-                    <p >whats app</p>
-                  </li>
-                  <li >
+                    src="/images/whatsapp.webp"
+                    alt="whats app"
+                    width={99}
+                    height={99}
+                    priority
+                  />
+                  <p >whats app</p>
+                </li>
+                <li >
                   <Image
-                      src="/images/wechat.webp"
-                      alt="wechat"
-                      width={99}
-                      height={99}
-                      priority
+                    src="/images/wechat.webp"
+                    alt="wechat"
+                    width={99}
+                    height={99}
+                    priority
+                  />
+                  <p>wechat</p>
+                </li>
+              </ul>
+            </div>
+            <div className="grid grid-cols-3 gap-2">
+              <Button variant="icon" size="icon">
+                <Link href={t("Facebook.content")} target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"
                     />
-                    <p>wechat</p>
-                  </li>
-                </ul>
-                </div>
-              <div className="grid grid-cols-3 gap-2">
-                <Button variant="icon" size="icon">
-                  <Link href="https://www.facebook.com/areaflysolarwd" target="_blank">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="1em"
-                      height="1em"
-                      viewBox="0 0 512 512"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"
-                      />
-                    </svg>
-                  </Link>
-                </Button>
-                <Button variant="icon" size="icon">
+                  </svg>
+                </Link>
+              </Button>
+              {/* <Button variant="icon" size="icon">
                   <Link href="https://www.x.com/" target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -72,30 +72,34 @@ export default function Footer() {
                       />
                     </svg>
                   </Link>
-                </Button>
-                <Button variant="icon" size="icon" asChild>
-                  <Link href="https://www.youtube.com/@AreaflySolar" target="_blank">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="1em"
-                      height="1em"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M15.073 2.5c1.824 0 3.293 0 4.45.155c1.2.162 2.21.507 3.012 1.31c.803.802 1.148 1.813 1.31 3.013C24 8.134 24 9.603 24 11.427v1.146c0 1.824 0 3.293-.155 4.45c-.162 1.2-.507 2.21-1.31 3.012c-.802.803-1.812 1.148-3.013 1.31c-1.156.155-2.625.155-4.449.155H8.927c-1.824 0-3.293 0-4.45-.155c-1.2-.162-2.21-.507-3.013-1.31c-.802-.802-1.147-1.812-1.309-3.013C0 15.866 0 14.397 0 12.573v-1.146c0-1.824 0-3.293.155-4.45c.162-1.2.507-2.21 1.31-3.013c.802-.802 1.813-1.147 3.013-1.309C5.634 2.5 7.103 2.5 8.927 2.5zm1.426 9.501L9.3 7.832v8.338z"
-                      />
-                    </svg>
-                  </Link>
-                </Button>
-              </div>
-            
+                </Button> */}
+              <Button variant="icon" size="icon">
+                <Link href={t("Instagram.content")} target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24"><path fill="currentColor" d="M12 15.5a3.53 3.53 0 0 1-2.5-1.04a3.54 3.54 0 0 1-1.04-2.5a3.53 3.53 0 0 1 1.04-2.5A3.54 3.54 0 0 1 12 8.42a3.53 3.53 0 0 1 2.5 1.04a3.54 3.54 0 0 1 1.04 2.5a3.53 3.53 0 0 1-1.04 2.5A3.54 3.54 0 0 1 12 15.5"/><path fill="currentColor" fill-rule="evenodd" d="M7.41 1.07C8.343 1.02 9.87.996 12 .996q3.195 0 4.59.074c.825.03 1.64.17 2.43.417c.803.286 1.53.748 2.14 1.35a5.8 5.8 0 0 1 1.35 2.14c.249.797.398 1.62.442 2.46q.05 1.375.049 4.57q0 3.195-.074 4.59a9.3 9.3 0 0 1-.417 2.43a5.8 5.8 0 0 1-1.35 2.14a5.8 5.8 0 0 1-2.14 1.35a9.3 9.3 0 0 1-2.43.417c-.933.05-2.46.074-4.59.074q-3.195 0-4.59-.074a8 8 0 0 1-2.43-.466a5.3 5.3 0 0 1-2.14-1.3a5.6 5.6 0 0 1-1.35-2.14a9.3 9.3 0 0 1-.417-2.43c-.05-.933-.074-2.46-.074-4.59q0-3.195.074-4.59c.03-.825.17-1.64.417-2.43c.286-.803.748-1.53 1.35-2.14s1.33-1.06 2.14-1.35a9.3 9.3 0 0 1 2.43-.417zm9.72 3.89a1.365 1.365 0 0 1 1.732.178c.257.256.403.604.408.968a1.6 1.6 0 0 1-.432.967a1.24 1.24 0 0 1-.943.408a1.32 1.32 0 0 1-.968-.408a1.37 1.37 0 0 1-.302-1.496a1.37 1.37 0 0 1 .507-.617zM9.25 7.24A5.34 5.34 0 0 1 12 6.499c.967-.006 1.92.25 2.75.741a5.5 5.5 0 0 1 2.01 2.01a5.47 5.47 0 0 1 0 5.5a5.5 5.5 0 0 1-2.01 2.01a5.47 5.47 0 0 1-5.5 0a5.5 5.5 0 0 1-2.01-2.01a5.47 5.47 0 0 1 0-5.5a5.53 5.53 0 0 1 2.01-2.01" clip-rule="evenodd"/></svg>                </Link>
+              </Button>
+              <Button variant="icon" size="icon" asChild>
+                <Link href={t("Youtube.content")} target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M15.073 2.5c1.824 0 3.293 0 4.45.155c1.2.162 2.21.507 3.012 1.31c.803.802 1.148 1.813 1.31 3.013C24 8.134 24 9.603 24 11.427v1.146c0 1.824 0 3.293-.155 4.45c-.162 1.2-.507 2.21-1.31 3.012c-.802.803-1.812 1.148-3.013 1.31c-1.156.155-2.625.155-4.449.155H8.927c-1.824 0-3.293 0-4.45-.155c-1.2-.162-2.21-.507-3.013-1.31c-.802-.802-1.147-1.812-1.309-3.013C0 15.866 0 14.397 0 12.573v-1.146c0-1.824 0-3.293.155-4.45c.162-1.2.507-2.21 1.31-3.013c.802-.802 1.813-1.147 3.013-1.309C5.634 2.5 7.103 2.5 8.927 2.5zm1.426 9.501L9.3 7.832v8.338z"
+                    />
+                  </svg>
+                </Link>
+              </Button>
+            </div>
+
           </div>
           <div className=" flex justify-between ">
             <div className="flex flex-col ">
               <NavigationLink href="/products#SolarInverter" className="text-white hover:text-primary" >
-                  PRODUCTS
-                </NavigationLink>
+                PRODUCTS
+              </NavigationLink>
               <div className="flex flex-col">
                 <NavigationLink href="/products#SolarInverter" className="text-white hover:text-primary" >
                   Solar Inverter
@@ -126,40 +130,40 @@ export default function Footer() {
         </div>
         <div className="max-w-5xl mx-auto ">
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-5">
-             <li className="flex items-start">
+            <li className="flex items-start">
               <FaEnvelope className="text-primary text-lg mt-1 mr-4" />
-                <h3 >Email: <a
-                  href="mailto:areaflysolar@163.com"
-                  className="text-white hover:text-primary  mt-1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  areaflysolar@163.com
-                </a></h3>
+              <h3 >{t("Email.label")}: <a
+                href={`mailto:${t("Email.content")}`}
+                className="text-white hover:text-primary  mt-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t("Email.content")}
+              </a></h3>
             </li>
-           
+
             <li className="flex items-start">
               <FaPhone className="text-primary text-lg  mt-1 mr-4" />
-                <h3 >Tele: <a
-                  href="tel:+8615017203259"
-                  className=" mt-1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  +86 15017203259
-                </a></h3>
+              <h3 >{t("Tel.label")}: <a
+                href={`tel:${t("Tel.content")}`}
+                className=" mt-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t('Tel.content')}
+              </a></h3>
             </li>
             <li className="flex items-start col-span-1 md:col-span-2">
               <FaMapMarker className="text-primary text-lg mt-0.5 mr-4" />
-                <h3 >{t('Address.label')}: <a
-                  href="#"
-                  className="hover:text-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {t('Address.content')}
-                </a></h3>
-                
+              <h3 >{t('Address.label')}: <a
+                href="#"
+                className="hover:text-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t('Address.content')}
+              </a></h3>
+
             </li>
           </ul>
         </div>

@@ -16,8 +16,8 @@ export default function LocaleSwitcherSelect({
   return (
     <div
       className={clsx(
-        'max-w-screen-xl flex flex-wrap items-center justify-end  p-2 relative ',
-        isPending && 'transition-opacity [&:disabled]:opacity-30'
+        'max-w-7xl flex flex-wrap items-center justify-end  p-2 relative ',
+        isPending && 'transition-opacity disabled:opacity-30'
       )}
     >
       <p className='hidden sm:block' aria-valuetext={label}>Language:</p>

@@ -76,12 +76,24 @@ declare const messages: {
   },
  
   "Contact": {
+    "Facebook":{
+      "label": "Facebook",
+      "content": "https://www.facebook.com/areaflysolarwdr"
+    },
+    "Instagram":{
+      "label": "Instagram",
+      "content": "https://www.instagram.com/areaflysolar573"
+    },
+    "Youtube": {
+      "label": "Youtube", 
+      "content": "https://www.youtube.com/@AreaflySolar"
+    },
     "Email": {
       "label": "Email",
       "content": "areaflysolar@163.com"
     },
     "Tel": {
-      "label": "Tel",
+      "label": "Tele",
       "content": "+86 15017203259"
     },
     "Address": {

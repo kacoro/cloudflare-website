@@ -52,70 +52,70 @@ export default function AboutPage({
             <li className="flex items-start">
               <FaFacebookSquare className="text-primary text-2xl mt-1 mr-4" />
               <div>
-                <h3 className=" text-2xl">Facebook</h3>
+                <h3 className=" text-2xl">{t("Facebook.label")}</h3>
                 <a
-                  href="https://www.facebook.com/areaflysolarwd"
+                  href={t("Facebook.content")}
                   className="text-gray-600 hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.facebook.com/areaflysolarwd
+                  {t("Facebook.content")}
                 </a>
               </div>
             </li>
             <li className="flex items-start">
               <FaInstagram className="text-primary text-2xl mt-1 mr-4" />
               <div>
-                <h3 className=" text-2xl">Instagram</h3>
+                <h3 className=" text-2xl">{t("Instagram.label")}</h3>
                 <a
-                  href="https://www.instagram.com/areaflysolar0701"
+                href={t("Instagram.content")}
                   className="text-gray-600 hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.instagram.com/areaflysolar0701
+                  {t("Instagram.content")}
                 </a>
               </div>
             </li>
             <li className="flex items-start">
               <FaYoutube className="text-primary text-2xl mt-1 mr-4" />
               <div>
-                <h3 className=" text-2xl">Youtube</h3>
+                <h3 className=" text-2xl">{t("Youtube.label")}</h3>
                 <a
-                  href="https://www.youtube.com/@AreaflySolar"
+                  href={t("Youtube.content")}
                   className="text-gray-600 hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://www.youtube.com/@AreaflySolar
+                  {t("Youtube.content")}
                 </a>
               </div>
             </li>
             <li className="flex items-start">
               <FaPhone className="text-primary text-2xl mt-1 mr-4" />
               <div>
-                <h3 className=" text-2xl">Tele</h3>
+                <h3 className=" text-2xl">{t("Tel.label")}</h3>
                 <a
-                  href="tel:+8615017203259"
+                  href={`tel:${t("Tel.content")}`}
                   className="text-gray-600 hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  +86 15017203259
+                  {t("Tel.content")}
                 </a>
               </div>
             </li>
             <li className="flex items-start">
               <FaEnvelope className="text-primary text-2xl mt-1 mr-4" />
               <div>
-                <h3 className=" text-2xl">Email</h3>
+                <h3 className=" text-2xl">{t("Email.label")}</h3>
                 <a
-                  href="mailto:areaflysolar@163.com"
+                  href={`mailto:${t("Email.content")}`}
                   className="text-gray-600 hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  areaflysolar@163.com
+                  {t("Email.content")}
                 </a>
               </div>
             </li>

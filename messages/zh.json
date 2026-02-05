@@ -74,13 +74,25 @@
   },
 
   "Contact": {
+     "Facebook":{
+      "label": "Facebook",
+      "content": "https://www.facebook.com/areaflysolarwdr"
+    },
+    "Instagram":{
+      "label": "Instagram",
+      "content": "https://www.instagram.com/areaflysolar573"
+    },
+     "Youtube": {
+      "label": "Youtube", 
+      "content": "https://www.youtube.com/@AreaflySolar"
+    },
     "Address": {
       "content": "广东省广州市越秀区越洋商贸城B区一楼A003、005",
       "label": "地址"
     },
     "Email": {
-      "content": "区域flysolar@163.com",
-      "label": "电子邮件"
+      "content": "areaflysolar@163.com",
+      "label": "邮箱"
     },
     "Tel": {
       "content": "86 15017203259",

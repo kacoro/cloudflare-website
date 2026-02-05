@@ -2,8 +2,8 @@ import {Locale} from 'next-intl';
 import {setRequestLocale} from 'next-intl/server';
 import {ProductDetail} from '@/components/ProductDetail'
 import { getProductById } from '@/api/product';
+import { Metadata } from "next"; // 导入 Metadata 类型
 import { getSeoDescription, getSeoKeywords } from '@/lib/utils';
-import { Metadata } from 'next';
 type PageProps = {
     params: Promise<{locale: string,id:number}>;
   };
@@ -48,8 +48,8 @@ export async function generateMetadata(
         keywords: "product, not found, unavailable"
       };
     }
+   
     const description = getSeoDescription(product.description)
-
     const keywords = getSeoKeywords(product.name, description,' product, areafly ,solar')
     // 生成产品专属 SEO 元数据（假设 product 包含 seo 字段：keywords + description）
     // 若你的 product 字段名不同，对应修改即可
@@ -70,3 +70,4 @@ export async function generateMetadata(
     };
   }
 }
+// **********************************************************************************
