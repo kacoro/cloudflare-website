@@ -74,7 +74,7 @@ export  function  ProductDetail({ data }: Props) {
                 {product.thumbs&&<EmblaCarousel slides={product.thumbs} options={OPTIONS} />}
                 <div className='not-md:pt-16'>
                     <ul className='md:ml-12'>
-                       
+                        {product.featureLabel&&<li className="text-red-500  flex md:text-2xl mb-8">{product.featureLabel}</li>}
                         {product.features&&product.features.map((feature, index) => (
                             <li key={index} className="flex md:text-2xl mb-8"><CircleCheck className='text-primary mt-1 text-2xl mr-4 w-6 h-6 shrink-0' /><span>{feature}</span></li>
                         ))}

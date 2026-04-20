@@ -5,7 +5,7 @@
     "translations": {
         "en": {
             "name": "15KWH 20KWH Residential Lithium Battery",
-            "description": "Areafly Residential Solar Lithium Batteries offers up to 10 times longer cyde life and fivetimes longer float/calendar life than lead acid battery, helping itminimize replacement cost and reduce total cost of ownership.",
+            "description": "<div class='text-left'>Areafly Residential Solar Lithium Batteries offers up to 10 times longer cyde life and fivetimes longer float/calendar life than lead acid battery, helping itminimize replacement cost and reduce total cost of ownership.</div>",
             "features": [
                 "Max. efficiency 100%",
                 "Easy installation low maintenance",
@@ -16,7 +16,7 @@
         },
         "zh": {
   "name": "15KWH 20KWH 家用锂电池",
-  "description": "Areafly家用太阳能锂电池的循环寿命比铅酸电池长10倍，浮充/日历寿命长5倍，有助于最小化更换成本并降低总拥有成本。",
+  "description": "<div class='text-left'>Areafly家用太阳能锂电池的循环寿命比铅酸电池长10倍，浮充/日历寿命长5倍，有助于最小化更换成本并降低总拥有成本。</div>",
   "features": [
     "最高效率100%",
     "安装简便，维护量低",
@@ -27,7 +27,7 @@
 },
         "fr": {
   "name": "Batterie lithium résidentielle 15KWH 20KWH",
-  "description": "Les batteries lithium solaires résidentielles Areafly offrent une durée de cycle jusqu'à 10 fois plus longue et une durée de flottaison/calendrier 5 fois plus longue qu'une batterie au plomb, ce qui permet de minimiser les coûts de remplacement et de réduire le coût total de possession.",
+  "description": "<div class='text-left'>Les batteries lithium solaires résidentielles Areafly offrent une durée de cycle jusqu'à 10 fois plus longue et une durée de flottaison/calendrier 5 fois plus longue qu'une batterie au plomb, ce qui permet de minimiser les coûts de remplacement et de réduire le coût total de possession.</div>",
   "features": [
     "Efficacité maximale 100%",
     "Installation facile, faible entretien",

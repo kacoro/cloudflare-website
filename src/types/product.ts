@@ -2,6 +2,7 @@
 export interface ProductTranslation {
     name: string;
     description?: string;
+    featureLabel?: string;
     features?: string[];
   }
 export  interface ImageType {

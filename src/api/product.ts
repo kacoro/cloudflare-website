@@ -115,6 +115,8 @@ export const getProductById = async (locale: string = 'en',id:number): Promise<(
       ...data,
       name: data.translations[locale]?.name || data.translations['en']?.name || '',
       description: data.translations[locale]?.description || data.translations['en']?.description || '',
+            featureLabel: data.translations[locale]?.featureLabel || data.translations['en']?.featureLabel || '',
+
       features: data.translations[locale]?.features || data.translations['en']?.features || []
     };
   } catch (error) {

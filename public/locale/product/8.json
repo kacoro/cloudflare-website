@@ -5,7 +5,7 @@
     "translations": {
         "en": {
             "name": "Solar Gel Battery",
-            "description": "Areafly lead-acid batteries feature stable voltage output and cost-effectiveness, with enhanced durability through advanced alloy technology. Designed for solar energy storage, they offer reliable performance in off-grid systems, combining affordability with proven reliability.",
+            "description": "<div class='text-left'>Areafly lead-acid batteries feature stable voltage output and cost-effectiveness, with enhanced durability through advanced alloy technology. Designed for solar energy storage, they offer reliable performance in off-grid systems, combining affordability with proven reliability.</div>",
             "features": [
                 "Valve Regulated Lead Acid (VRLA) Battery, maintenance free and long circle-Life.",
                 "Advanced lead tin calcium alloy, reduces grid corrosion & promotes long battery life.",
@@ -15,7 +15,7 @@
         },
         "zh": {
   "name": "太阳能胶体电池",
-  "description": "Areafly铅酸电池具有稳定的电压输出和成本效益，通过先进的合金技术增强了耐用性。专为太阳能储能设计，在离网系统中提供可靠的性能，将经济性与经过验证的可靠性相结合。",
+  "description": "<div class='text-left'>Areafly铅酸电池具有稳定的电压输出和成本效益，通过先进的合金技术增强了耐用性。专为太阳能储能设计，在离网系统中提供可靠的性能，将经济性与经过验证的可靠性相结合。</div>",
   "features": [
     "阀控式铅酸(VRLA)电池，免维护，循环寿命长。",
     "先进的铅锡钙合金，减少极板腐蚀，延长电池寿命。",
@@ -25,7 +25,7 @@
 },
         "fr": {
   "name": "Batterie solaire au gel",
-  "description": "Les batteries au plomb Areafly offrent une sortie de tension stable et un rapport qualité-prix attractif, avec une durabilité améliorée grâce à une technologie d'alliage avancée. Conçues pour le stockage d'énergie solaire, elles fournissent des performances fiables dans les systèmes hors réseau, combinant abordabilité et fiabilité éprouvée.",
+  "description": "<div class='text-left'>Les batteries au plomb Areafly offrent une sortie de tension stable et un rapport qualité-prix attractif, avec une durabilité améliorée grâce à une technologie d'alliage avancée. Conçues pour le stockage d'énergie solaire, elles fournissent des performances fiables dans les systèmes hors réseau, combinant abordabilité et fiabilité éprouvée.</div>",
   "features": [
     "Batterie au plomb régulée par valve (VRLA), sans entretien et avec une longue durée de cycle.",
     "Alliage avancé de plomb-étain-calcium, réduit la corrosion de la grille et favorise une longue durée de vie de la batterie.",

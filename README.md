@@ -10,14 +10,17 @@
 - [x] 公共模块
   - [x] 顶部
   - [x] 底部
-  - [ ] 侧边栏
+  - [x] 侧边栏
   - [x] 多语言
 - [x] 首页
 - [x] 产品
-  - [x] 顶部
+  - [x] 产品列表
+  - [x] 产品详情
 - [x] 项目
 - [x] 新闻
-- [x] 关于
+  - [x] 新闻列表
+  - [x] 新闻详情
+- [x] 关于我们
 - [x] 联系
 
 
@@ -46,8 +49,6 @@ NEXT_PUBLIC_CDN_URL=https://your-cdn.com/
 npm install 
 ```
 
-## 根据api登录多指定
-
 ## 开发
 
 ```bash
@@ -72,6 +73,28 @@ npm run wbuild
 ```bash
 npm run wdeploy
 ```
+
+## 发布须知
+由于图片存储的采取分离，目前图片单独存放在R2存储桶。
+每次发布时，需要手动把更新的图片资源上传上去。
+具体在next.config.ts配置项，如不需要修改相关的配置就注释掉loadrFile。
+```ts
+ images: {
+    loader: "custom",
+    loaderFile: './image-loader.ts',
+     formats: ["image/webp"], // 强制转WebP/AVIF
+     deviceSizes: [375, 640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [64, 128, 256, 375, 512, 1024],
+  },
+```
+image-loader.ts 可以修改相应的图片服务器配置，只在生产环境生效。
+```ts
+export default function cloudflareLoader({ src, width, quality }: ImageLoaderProps) {
+  ...
+  return `${process.env.NEXT_PUBLIC_CDN_URL}/${normalizeSrc(src)}`;
+}
+```
+
 
 ## shadcn 插件安装
 ```bash

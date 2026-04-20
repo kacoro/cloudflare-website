@@ -5,7 +5,7 @@
     "translations": {
         "en": {
             "name": "Solar submersible Pump",
-            "description": "Areafly Solar Water Pumps are made from top-quality materials, ensuring durability and longevity. The pumps are equipped with advanced technology, such as intelligent control systems and energy-saving features, which help to optimize performance and reduce energy consumption.<br/>At our company, we are committed to providing our customers with the highest quality products and services. Our land water pumps are just one example of our dedication to excellence and innovation in the field of solar energy and water management.",
+            "description": "<div class='text-left'>Areafly Solar Water Pumps are made from top-quality materials, ensuring durability and longevity. The pumps are equipped with advanced technology, such as intelligent control systems and energy-saving features, which help to optimize performance and reduce energy consumption.<br/>At our company, we are committed to providing our customers with the highest quality products and services. Our land water pumps are just one example of our dedication to excellence and innovation in the field of solar energy and water management.</div>",
             "features": [
                 "Our land-based solar water pumps integrate cutting-edge photovoltaic technology with robust hydraulic engineering, delivering 30% higher energy efficiency than conventional models through optimized brushless DC motor designs.",
                 "Key advantages include:",
@@ -16,7 +16,7 @@
         },
         "zh": {
             "name": "太阳能潜水泵",
-            "description": "Areafly太阳能水泵采用优质材料制造，确保耐用性和长久使用寿命。这些水泵配备了先进技术，如智能控制系统和节能功能，有助于优化性能并降低能耗。<br/>在我们公司，我们致力于为客户提供最高质量的产品和服务。我们的陆地水泵正是我们在太阳能和水资源管理领域追求卓越和创新的例证。",
+            "description": "<div class='text-left'>Areafly太阳能水泵采用优质材料制造，确保耐用性和长久使用寿命。这些水泵配备了先进技术，如智能控制系统和节能功能，有助于优化性能并降低能耗。<br/>在我们公司，我们致力于为客户提供最高质量的产品和服务。我们的陆地水泵正是我们在太阳能和水资源管理领域追求卓越和创新的例证。</div>",
             "features": [
                 "我们的陆地太阳能水泵将尖端光伏技术与坚固的液压工程相结合，通过优化的无刷直流电机设计，能效比传统型号高出30%。",
                 "主要优势包括：",
@@ -27,7 +27,7 @@
         },
         "fr": {
             "name": "Pompe de Forage Solaire",
-            "description": "Les pompes à eau solaires Areafly sont fabriquées à partir de matériaux de première qualité, assurant durabilité et longévité. Les pompes sont équipées de technologies avancées, telles que des systèmes de contrôle intelligents et des fonctions d'économie d'énergie, qui aident à optimiser les performances et réduire la consommation d'énergie.<br/>Dans notre entreprise, nous nous engageons à fournir à nos clients des produits et services de la plus haute qualité. Nos pompes à eau terrestres sont un exemple de notre dévouement à l'excellence et à l'innovation dans le domaine de l'énergie solaire et de la gestion de l'eau.",
+            "description": "<div class='text-left'>Les pompes à eau solaires Areafly sont fabriquées à partir de matériaux de première qualité, assurant durabilité et longévité. Les pompes sont équipées de technologies avancées, telles que des systèmes de contrôle intelligents et des fonctions d'économie d'énergie, qui aident à optimiser les performances et réduire la consommation d'énergie.<br/>Dans notre entreprise, nous nous engageons à fournir à nos clients des produits et services de la plus haute qualité. Nos pompes à eau terrestres sont un exemple de notre dévouement à l'excellence et à l'innovation dans le domaine de l'énergie solaire et de la gestion de l'eau.</div>",
             "features": [
                 "Nos pompes à eau solaires terrestres intègrent une technologie photovoltaïque de pointe avec une ingénierie hydraulique robuste, offrant une efficacité énergétique 30% supérieure aux modèles conventionnels grâce à des conceptions de moteurs CC sans balais optimisées.",
                 "Les avantages clés incluent :",

@@ -5,7 +5,7 @@
     "translations": {
         "en": {
             "name": "5KWH 10KWH Wall-mounted  Lithium Battery",
-            "description": "Areafly wall-mounted solar batteries are lightweight and easy to install, with a typical efficiency range of 15%-20% under standard test conditions. </br>Areafly Wall-mounted solar batteries provide stable power output and more than 15-year lifespan. ",
+            "description": "<div class='text-left'>Areafly wall-mounted solar batteries are lightweight and easy to install, with a typical efficiency range of 15%-20% under standard test conditions. </br>Areafly Wall-mounted solar batteries provide stable power output and more than 15-year lifespan. </div>",
             "features": [
                 "Flexible expansion coverage: 5kwh/10kwh modular design, can be expanded from 5 degrees to 150 degrees;",
                 "TUV certified: meets battery IEC/UL standards;",
@@ -18,7 +18,7 @@
         },
         "zh": {
             "name": "5KWH 10KWH 壁挂式锂电池",
-            "description": "Areafly壁挂式太阳能电池重量轻，易于安装，在标准测试条件下典型效率范围为15%-20%。</br>Areafly壁挂式太阳能电池提供稳定的电力输出和超过15年的使用寿命。",
+            "description": "<div class='text-left'>Areafly壁挂式太阳能电池重量轻，易于安装，在标准测试条件下典型效率范围为15%-20%。</br>Areafly壁挂式太阳能电池提供稳定的电力输出和超过15年的使用寿命。</div>",
             "features": [
                 "灵活扩展覆盖：5kwh/10kwh模块化设计，可从5度扩展到150度；",
                 "TUV认证：符合电池IEC/UL标准；",
@@ -31,7 +31,7 @@
         },
         "fr": {
             "name": "Batterie lithium murale 5KWH 10KWH",
-            "description": "Les batteries solaires murales Areafly sont légères et faciles à installer, avec une plage d'efficacité typique de 15%-20% dans les conditions de test standard. </br>Les batteries solaires murales Areafly fournissent une sortie de puissance stable et une durée de vie de plus de 15 ans.",
+            "description": "<div class='text-left'>Les batteries solaires murales Areafly sont légères et faciles à installer, avec une plage d'efficacité typique de 15%-20% dans les conditions de test standard. </br>Les batteries solaires murales Areafly fournissent une sortie de puissance stable et une durée de vie de plus de 15 ans.</div>",
             "features": [
                 "Couverture d'expansion flexible : conception modulaire 5kwh/10kwh, peut être étendue de 5 degrés à 150 degrés ;",
                 "Certifié TUV : répond aux normes IEC/UL des batteries ;",

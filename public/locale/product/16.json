@@ -5,7 +5,7 @@
     "translations": {
         "en": {
             "name": "Solar submersible Pump",
-            "description": "As a solar energy company, we take pride in the high quality of our deep well water pumps. These pumps are designed and manufactured with the utmost care and precision to ensure optimal performance and longevity.<br/>The advanced technology used in the design of our deep well water pumps allows them to deliver superior performance compared to traditional pumps.<br/>Our deep well water pumps are made from top-quality materials that can withstand harsh environmental conditions and heavy usage. The sturdy construction ensures that these pumps can operate efficiently for extended periods without compromising their performance or durability.",
+            "description": "<div class='text-left'>As a solar energy company, we take pride in the high quality of our deep well water pumps. These pumps are designed and manufactured with the utmost care and precision to ensure optimal performance and longevity.<br/>The advanced technology used in the design of our deep well water pumps allows them to deliver superior performance compared to traditional pumps.<br/>Our deep well water pumps are made from top-quality materials that can withstand harsh environmental conditions and heavy usage. The sturdy construction ensures that these pumps can operate efficiently for extended periods without compromising their performance or durability.</div>",
             "features": [
                 "With MPPT function, the solar power utilization rate ishigher.",
                 "With high efficiency permanent magnetic motor,efficiencyimproved 15%-30%.",
@@ -16,7 +16,7 @@
         },
         "zh": {
             "name": "太阳能潜水泵",
-            "description": "作为一家太阳能公司，我们为深井水泵的高品质而自豪。这些水泵经过精心设计和制造，确保最佳性能和长久使用寿命。<br/>我们在深井水泵设计中采用的先进技术使其相比传统水泵具有更优越的性能。<br/>我们的深井水泵采用优质材料制造，能够承受恶劣的环境条件和高强度使用。坚固的结构确保这些水泵能够长期高效运行，同时不损害其性能或耐久性。",
+            "description": "<div class='text-left'>作为一家太阳能公司，我们为深井水泵的高品质而自豪。这些水泵经过精心设计和制造，确保最佳性能和长久使用寿命。<br/>我们在深井水泵设计中采用的先进技术使其相比传统水泵具有更优越的性能。<br/>我们的深井水泵采用优质材料制造，能够承受恶劣的环境条件和高强度使用。坚固的结构确保这些水泵能够长期高效运行，同时不损害其性能或耐久性。</div>",
             "features": [
                 "具备MPPT功能，太阳能利用率更高。",
                 "采用高效永磁电机，效率提升15%-30%。",
@@ -27,7 +27,7 @@
         },
         "fr": {
             "name": "Pompe de Forage Solaire",
-            "description": "En tant qu'entreprise d'énergie solaire, nous sommes fiers de la haute qualité de nos pompes à eau de puits profonds. Ces pompes sont conçues et fabriquées avec le plus grand soin et une précision extrême pour garantir des performances optimales et une longue durée de vie.<br/>La technologie avancée utilisée dans la conception de nos pompes à eau de puits profonds leur permet d'offrir des performances supérieures par rapport aux pompes traditionnelles.<br/>Nos pompes à eau de puits profonds sont fabriquées à partir de matériaux de première qualité qui peuvent résister aux conditions environnementales difficiles et à une utilisation intensive. La construction robuste garantit que ces pompes peuvent fonctionner efficacement sur de longues périodes sans compromettre leurs performances ou leur durabilité.",
+            "description": "<div class='text-left'>En tant qu'entreprise d'énergie solaire, nous sommes fiers de la haute qualité de nos pompes à eau de puits profonds. Ces pompes sont conçues et fabriquées avec le plus grand soin et une précision extrême pour garantir des performances optimales et une longue durée de vie.<br/>La technologie avancée utilisée dans la conception de nos pompes à eau de puits profonds leur permet d'offrir des performances supérieures par rapport aux pompes traditionnelles.<br/>Nos pompes à eau de puits profonds sont fabriquées à partir de matériaux de première qualité qui peuvent résister aux conditions environnementales difficiles et à une utilisation intensive. La construction robuste garantit que ces pompes peuvent fonctionner efficacement sur de longues périodes sans compromettre leurs performances ou leur durabilité.</div>",
             "features": [
                 "Avec fonction MPPT, le taux d'utilisation de l'énergie solaire est plus élevé.",
                 "Avec moteur magnétique permanent haute efficacité, l'efficacité est améliorée de 15%-30%.",

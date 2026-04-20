@@ -5,14 +5,6 @@
             "name": "Onduleur solaire",
             "products": [
                 {
-                    "id": "1",
-                    "tabName": "1.6-11KW",
-                    "name": "1.6-11KW",
-                    "subname": "Onduleurs hybrides solaires économiques",
-                    "description": "Fournir des solutions d'onduleur efficaces, fiables et innovantes.",
-                    "image": "/images/products/category/1-1.webp"
-                },
-                {
                     "id": "2",
                     "tabName": "3.6KW 5.5KW 6.2KW",
                     "name": "3.6KW 5.5KW 6.2KW",
@@ -111,6 +103,14 @@
                     "subname": "Panneau solaire",
                     "description": "Les panneaux solaires Areafly sont réputés pour leur haute qualité et leur efficacité. Ces panneaux sont méticuleusement fabriqués à l'aide de matériaux avancés et de technologies de pointe, garantissant des performances optimales et une longue durée de vie.",
                     "image": "/images/products/category/3-4.webp"
+                },
+                {
+                    "id": "20",
+                    "name": "600w",
+                    "tabName": "600w",
+                    "subname": "Panneau solaire",
+                    "description": "Les panneaux solaires Areafly sont réputés pour leur haute qualité et leur efficacité. Ces panneaux sont méticuleusement fabriqués à l'aide de matériaux avancés et de technologies de pointe, garantissant des performances optimales et une longue durée de vie.",
+                    "image": "/images/products/category/3-4.webp"
                 }
             ]
         },
@@ -150,18 +150,18 @@
             "products": [
                 {
                     "id": "16",
-                    "tabName": "Pompe submersible solaire",
-                    "name": "Solaire",
-                    "subname": "Pompe submersible",
-                    "description": "En tant que société d'énergie solaire, nous sommes fiers de la haute qualité de nos pompes à eau de puits profonds. Ces pompes sont conçues et fabriquées avec le plus grand soin et précision pour assurer des performances optimales et une longue durée de vie.",
+                    "tabName": "Pompe Submersible Solaire",
+                    "name": "Pompe Submersible Solaire",
+                    "subname": "",
+                    "description": "En tant que société d'énergie solaire, nous sommes fiers de la haute qualité de nos pompes à eau pour puits profonds. Ces pompes sont conçues et fabriquées avec le plus grand soin et précision afin d'assurer des performances optimales et une longévité maximale.",
                     "image": "/images/products/category/5-1.webp"
                 },
                 {
                     "id": "17",
-                    "tabName": "Pompe de surface solaire",
-                    "name": "Solaire",
-                    "subname": "Pompe de surface",
-                    "description": "Les pompes à eau solaires Areafly sont fabriquées à partir de matériaux de première qualité, garantissant durabilité et longévité. Les pompes sont équipées de technologies avancées, telles que des systèmes de contrôle intelligents et des fonctionnalités d'économie d'énergie, qui aident à optimiser les performances et réduire la consommation d'énergie.",
+                    "tabName": "Pompe de Surface Solaire",
+                    "name": "Pompe de Surface Solaire",
+                    "subname": "",
+                    "description": "Les pompes à eau solaires Areafly sont fabriquées à partir de matériaux de première qualité, garantissant durabilité et longévité. Les pompes sont équipées de technologies avancées, telles que des systèmes de commande intelligents et des fonctionnalités d'économie d'énergie, qui aident à optimiser les performances et réduire la consommation d'énergie.",
                     "image": "/images/products/category/5-2.webp"
                 }
             ]

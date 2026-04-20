@@ -5,7 +5,7 @@
     "translations": {
         "en": {
             "name": "High Voltage Rack Lithium Battery",
-            "description": "Areafly rack-mounted high-voltage lithium batteries, designed for commercial and industrial use, offer scalable energy storage solutions with 51.2V-800V voltage platforms, supporting 5G base stations, microgrids, and peak shaving applications. Integrated with solar systems, they enable 24/7 renewable energy utilization through smart BMS and modular expansion, achieving 90%+ efficiency and 10,000+ cycle life.",
+            "description": "<div class='text-left'>Areafly rack-mounted high-voltage lithium batteries, designed for commercial and industrial use, offer scalable energy storage solutions with 51.2V-800V voltage platforms, supporting 5G base stations, microgrids, and peak shaving applications. Integrated with solar systems, they enable 24/7 renewable energy utilization through smart BMS and modular expansion, achieving 90%+ efficiency and 10,000+ cycle life.</div>",
             "features": [
                 "Safe and Reliable",
                 "Cathode material is made from LiFeP04 with safetyperformance and long cycle life, The module has less self-discharge,up to 6 months without charging it on shelf, no memory effect, excellent performance of shallow charge and discharge.",
@@ -21,7 +21,7 @@
         },
         "zh": {
             "name": "高压机架式锂电池",
-            "description": "Areafly机架式高压锂电池专为商业和工业用途设计，提供可扩展的能源存储解决方案，电压平台为51.2V-800V，支持5G基站、微电网和削峰应用。与太阳能系统集成，通过智能BMS和模块化扩展实现24/7可再生能源利用，效率达90%以上，循环寿命超过10,000次。",
+            "description": "<div class='text-left'>Areafly机架式高压锂电池专为商业和工业用途设计，提供可扩展的能源存储解决方案，电压平台为51.2V-800V，支持5G基站、微电网和削峰应用。与太阳能系统集成，通过智能BMS和模块化扩展实现24/7可再生能源利用，效率达90%以上，循环寿命超过10,000次。</div>",
             "features": [
                 "安全可靠",
                 "正极材料采用LiFePO4，具有安全性能和长循环寿命，模块自放电小，在货架上可存放长达6个月无需充电，无记忆效应，浅充浅放性能优异。",
@@ -37,7 +37,7 @@
         },
         "fr": {
             "name": "Batterie lithium haute tension en rack",
-            "description": "Les batteries lithium haute tension en rack Areafly, conçues pour un usage commercial et industriel, offrent des solutions de stockage d'énergie évolutives avec des plateformes de tension de 51,2V-800V, prenant en charge les stations de base 5G, les micro-réseaux et les applications de limitation de pointe. Intégrées aux systèmes solaires, elles permettent une utilisation d'énergie renouvelable 24h/24 grâce au BMS intelligent et à l'expansion modulaire, atteignant une efficacité de 90%+ et une durée de vie de plus de 10 000 cycles.",
+            "description": "<div class='text-left'>Les batteries lithium haute tension en rack Areafly, conçues pour un usage commercial et industriel, offrent des solutions de stockage d'énergie évolutives avec des plateformes de tension de 51,2V-800V, prenant en charge les stations de base 5G, les micro-réseaux et les applications de limitation de pointe. Intégrées aux systèmes solaires, elles permettent une utilisation d'énergie renouvelable 24h/24 grâce au BMS intelligent et à l'expansion modulaire, atteignant une efficacité de 90%+ et une durée de vie de plus de 10 000 cycles.<div>",
             "features": [
                 "Sûr et fiable",
                 "Le matériau de la cathode est fabriqué en LiFePO4 avec des performances de sécurité et une longue durée de vie en cycles. Le module a une faible auto-décharge, jusqu'à 6 mois sans le charger sur étagère, pas d'effet mémoire, excellentes performances de charge et décharge peu profondes.",
@@ -68,7 +68,7 @@
             "alt": "alt1"
         },
         {
-            "url": "/images/products/battery/4/infos/5.webp",
+            "url": "/images/products/battery/4/infos/3.webp",
             "alt": "alt1"
         },
         {
@@ -76,11 +76,9 @@
             "alt": "alt1"
         },
         {
-            "url": "/images/products/battery/4/infos/3.webp",
+            "url": "/images/products/battery/4/infos/5.webp",
             "alt": "alt1"
         },
-        
-        
         {
             "url": "/images/products/battery/4/infos/6.webp",
             "alt": "alt1"

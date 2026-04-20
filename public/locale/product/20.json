@@ -1,0 +1,70 @@
+{
+    "id": 12,
+    "slug": "solarpane",
+    "image": "/images/products/panel/4/thumbs/1.webp",
+    "translations": {
+        "en": {
+            "name": "600w",
+            "description": "Areafly Solar Panels are renowned for high quality and efficiency. These panels are meticulously crafted using advanced materials and cutting-edge technologies, ensuring optimal performance and longevity. ",
+            "features": [
+                "Multi Busbar Technology",
+                "Higher output power",
+                "Low light performance",
+                "Better resistance to hot spots",
+                "Adaptability to harsh environments"
+            ]
+        },
+        "zh": {
+  "name": "600w",
+  "description": "Les panneaux solaires Areafly sont réputés pour leur haute qualité et leur efficacité. Ces panneaux sont méticuleusement conçus en utilisant des matériaux avancés et des technologies de pointe, garantissant des performances optimales et une longue durée de vie.",
+  "features": [
+    "Technologie Multi Busbar",
+    "Puissance de sortie supérieure",
+    "Performance en faible luminosité",
+    "Meilleure résistance aux points chauds",
+    "Adaptabilité aux environnements difficiles"
+  ]
+},
+        "fr": {
+  "name": "600w",
+  "description": "Les panneaux solaires Areafly sont réputés pour leur haute qualité et leur efficacité. Ces panneaux sont méticuleusement conçus en utilisant des matériaux avancés et des technologies de pointe, garantissant des performances optimales et une longue durée de vie.",
+  "features": [
+    "Technologie Multi Busbar",
+    "Puissance de sortie supérieure",
+    "Performance en faible luminosité",
+    "Meilleure résistance aux points chauds",
+    "Adaptabilité aux environnements difficiles"
+  ]
+}
+    },
+    "thumbs": [
+        {
+            "url": "/images/products/panel/5/thumbs/1.webp",
+            "alt": "alt1"
+        }
+    ],
+    "infos": [
+        {
+            "url": "/images/products/panel/5/infos/1.webp",
+            "alt": "alt1"
+        },
+        {
+            "url": "/images/products/panel/5/infos/2.webp",
+            "alt": "alt1"
+        },{
+            "url": "/images/products/panel/5/infos/3.webp",
+            "alt": "alt1"
+        },{
+            "url": "/images/products/panel/5/infos/4.webp",
+            "alt": "alt1"
+        },{
+            "url": "/images/products/panel/5/infos/5.webp",
+            "alt": "alt1"
+        },{
+            "url": "/images/products/panel/5/infos/6.webp",
+            "alt": "alt1"
+        }
+    ],
+    "download": "",
+    "parameters": "&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot;&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;MODEL Type&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;center&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;AS600M&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;Rate Maximum Power(Pmax/W)&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;600&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;Module Efficiency(%)&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;21.50&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;Open Circuit Voltage(Voc/V)&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;center&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;54.10&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;Short Circuit Current(Isc/A)&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;center&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;14.10&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;Voltage at Pmax(Vmp/V)&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;top&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;45.53&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;Current at Pmax(Imp/A)&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;center&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;13.18&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;Power Tolerance&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;center&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;0~+5w&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;Temperature Coefficent of lsc&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;center&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;+0.046%℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;Temperature Coefficent of Voc&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;center&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;-0.276%℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;Temperature Coefficent of Pmax&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;center&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;-0.350%℃&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td valign=&quot;center&quot; width=&quot;37.9000%&quot;&gt; &lt;p&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;STC&lt;/span&gt;&lt;/p&gt; &lt;/td&gt; &lt;td valign=&quot;center&quot; width=&quot;62.0800%&quot;&gt; &lt;p align=&quot;center&quot;&gt;Irradiance 1000W/m&lt;sup&gt;&lt;span style=&quot;font-family: &#39;Times New Roman&#39;;&quot;&gt;2&lt;/span&gt;&lt;/sup&gt;&amp;nbsp;Cell Temperature 25℃ AM1.5&lt;/p&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;"
+}

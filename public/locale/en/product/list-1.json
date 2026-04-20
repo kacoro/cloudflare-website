@@ -5,14 +5,6 @@
             "name": "Solar Inverter",
             "products": [
                 {
-                    "id": "1",
-                    "tabName": "1.6-11KW",
-                    "name": "1.6-11KW",
-                    "subname": "Hybrid Inverters For Solar Cost Effective",
-                    "description": "Providing efficient, reliable and innovative inverter solutions.",
-                    "image": "/images/products/category/1-1.webp"
-                },
-                {
                     "id": "2",
                     "tabName": "3.6KW 5.5KW 6.2KW",
                     "name": "3.6KW 5.5KW 6.2KW",
@@ -111,6 +103,14 @@
                     "subname": "Solar Panel",
                     "description": "Areafly Solar Panels are renowned for high quality and efficiency. These panels are meticulously crafted using advanced materials and cutting-edge technologies, ensuring optimal performance and longevity. ",
                     "image": "/images/products/category/3-4.webp"
+                },
+                {
+                    "id": "20",
+                    "name": "600w",
+                    "tabName": "600w",
+                    "subname": "Solar Panel",
+                    "description": "Areafly Solar Panels are renowned for high quality and efficiency. These panels are meticulously crafted using advanced materials and cutting-edge technologies, ensuring optimal performance and longevity. ",
+                    "image": "/images/products/category/3-4.webp"
                 }
             ]
         },
@@ -150,17 +150,17 @@
             "products": [
                 {
                     "id": "16",
-                    "tabName": "Solar submersible Pump",
-                    "name": "Solar",
-                    "subname": "submersible Pump",
+                    "tabName": "Solar Submersible Pump",
+                    "name": "Solar Submersible Pump",
+                    "subname": "",
                     "description": "As a solar energy company, we take pride in the high quality of our deep well water pumps. These pumps are designed and manufactured with the utmost care and precision to ensure optimal performance and longevity.",
                     "image": "/images/products/category/5-1.webp"
                 },
                 {
                     "id": "17",
                     "tabName": "Solar Surface Pump",
-                    "name": "Solar",
-                    "subname": "Surface Pump",
+                    "name": "Solar Surface Pump",
+                    "subname": "",
                     "description": "Areafly Solar Water Pumps are made from top-quality materials, ensuring durability and longevity. The pumps are equipped with advanced technology, such as intelligent control systems and energy-saving features, which help to optimize performance and reduce energy consumption.",
                     "image": "/images/products/category/5-2.webp"
                 }
