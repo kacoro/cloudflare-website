@@ -73,11 +73,11 @@ export function NavigationMenuDemo() {
             <NavigationLink href="/about">About us</NavigationLink>
           </NavigationMenuLink>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+        {process.env.NEXT_PUBLIC_SHOW_CONTACT === 'true' && (<NavigationMenuItem>
           <NavigationMenuLink asChild >
             <NavigationLink href="/contact">Contact</NavigationLink>
           </NavigationMenuLink>
-        </NavigationMenuItem>
+        </NavigationMenuItem>)}
       </NavigationMenuList>
     </NavigationMenu>
   )

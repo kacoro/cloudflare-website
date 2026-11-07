@@ -11,13 +11,15 @@ export default function Footer() {
     <footer className=" w-full ">
       <div className="w-full bg-black text-white text-xs md:text-base p-2 md:p-12">
         <div className="max-w-5xl grid grid-cols-2  mx-auto  p-2">
-          <div className=" flex flex-col items-center py-1 space-x-3 ">
+         
+          <div className=" flex flex-col items-center   py-1 space-x-3 ">
             <Image
               src="/images/logo-white.webp"
               alt="Areafly Solar logo"
               width={229}
               height={43}
             />
+            {process.env.NEXT_PUBLIC_SHOW_CONTACT === 'true' && (
             <div className="w-full py-10">
               <ul className="flex justify-around flex-row text-center text-base uppercase font-bold flex-nowrap">
                 <li  >
@@ -42,7 +44,9 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="grid grid-cols-3 gap-2">
+            )}
+            {process.env.NEXT_PUBLIC_SHOW_CONTACT === 'true' && (
+            <div className="grid grid-cols-3 gap-2 py-10">
               <Button variant="icon" size="icon">
                 <Link href={t("Facebook.content")} target="_blank">
                   <svg
@@ -78,11 +82,11 @@ export default function Footer() {
                   <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 24 24">
                     <path fill="currentColor"
                       d="M12 15.5a3.53 3.53 0 0 1-2.5-1.04a3.54 3.54 0 0 1-1.04-2.5a3.53 3.53 0 0 1 1.04-2.5A3.54 3.54 0 0 1 12 8.42a3.53 3.53 0 0 1 2.5 1.04a3.54 3.54 0 0 1 1.04 2.5a3.53 3.53 0 0 1-1.04 2.5A3.54 3.54 0 0 1 12 15.5" />
-                      <path fill="currentColor" fillRule="evenodd" 
+                    <path fill="currentColor" fillRule="evenodd"
                       d="M7.41 1.07C8.343 1.02 9.87.996 12 .996q3.195 0 4.59.074c.825.03 1.64.17 2.43.417c.803.286 1.53.748 2.14 1.35a5.8 5.8 0 0 1 1.35 2.14c.249.797.398 1.62.442 2.46q.05 1.375.049 4.57q0 3.195-.074 4.59a9.3 9.3 0 0 1-.417 2.43a5.8 5.8 0 0 1-1.35 2.14a5.8 5.8 0 0 1-2.14 1.35a9.3 9.3 0 0 1-2.43.417c-.933.05-2.46.074-4.59.074q-3.195 0-4.59-.074a8 8 0 0 1-2.43-.466a5.3 5.3 0 0 1-2.14-1.3a5.6 5.6 0 0 1-1.35-2.14a9.3 9.3 0 0 1-.417-2.43c-.05-.933-.074-2.46-.074-4.59q0-3.195.074-4.59c.03-.825.17-1.64.417-2.43c.286-.803.748-1.53 1.35-2.14s1.33-1.06 2.14-1.35a9.3 9.3 0 0 1 2.43-.417zm9.72 3.89a1.365 1.365 0 0 1 1.732.178c.257.256.403.604.408.968a1.6 1.6 0 0 1-.432.967a1.24 1.24 0 0 1-.943.408a1.32 1.32 0 0 1-.968-.408a1.37 1.37 0 0 1-.302-1.496a1.37 1.37 0 0 1 .507-.617zM9.25 7.24A5.34 5.34 0 0 1 12 6.499c.967-.006 1.92.25 2.75.741a5.5 5.5 0 0 1 2.01 2.01a5.47 5.47 0 0 1 0 5.5a5.5 5.5 0 0 1-2.01 2.01a5.47 5.47 0 0 1-5.5 0a5.5 5.5 0 0 1-2.01-2.01a5.47 5.47 0 0 1 0-5.5a5.53 5.53 0 0 1 2.01-2.01"
-                       clipRule="evenodd" />
-                      </svg>
-                      </Link>
+                      clipRule="evenodd" />
+                  </svg>
+                </Link>
               </Button>
               <Button variant="icon" size="icon" asChild>
                 <Link href={t("Youtube.content")} target="_blank">
@@ -100,8 +104,9 @@ export default function Footer() {
                 </Link>
               </Button>
             </div>
-
+             )}
           </div>
+         
           <div className=" flex justify-between ">
             <div className="flex flex-col ">
               <NavigationLink href="/products#SolarInverter" className="text-white hover:text-primary" >
@@ -131,10 +136,11 @@ export default function Footer() {
             <div className="flex flex-col">
               <NavigationLink href={"/project"} className="text-white hover:text-primary uppercase">Project</NavigationLink>
               <NavigationLink href={"/about"} className="text-white hover:text-primary uppercase">About Us</NavigationLink>
-              <NavigationLink href={"/contact"} className="text-white hover:text-primary uppercase">CONTACT</NavigationLink>
+              {/* <NavigationLink href={"/contact"} className="text-white hover:text-primary uppercase">CONTACT</NavigationLink> */}
             </div>
           </div>
         </div>
+        {process.env.NEXT_PUBLIC_SHOW_CONTACT === 'true' && (
         <div className="max-w-5xl mx-auto ">
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-5">
             <li className="flex items-start">
@@ -173,7 +179,7 @@ export default function Footer() {
 
             </li>
           </ul>
-        </div>
+        </div>)}
       </div>
       <BottomBar />
     </footer>
